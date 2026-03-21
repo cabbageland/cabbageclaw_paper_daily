@@ -1,4 +1,4 @@
-# cabbageland-paper-claw
+# cabbageclaw_paper_daily
 
 A curated research scouting repository for cabbageland.
 
