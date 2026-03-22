@@ -89,8 +89,11 @@ Always ask:
 
 ### Step 1: Search
 
+Use Brave Search first for discovery and initial filtering when scouting papers for this repo. Treat it as the default search surface unless a better source is explicitly required.
+
 Use recent sources such as:
 
+- Brave Search for discovery and recent web indexing
 - arXiv
 - major ML / CV / robotics / graphics venues
 - selected workshops when useful
