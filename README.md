@@ -40,6 +40,7 @@ This repository prioritizes papers around:
 - memory, planning, and tool use
 - controllability and interpretability
 - neurosymbolic or hybrid systems
+- neurosymbolic memory and continual learning in VLA / VLM / world models
 - mechanism-rich agentic systems
 
 These topics matter most when the paper improves one of the following:

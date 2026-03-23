@@ -44,6 +44,7 @@ Usually prioritize:
 - representation learning
 - controllability / interpretability
 - neurosymbolic and hybrid systems
+- neurosymbolic memory and continual learning in VLA / VLM / world models
 - physical structure, explicit state, and reusable abstractions
 
 Especially valuable are papers that:
