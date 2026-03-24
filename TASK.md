@@ -159,6 +159,22 @@ Then explain the verdict in 2–4 sentences.
 State what the paper actually does in plain language.
 Do not just paraphrase the abstract.
 
+## Model definition
+
+This section is mandatory whenever the paper contains a learnable model, policy, decoder, predictor, world model, planner, scoring model, or any trainable component. If the paper is mostly systems integration, still isolate the learned pieces explicitly.
+
+### Inputs
+Describe what goes into the model: modalities, sequence length / horizon if relevant, conditioning information, action/state history, prompts, retrieved memory, etc.
+
+### Outputs
+Describe exactly what the model predicts or emits: actions, classes, latents, scores, trajectories, subgoals, masks, text, value estimates, templates, or plans.
+
+### Training objective (loss)
+State the optimization target as concretely as the paper allows. Name the loss type if known (e.g. cross-entropy, MSE, diffusion/flow matching objective, contrastive loss, RL objective, behavior cloning loss, policy gradient, ranking loss). If the exact loss is not available from accessible paper text, say that plainly instead of bluffing.
+
+### Architecture / parameterization
+Briefly say what model family it is: transformer, UNet, VLM/VLA backbone, diffusion model, flow matcher, CSP+LDA, CCA/TRCA, SVM, MLP, nearest-neighbor retrieval, symbolic planner, hybrid stack, etc.
+
 ## Key questions this summary must address
 
 ### 1. What problem is the paper trying to solve?
