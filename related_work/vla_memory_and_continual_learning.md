@@ -2,21 +2,31 @@
 
 ## Current pattern
 
-Recent VLA memory papers are converging on an uncomfortable truth: there is no single good memory representation for all tasks.
+Recent VLA memory papers are converging on a more useful and more uncomfortable truth: “memory” is not one thing, and most papers still underspecify it.
 
-Three useful distinctions are emerging:
+Four distinctions matter:
 
 1. **Timescale matters**
    - Recent dense perception is useful for occlusion, local dynamics, and manipulation correction.
    - Long-horizon task progress needs stronger compression.
-   - Papers like **MEM** are useful because they admit this explicitly instead of pretending more frames in context equals solved memory.
+   - Papers like **MEM** and **MemoryVLA** are useful because they at least admit that short-term and long-term context should not be treated as the same storage problem.
 
 2. **Memory type matters**
-   - Temporal, spatial, object, and procedural memory are not interchangeable.
+   - Temporal, spatial, object, semantic, and procedural memory are not interchangeable.
    - **RoboMME** is useful because it makes these distinctions legible in evaluation.
-   - This should make us more skeptical of broad “memory module helps” claims from narrow task suites.
+   - **Notes-to-Self** is useful because it explicitly separates grounding, plan, and progress inside the memory artifact instead of calling all of that “context.”
 
-3. **Adaptation regime matters**
+3. **Memory contract matters**
+   - A serious memory paper should specify:
+     - what gets stored,
+     - how it gets written,
+     - how it gets retrieved,
+     - and how it changes control.
+   - **MemoryVLA** is useful because it defines typed perceptual and cognitive stores with retrieval, fusion, and consolidation.
+   - **Notes-to-Self** is useful because the write path is explicit and inspectable, even if text is an imperfect substrate.
+   - If a paper says “memory” and cannot answer those four questions, the mechanism is probably still mush.
+
+4. **Adaptation regime matters**
    - Continual-learning intuitions imported from smaller models do not automatically hold for large pretrained VLAs.
    - **Simple Recipe Works** suggests that pretrained representations + LoRA + on-policy RL can preserve competence much better than expected.
    - That does not remove the need for memory, but it does alter what counts as a serious continual-learning baseline.
@@ -31,6 +41,8 @@ The field still tends to collapse three different questions:
 
 These are related, but not identical.
 
+The additional lesson from **MemoryVLA**, **Notes-to-Self**, and adjacent representation work like **SG-VLA** is that some alleged memory failures are really representation failures. If the model cannot recover geometry, task progress, object relations, or robot state in the first place, then a larger context window will not rescue it.
+
 A good paper should say which problem it is solving.
 If it does not, the word “memory” is probably doing too much work.
 
@@ -40,10 +52,11 @@ If it does not, the word “memory” is probably doing too much work.
 Ask what the memory object actually is:
 - raw frames
 - compressed video tokens
-- language summaries
+- language summaries / scratchpads
 - object/state graphs
 - recurrent latent state
 - retrieved episodes
+- typed perceptual vs semantic stores
 - explicit world-state cache
 
 If the paper claims structure, check whether the structure changes retrieval, update, or control behavior.
@@ -56,6 +69,7 @@ Ask how memory is updated:
 - summarization
 - overwrite / edit semantics
 - retrieval conditioned on current state
+- consolidation / merge rules when capacity is reached
 
 Most current VLA work is still weak here. Memory often exists, but memory management does not.
 
