@@ -6,7 +6,7 @@ A useful split is emerging between papers that merely generate futures and paper
 
 The latter are still rare, but more interesting.
 
-Four recurring forms of useful structure are showing up:
+Five recurring forms of useful structure are showing up:
 
 1. **Temporal abstraction over reusable behaviors**
    - **Compositional Planning with Jumpy World Models** is a good example.
@@ -28,6 +28,11 @@ Four recurring forms of useful structure are showing up:
    - It asks a sharper question than most tokenizer papers: what is the smallest latent state that still preserves action-relevant semantics and spatial relations for planning?
    - This matters because token count is not a cosmetic detail; it determines whether decision-time rollouts are actually usable.
 
+5. **Training-time world modeling without inference-time imagination theater**
+   - **Fast-WAM** is the clean recent example.
+   - Its key claim is that video prediction may matter mainly because it shapes the latent representation during training, not because the deployed policy needs to visibly imagine futures at test time.
+   - This matters because it separates the representation benefit of world modeling from the deployment cost of explicit future generation.
+
 ## Working synthesis
 
 “Structure” only deserves the name if it changes at least one of these:
@@ -40,6 +45,8 @@ Four recurring forms of useful structure are showing up:
 If none of those change, the structure is probably branding.
 
 A related practical rule is emerging too: if a paper says it improves planning, ask whether it changes the **planning substrate** or merely makes the generated samples look better. The planning substrate can be the planning object, the predictive state, or the rollout cost. If none of those move, the claimed planning advance is often vapor.
+
+Fast-WAM sharpens this further: sometimes the planning substrate does not need explicit imagined futures at deployment time at all. The world-model objective can still be useful, but its real contribution may be training the representation rather than generating visible rollouts for control. That is a much stronger and more testable claim than generic “future prediction helps planning.”
 
 ## Useful lenses for future scouting
 
@@ -93,14 +100,20 @@ Ask what the structure buys downstream:
 
 If the answer is only “slightly prettier samples,” the structure is probably decorative.
 
+### 6. Inference-contract lens
+Ask whether the paper’s explicit structure is needed at deployment time or only during training.
+That distinction matters more than many papers admit.
+If the method learns from future prediction but acts well without explicit future generation at test time, then the real contribution may be representation shaping rather than online imagination.
+
 ## Practical research takeaway for cabbageland
 
 The promising direction is not generic world modeling.
-It is **typed predictive state matched to the planning object**.
+It is **typed predictive state matched to the planning object**, with the deployment contract kept as cheap and honest as possible.
 
 Useful near-term instincts:
 - plan over reusable behaviors when they exist,
 - keep task-structure state distinct from perceptual grounding state,
 - prefer compact inspectable subgoals over long fragile rollouts,
 - force the state bottleneck to justify its computational cost,
+- distinguish training-time world-model benefit from inference-time imagination theater,
 - and distrust any paper that says “hierarchical” or “structured” without changing the actual planning contract.
