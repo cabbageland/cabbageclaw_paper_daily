@@ -33,6 +33,14 @@ Four distinctions matter:
 
 ## Working synthesis
 
+A newer and useful complication comes from **Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning**. Its main value is not a fancy new memory module. It is the claim that strong pretrained VLAs plus simple experience replay already retain prior competence much better than older small-policy baselines would suggest. If that result holds up broadly, then part of the “memory problem” in VLAs was really a **baseline problem**: many papers were proving improvement over weak continual-learning assumptions.
+
+That does not make explicit memory unimportant. It does mean future VLA memory papers should separate at least three things much more carefully:
+
+- within-episode memory for partial observability and long-horizon task progress,
+- cross-task continual adaptation over time,
+- and replay / retention effects that come almost for free once pretrained representations are strong enough.
+
 The field still tends to collapse three different questions:
 
 - How should an agent represent history during a task?
