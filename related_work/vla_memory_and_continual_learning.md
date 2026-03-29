@@ -35,6 +35,10 @@ Four distinctions matter:
 
 A newer and useful complication comes from **Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning**. Its main value is not a fancy new memory module. It is the claim that strong pretrained VLAs plus simple experience replay already retain prior competence much better than older small-policy baselines would suggest. If that result holds up broadly, then part of the “memory problem” in VLAs was really a **baseline problem**: many papers were proving improvement over weak continual-learning assumptions.
 
+A different but complementary point is sharpened by **Chameleon**. Some failures attributed to “insufficient memory capacity” are better described as **perceptual aliasing failures**: the same decision-time observation can require different actions because the disambiguating evidence existed only in earlier interaction history. That matters because it raises the bar for a serious memory design. A memory module should not just compress more past context; it should preserve the evidence needed to separate aliased states and retrieve it based on decision utility.
+
+**Out of Sight but Not Out of Mind / HyDRA** adds a useful caution from the video side: many current memory benchmarks are really about static-scene revisit consistency, not dynamic-entity persistence. If a moving subject exits the field of view and later returns, static retrieval is not enough. For scouting, that suggests “memory” should always be unpacked into at least: background persistence, dynamic subject continuity, task-progress memory, and decision disambiguation.
+
 That does not make explicit memory unimportant. It does mean future VLA memory papers should separate at least three things much more carefully:
 
 - within-episode memory for partial observability and long-horizon task progress,
