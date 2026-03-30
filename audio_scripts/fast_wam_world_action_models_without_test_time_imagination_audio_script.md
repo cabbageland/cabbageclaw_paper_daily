@@ -1,7 +1,6 @@
 Welcome to the Cabbageland Paper Daily reading notes on Fast-WAM: Do World Action Models Need Test-time Future Imagination?.
 
 Fast-WAM: Do World Action Models Need Test-time Future Imagination?
-Basic info
 Title: Fast-WAM: Do World Action Models Need Test-time Future Imagination?
 Authors: Tianyuan Yuan, Yiran Geng, Qiyang Li, Jialu Wang, Jitendra Malik, Pieter Abbeel, Xiaolong Wang
 Year: 2026
@@ -9,22 +8,14 @@ Venue / source: arXiv
 Link:
 Date surfaced: 2026-03-27
 Why selected in one sentence: It directly tests whether embodied world models need expensive imagine-then-execute inference, instead of assuming that visible future generation is inherently useful.
-Quick verdict
 Highly relevant
 This is one of the cleaner recent embodied papers because it isolates a real confound instead of adding another branded stack. The key result is not merely speed; it is the claim that video co-training may be doing most of the representational work, while explicit future generation at inference time contributes much less than the field has implied. If that holds up, a lot of current WAM design is overpaying for inference-time theater.
 One-paragraph overview
 Fast-WAM keeps the world-model training signal but removes explicit future imagination at test time. The model is built from a pretrained video diffusion transformer backbone plus an action expert transformer in a shared-attention mixture-of-transformers setup. During training, it jointly learns to predict future video latents and action chunks, so the visual backbone is forced to encode physically meaningful temporal structure. During inference, it discards the future-video branch and uses only a single-pass latent world representation from the current observation to generate actions directly. The paper’s central claim is that world modeling is mainly valuable as a representation-learning objective, not necessarily as a deployment-time video synthesis loop.
-Model definition
-This section is mandatory whenever the paper contains a learnable model, policy, decoder, predictor, world model, planner, scoring model, or any trainable component. If the paper is mostly systems integration, still isolate the learned pieces explicitly.
-Inputs
 Current visual observation encoded into video VAE latents, task language encoded by a T5 text encoder, and during training noisy future video latent tokens plus noisy action tokens for an action chunk horizon. At inference time it uses the current observation and language only, with clean latent tokens from the first observation frame as the visual anchor.
-Outputs
 An action chunk for robot control. During training it also predicts velocity fields for future video latents as part of the video co-training objective.
-Training objective (loss)
-A joint flow-matching objective over actions and future video latents. Concretely, it uses an action flow-matching loss plus a video-latent flow-matching loss, combined as \(\mathcal{L}=\mathcal{L}_{act}+\lambda \mathcal{L}_{vid}\).
-Architecture / parameterization
+A joint flow-matching objective over actions and future video latents. Concretely, it uses an action flow-matching loss plus a video-latent flow-matching loss, combined as \mathcal{L}=\mathcal{L}_{act}+\lambda \mathcal{L}_{vid}.
 A mixture-of-transformers architecture with shared attention, built on a pretrained Wan2.2-5B video diffusion transformer backbone, pretrained video VAE, pretrained T5 text encoder, and a separate action expert diffusion transformer branch.
-Key questions this summary must address
 1. What problem is the paper trying to solve?
 Existing world action models often require slow imagine-then-execute inference because they iteratively denoise future video before predicting actions. The paper asks whether this expensive future generation is actually necessary, or whether most of the benefit comes from learning better state representations during training.
 2. What is the method?

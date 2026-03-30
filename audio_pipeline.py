@@ -9,6 +9,37 @@ from datetime import datetime
 from pathlib import Path
 from typing import Iterable
 
+HEADING_BLACKLIST = {
+    'theme',
+    'short overview',
+    'ranked papers',
+    'most relevant to cabbageland',
+    'novelty / framing / baseline impact',
+    'one-paragraph takeaway',
+    'detailed notes',
+    'basic info',
+    'model definition',
+    'key questions this summary must address',
+    'inputs',
+    'outputs',
+    'training objective (loss)',
+    'architecture / parameterization',
+    'quick verdict',
+}
+
+BANNED_AUDIO_PHRASES = [
+    'Daily Paper Digest —',
+    'Daily Digest —',
+    'Basic info',
+    'Model definition',
+    'Key questions this summary must address',
+    'This section is mandatory whenever the paper contains',
+    'Theme',
+    'Short overview',
+    'Ranked papers',
+    'Detailed notes',
+]
+
 ROOT = Path(__file__).resolve().parent
 WEB_ROOT = ROOT.parent / 'cabbageclaw-paper-daily-web'
 VENV_PYTHON = ROOT.parent / '.venv-piper' / 'bin' / 'python'
@@ -35,6 +66,25 @@ def strip_inline_markup(text: str) -> str:
     return text.strip()
 
 
+def is_blacklisted_heading(text: str) -> bool:
+    lowered = text.strip().lower().rstrip(':')
+    if lowered in HEADING_BLACKLIST:
+        return True
+    if lowered.startswith('daily paper digest') or lowered.startswith('daily digest'):
+        return True
+    return False
+
+
+def clean_spoken_line(text: str) -> str:
+    text = strip_inline_markup(text)
+    text = re.sub(r'\\\((.*?)\\\)', r'\1', text)
+    text = re.sub(r'\\\[(.*?)\\\]', r'\1', text)
+    text = re.sub(r'\$([^$]+)\$', r'\1', text)
+    text = text.replace('—', ', ').replace('–', ', ')
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
 def spokenize_markdown(md: str) -> str:
     lines = md.splitlines()
     out: list[str] = []
@@ -50,20 +100,44 @@ def spokenize_markdown(md: str) -> str:
         if not stripped:
             out.append('')
             continue
-        if re.match(r'^#{1,6}\s+', stripped):
-            out.append(strip_inline_markup(re.sub(r'^#{1,6}\s+', '', stripped)))
+
+        heading = re.match(r'^(#{1,6})\s+(.*)$', stripped)
+        if heading:
+            heading_text = clean_spoken_line(heading.group(2))
+            if not heading_text or is_blacklisted_heading(heading_text):
+                continue
+            out.append(heading_text)
             out.append('')
             continue
-        if re.match(r'^[-*]\s+', stripped):
-            out.append(strip_inline_markup(re.sub(r'^[-*]\s+', '', stripped)))
+
+        bullet = re.match(r'^[-*]\s+(.*)$', stripped)
+        if bullet:
+            content = clean_spoken_line(bullet.group(1))
+            if content:
+                out.append(content)
             continue
-        if re.match(r'^\d+\.\s+', stripped):
-            out.append(strip_inline_markup(re.sub(r'^\d+\.\s+', '', stripped)))
+
+        numbered = re.match(r'^(\d+)\.\s+(.*)$', stripped)
+        if numbered:
+            content = clean_spoken_line(numbered.group(2))
+            if content:
+                out.append(content)
             continue
-        out.append(strip_inline_markup(stripped))
+
+        content = clean_spoken_line(stripped)
+        if re.match(r'^(Title|Authors|Year|Venue / source|Link|Date surfaced|Quick verdict|Inputs|Outputs|Training objective \(loss\)|Architecture / parameterization):\s*$', content):
+            continue
+        if content.startswith('This section is mandatory whenever the paper contains'):
+            continue
+        if content in BANNED_AUDIO_PHRASES:
+            continue
+        if content:
+            out.append(content)
+
     text = '\n'.join(out)
     text = re.sub(r'\n{3,}', '\n\n', text)
     text = re.sub(r'\s+\n', '\n', text)
+    text = re.sub(r'(?m)^\s*[-*]\s*', '', text)
     return text.strip()
 
 
@@ -206,6 +280,11 @@ def validate_script(job: AudioJob, script: str) -> None:
         raise ValueError(f'{job.script_path.name}: missing standardized opening')
     if not script.strip().endswith('Your reporter, cabbage claw.'):
         raise ValueError(f'{job.script_path.name}: missing standardized closing')
+    for phrase in BANNED_AUDIO_PHRASES:
+        if phrase in script:
+            raise ValueError(f'{job.script_path.name}: banned phrase leaked into script: {phrase}')
+    if '\\(' in script or '\\[' in script or '$' in script:
+        raise ValueError(f'{job.script_path.name}: math/latex-like markup left in script')
 
 
 def write_scripts(jobs: Iterable[AudioJob]) -> None:
