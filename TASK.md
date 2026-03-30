@@ -93,13 +93,29 @@ Always ask:
 
 Use Brave Search first for discovery and initial filtering when scouting papers for this repo. Treat it as the default search surface unless a better source is explicitly required.
 
+If Brave Search is unavailable, do not write a vague claim like "Brave unavailable" unless you actually checked the tool in the current run and recorded the concrete reason. State the real failure mode, such as missing API key, auth/config problem, rate limiting, or transient tool failure.
+
+Discovery order for this repo:
+
+1. Brave Search first for broad discovery, naming variants, project pages, code repos, benchmark pages, and early filtering.
+2. AlphaXiv as a useful paper-discovery supplement when exploring recent arXiv-adjacent work, recommendation trails, or related-paper branching.
+3. arXiv / direct paper pages for primary-source inspection once candidate papers are identified.
+4. Major ML / CV / robotics / graphics venues and selected workshops when useful.
+
 Use recent sources such as:
 
 - Brave Search for discovery and recent web indexing
+- AlphaXiv for related-paper exploration and recommendation branching
 - arXiv
 - major ML / CV / robotics / graphics venues
 - selected workshops when useful
 - older papers only when foundational or newly relevant
+
+Default fallback policy:
+
+- If Brave works: use Brave first, then AlphaXiv / arXiv / direct sources for deeper reading.
+- If Brave is unavailable but AlphaXiv is reachable: use AlphaXiv plus arXiv / direct sources, and say Brave was unavailable with the exact verified reason.
+- If both Brave and AlphaXiv are unavailable: use arXiv / direct sources, and explicitly note that discovery quality may be narrower.
 
 ### Step 2: Filter
 
