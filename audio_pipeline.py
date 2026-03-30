@@ -66,13 +66,21 @@ def strip_inline_markup(text: str) -> str:
     return text.strip()
 
 
-def is_blacklisted_heading(text: str) -> bool:
-    lowered = text.strip().lower().rstrip(':')
-    if lowered in HEADING_BLACKLIST:
-        return True
-    if lowered.startswith('daily paper digest') or lowered.startswith('daily digest'):
-        return True
-    return False
+def extract_section(text: str, heading: str) -> str:
+    pattern = rf'^## {re.escape(heading)}\n+(.*?)(?=^## |\Z)'
+    m = re.search(pattern, text, flags=re.M | re.S)
+    return m.group(1).strip() if m else ''
+
+
+def extract_subsection(text: str, heading: str) -> str:
+    pattern = rf'^### {re.escape(heading)}\n+(.*?)(?=^### |^## |\Z)'
+    m = re.search(pattern, text, flags=re.M | re.S)
+    return m.group(1).strip() if m else ''
+
+
+def bullet_value(text: str, label: str) -> str:
+    m = re.search(rf'^\* {re.escape(label)}:\s*(.+)$', text, flags=re.M)
+    return m.group(1).strip() if m else ''
 
 
 def clean_spoken_line(text: str) -> str:
@@ -80,6 +88,9 @@ def clean_spoken_line(text: str) -> str:
     text = re.sub(r'\\\((.*?)\\\)', r'\1', text)
     text = re.sub(r'\\\[(.*?)\\\]', r'\1', text)
     text = re.sub(r'\$([^$]+)\$', r'\1', text)
+    text = re.sub(r'\\mathcal\{([^}]+)\}', r'\1', text)
+    text = re.sub(r'\\lambda', 'lambda', text)
+    text = re.sub(r'\\[A-Za-z]+', '', text)
     text = text.replace('—', ', ').replace('–', ', ')
     text = re.sub(r'\s+', ' ', text).strip()
     return text
@@ -104,7 +115,8 @@ def spokenize_markdown(md: str) -> str:
         heading = re.match(r'^(#{1,6})\s+(.*)$', stripped)
         if heading:
             heading_text = clean_spoken_line(heading.group(2))
-            if not heading_text or is_blacklisted_heading(heading_text):
+            lowered = heading_text.lower().rstrip(':')
+            if not heading_text or lowered in HEADING_BLACKLIST or lowered.startswith('daily paper digest') or lowered.startswith('daily digest'):
                 continue
             out.append(heading_text)
             out.append('')
@@ -125,8 +137,6 @@ def spokenize_markdown(md: str) -> str:
             continue
 
         content = clean_spoken_line(stripped)
-        if re.match(r'^(Title|Authors|Year|Venue / source|Link|Date surfaced|Quick verdict|Inputs|Outputs|Training objective \(loss\)|Architecture / parameterization):\s*$', content):
-            continue
         if content.startswith('This section is mandatory whenever the paper contains'):
             continue
         if content in BANNED_AUDIO_PHRASES:
@@ -144,6 +154,83 @@ def spokenize_markdown(md: str) -> str:
 def spoken_date(date_str: str) -> str:
     dt = datetime.strptime(date_str, '%Y-%m-%d')
     return dt.strftime('%B %d, %Y').replace(' 0', ' ')
+
+
+def section_paragraphs(section_text: str) -> list[str]:
+    if not section_text:
+        return []
+    blocks = [b.strip() for b in re.split(r'\n\s*\n', section_text) if b.strip()]
+    cleaned: list[str] = []
+    for block in blocks:
+        block = spokenize_markdown(block)
+        if block:
+            cleaned.append(block)
+    return cleaned
+
+
+def render_digest_body(source: Path) -> str:
+    text = read_text(source)
+    parts: list[str] = []
+    parts.extend(section_paragraphs(extract_section(text, 'Theme')))
+    parts.extend(section_paragraphs(extract_section(text, 'Short overview')))
+    parts.extend(section_paragraphs(extract_section(text, 'Most relevant to cabbageland')))
+    parts.extend(section_paragraphs(extract_section(text, 'Novelty / framing / baseline impact')))
+    parts.extend(section_paragraphs(extract_section(text, 'One-paragraph takeaway')))
+    return '\n\n'.join(parts).strip()
+
+
+def render_note_body(source: Path) -> str:
+    text = read_text(source)
+    parts: list[str] = []
+
+    why_selected = clean_spoken_line(bullet_value(text, 'Why selected in one sentence'))
+    verdict_block = extract_section(text, 'Quick verdict')
+    verdict_lines = [clean_spoken_line(ln) for ln in verdict_block.splitlines() if clean_spoken_line(ln)]
+    if why_selected:
+        parts.append(why_selected)
+    if verdict_lines:
+        if len(verdict_lines) == 1:
+            parts.append(verdict_lines[0])
+        else:
+            parts.append(' '.join(verdict_lines))
+
+    overview = extract_section(text, 'One-paragraph overview')
+    if overview:
+        parts.extend(section_paragraphs(overview))
+
+    for question_num in ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14']:
+        q = extract_subsection(text, f'{question_num}. What problem is the paper trying to solve?')
+        if question_num == '1' and q:
+            parts.append(q)
+        q = extract_subsection(text, f'{question_num}. What is the method?')
+        if question_num == '2' and q:
+            parts.append(q)
+        q = extract_subsection(text, f'{question_num}. What data does it use?')
+        if question_num == '4' and q:
+            parts.append(q)
+        q = extract_subsection(text, f'{question_num}. What are the main results?')
+        if question_num == '6' and q:
+            parts.append(q)
+        q = extract_subsection(text, f'{question_num}. What is actually novel?')
+        if question_num == '7' and q:
+            parts.append(q)
+        q = extract_subsection(text, f'{question_num}. What are the weaknesses, limitations, or red flags?')
+        if question_num == '9' and q:
+            parts.append(q)
+        q = extract_subsection(text, f'{question_num}. Why does this matter for cabbageland?')
+        if question_num == '12' and q:
+            parts.append(q)
+        q = extract_subsection(text, f'{question_num}. Final decision')
+        if question_num == '14' and q:
+            parts.append(q)
+
+    cleaned_parts = [spokenize_markdown(p) for p in parts if p and spokenize_markdown(p)]
+    return '\n\n'.join(cleaned_parts).strip()
+
+
+def render_related_body(source: Path) -> str:
+    text = read_text(source)
+    return spokenize_markdown(text)
 
 
 def wrap_digest_script(path: Path, body: str) -> str:
@@ -263,12 +350,11 @@ def build_jobs() -> list[AudioJob]:
 
 def render_script(job: AudioJob) -> str:
     source = ROOT / Path(job.source_path)
-    body = spokenize_markdown(read_text(source))
     if job.kind == 'digest':
-        return wrap_digest_script(source, body)
+        return wrap_digest_script(source, render_digest_body(source))
     if job.kind == 'note':
-        return wrap_note_script(job.title, body)
-    return wrap_related_script(job.title, body)
+        return wrap_note_script(job.title, render_note_body(source))
+    return wrap_related_script(job.title, render_related_body(source))
 
 
 def validate_script(job: AudioJob, script: str) -> None:
@@ -276,14 +362,16 @@ def validate_script(job: AudioJob, script: str) -> None:
         raise ValueError(f'{job.script_path.name}: raw URL left in script')
     if script.count('# ') or script.count('## '):
         raise ValueError(f'{job.script_path.name}: markdown headings left in script')
-    if not script.startswith('Welcome to the '):
+    if job.kind == 'digest' and not script.startswith('Welcome to the '):
+        raise ValueError(f'{job.script_path.name}: missing standardized digest opening')
+    if job.kind in {'note', 'related'} and not script.startswith('Welcome to the Cabbageland Paper Daily'):
         raise ValueError(f'{job.script_path.name}: missing standardized opening')
     if not script.strip().endswith('Your reporter, cabbage claw.'):
         raise ValueError(f'{job.script_path.name}: missing standardized closing')
     for phrase in BANNED_AUDIO_PHRASES:
         if phrase in script:
             raise ValueError(f'{job.script_path.name}: banned phrase leaked into script: {phrase}')
-    if '\\(' in script or '\\[' in script or '$' in script:
+    if '\\(' in script or '\\[' in script or '$' in script or '\\mathcal' in script:
         raise ValueError(f'{job.script_path.name}: math/latex-like markup left in script')
 
 
