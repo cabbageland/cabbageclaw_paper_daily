@@ -127,6 +127,36 @@ Use stable filenames and avoid duplication.
 If push is blocked, do not bluff.
 Say what is missing.
 
+### Step 6.5: If audio is generated, write for listening rather than reading
+
+When generating audio transcripts or narration scripts for digests, paper notes, or related-work documents, the script must be treated as a spoken artifact rather than markdown being read aloud.
+
+Requirements:
+
+- write in clean spoken prose rather than outline fragments
+- remove markdown syntax that a TTS model might literally read
+- do not leave bullets, asterisks, heading markers, raw links, or decorative formatting in the spoken text
+- preserve the actual research logic: what the paper does, why it matters, what is novel, and where the caveats are
+- optimize for sharp clarity, not hype
+- prefer explicit transitions like "first," "second," "the useful part is," and "the main caveat is"
+- sound like a compact research briefing Tracy would actually want to listen to
+- keep the repo’s taste intact: mechanism over branding, explicit structure over mush, skepticism over vibe inflation
+- default Piper voice should be `en_US-hfc_male-medium`
+- default speech rate should be `0.95`
+
+The bar:
+A good audio transcript should feel like a compact private research briefing, not like markdown being exorcised through a speaker.
+
+Default policy for future Paper Daily audio scripts:
+- follow `tts_conversion_instructions.md` as the project style guide
+- use the standardized Paper Daily opening and closing unless explicitly overridden
+- preserve meaning, ranking, novelty framing, and uncertainty while compressing redundancy
+- for paper-note audio scripts, keep the note’s question-by-question structure unless a shorter summary is explicitly requested
+- do not delete substantive mechanism or caveat content just to shorten the script
+- route published audio generation through the standardized pipeline rather than one-off ad hoc renders
+- do a final oral-flow pass before generating audio
+- after generating each audio script, run a small validation pass against the TTS rules before rendering audio
+
 ### Step 7: Sync the web dashboard
 
 If this scouting run changed anything that the site surfaces — daily digests, paper notes, or related-work docs — immediately update the matching web repo.
