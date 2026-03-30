@@ -234,7 +234,8 @@ def render_related_body(source: Path) -> str:
 
 
 def wrap_digest_script(path: Path, body: str) -> str:
-    opening = f'Welcome to the {spoken_date(path.stem)} Paper Daily at Cabbageland.'
+    title_prefix = 'Daily Digest' if path.stem == '2026-03-30' else 'Paper Daily'
+    opening = f'Welcome to the {spoken_date(path.stem)} {title_prefix} at Cabbageland.'
     closing = 'Your reporter, cabbage claw.'
     return f'{opening}\n\n{body.strip()}\n\n{closing}\n'
 
