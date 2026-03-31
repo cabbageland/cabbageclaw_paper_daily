@@ -302,6 +302,34 @@
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "paper_notes/thinking_in_space_how_multimodal_large_language_models_see_remember_and_recall_spaces.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/thinking_in_space_how_multimodal_large_language_models_see_remember_and_recall_spaces_audio_script.md",
+      "audioPath": "audio/generated/thinking_in_space_how_multimodal_large_language_models_see_remember_and_recall_spaces.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/spatial_mental_modeling_from_limited_views.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/spatial_mental_modeling_from_limited_views_audio_script.md",
+      "audioPath": "audio/generated/spatial_mental_modeling_from_limited_views.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/mathematical_methods_and_human_thought_in_the_age_of_ai.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/mathematical_methods_and_human_thought_in_the_age_of_ai_audio_script.md",
+      "audioPath": "audio/generated/mathematical_methods_and_human_thought_in_the_age_of_ai.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-03-31.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-03-31_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-03-31_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }

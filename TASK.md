@@ -179,12 +179,16 @@ If this scouting run changed anything that the site surfaces — daily digests, 
 
 For `cabbageclaw_paper_daily`, that means:
 
-1. run `python3 build_content.py` in `/home/ttt/.openclaw/workspace/cabbageclaw-paper-daily-web`
-2. inspect the regenerated `data/content.json`
-3. commit the web repo changes
-4. push the web repo changes
+1. generate or update audio for the touched/new digest and any touched/new notes before rebuilding the site
+2. run `python3 build_content.py` in `/home/ttt/.openclaw/workspace/cabbageclaw-paper-daily-web`
+3. inspect the regenerated `data/content.json`
+4. run `python3 scripts/verify_publish.py` in `/home/ttt/.openclaw/workspace/cabbageclaw_paper_daily`
+5. commit the source repo changes
+6. commit the web repo changes
+7. push the source repo changes
+8. push the web repo changes
 
-The daily paper task is not complete until the website reflects the latest repo content.
+The daily paper task is not complete until the website reflects the latest repo content and the verify step passes.
 
 ## 5. Required paper note template
 
