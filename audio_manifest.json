@@ -372,6 +372,27 @@
       "audioPath": "audio/generated/world2rules_neuro_symbolic_safety_rules_aviation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-02.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-02_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-02_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/decision_centric_design_llm_systems.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/decision_centric_design_llm_systems_audio_script.md",
+      "audioPath": "audio/generated/decision_centric_design_llm_systems.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/temporal_memory_resource_constrained_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/temporal_memory_resource_constrained_agents_audio_script.md",
+      "audioPath": "audio/generated/temporal_memory_resource_constrained_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
