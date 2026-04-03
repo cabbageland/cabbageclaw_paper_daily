@@ -393,6 +393,27 @@
       "audioPath": "audio/generated/temporal_memory_resource_constrained_agents.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-03.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-03_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-03_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/actionparty_multi_subject_action_binding_generative_video_games.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/actionparty_multi_subject_action_binding_generative_video_games_audio_script.md",
+      "audioPath": "audio/generated/actionparty_multi_subject_action_binding_generative_video_games.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/world_action_verifier_self_improving_world_models_via_forward_inverse_asymmetry.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/world_action_verifier_self_improving_world_models_via_forward_inverse_asymmetry_audio_script.md",
+      "audioPath": "audio/generated/world_action_verifier_self_improving_world_models_via_forward_inverse_asymmetry.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
