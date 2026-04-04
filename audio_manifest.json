@@ -414,6 +414,27 @@
       "audioPath": "audio/generated/world_action_verifier_self_improving_world_models_via_forward_inverse_asymmetry.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-04.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-04_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-04_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/steerable_visual_representations.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/steerable_visual_representations_audio_script.md",
+      "audioPath": "audio/generated/steerable_visual_representations.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/omni123_unifying_text_to_2d_and_3d_generation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/omni123_unifying_text_to_2d_and_3d_generation_audio_script.md",
+      "audioPath": "audio/generated/omni123_unifying_text_to_2d_and_3d_generation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
