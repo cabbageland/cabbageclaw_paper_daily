@@ -435,6 +435,27 @@
       "audioPath": "audio/generated/omni123_unifying_text_to_2d_and_3d_generation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-05.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-05_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-05_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/compassad_intent_driven_3d_affordance_grounding.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/compassad_intent_driven_3d_affordance_grounding_audio_script.md",
+      "audioPath": "audio/generated/compassad_intent_driven_3d_affordance_grounding.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/latentum_interleaved_cross_modal_reasoning_latent_space_unified_model.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/latentum_interleaved_cross_modal_reasoning_latent_space_unified_model_audio_script.md",
+      "audioPath": "audio/generated/latentum_interleaved_cross_modal_reasoning_latent_space_unified_model.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
