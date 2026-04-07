@@ -29,6 +29,34 @@
       "audioPath": "audio/generated/hierarchical_planning_with_latent_world_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-07.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-07_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-07_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/adaptive_action_chunking_at_inference_time_for_vla_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/adaptive_action_chunking_at_inference_time_for_vla_models_audio_script.md",
+      "audioPath": "audio/generated/adaptive_action_chunking_at_inference_time_for_vla_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/delta_world_efficient_generative_world_modeling_with_delta_tokens.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/delta_world_efficient_generative_world_modeling_with_delta_tokens_audio_script.md",
+      "audioPath": "audio/generated/delta_world_efficient_generative_world_modeling_with_delta_tokens.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/veo_act_frontier_video_models_for_robot_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/veo_act_frontier_video_models_for_robot_manipulation_audio_script.md",
+      "audioPath": "audio/generated/veo_act_frontier_video_models_for_robot_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
