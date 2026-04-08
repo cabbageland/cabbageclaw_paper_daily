@@ -57,6 +57,27 @@
       "audioPath": "audio/generated/veo_act_frontier_video_models_for_robot_manipulation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-08.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-08_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-08_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/action_images_end_to_end_policy_learning_via_multiview_video_generation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/action_images_end_to_end_policy_learning_via_multiview_video_generation_audio_script.md",
+      "audioPath": "audio/generated/action_images_end_to_end_policy_learning_via_multiview_video_generation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/funrec_reconstructing_functional_3d_scenes_from_egocentric_interaction_videos.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/funrec_reconstructing_functional_3d_scenes_from_egocentric_interaction_videos_audio_script.md",
+      "audioPath": "audio/generated/funrec_reconstructing_functional_3d_scenes_from_egocentric_interaction_videos.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
