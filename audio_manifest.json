@@ -78,6 +78,27 @@
       "audioPath": "audio/generated/funrec_reconstructing_functional_3d_scenes_from_egocentric_interaction_videos.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-09.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-09_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-09_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/moright_motion_control_done_right.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/moright_motion_control_done_right_audio_script.md",
+      "audioPath": "audio/generated/moright_motion_control_done_right.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/fast_spatial_memory_with_elastic_test_time_training.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/fast_spatial_memory_with_elastic_test_time_training_audio_script.md",
+      "audioPath": "audio/generated/fast_spatial_memory_with_elastic_test_time_training.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
