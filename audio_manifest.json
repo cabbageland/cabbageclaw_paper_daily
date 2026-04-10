@@ -99,6 +99,20 @@
       "audioPath": "audio/generated/fast_spatial_memory_with_elastic_test_time_training.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-10.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-10_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-10_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/worldmap_bootstrapping_vision_language_navigation_trajectory_prediction_with_generative_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/worldmap_bootstrapping_vision_language_navigation_trajectory_prediction_with_generative_world_models_audio_script.md",
+      "audioPath": "audio/generated/worldmap_bootstrapping_vision_language_navigation_trajectory_prediction_with_generative_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
