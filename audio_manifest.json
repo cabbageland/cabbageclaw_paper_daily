@@ -113,6 +113,20 @@
       "audioPath": "audio/generated/worldmap_bootstrapping_vision_language_navigation_trajectory_prediction_with_generative_world_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-11.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-11_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-11_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/sim1_physics_aligned_simulator_as_zero_shot_data_scaler_in_deformable_worlds.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/sim1_physics_aligned_simulator_as_zero_shot_data_scaler_in_deformable_worlds_audio_script.md",
+      "audioPath": "audio/generated/sim1_physics_aligned_simulator_as_zero_shot_data_scaler_in_deformable_worlds.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
