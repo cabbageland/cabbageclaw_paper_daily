@@ -127,6 +127,27 @@
       "audioPath": "audio/generated/sim1_physics_aligned_simulator_as_zero_shot_data_scaler_in_deformable_worlds.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-12.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-12_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-12_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dailyart_single_image_articulation_via_latent_dynamics.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dailyart_single_image_articulation_via_latent_dynamics_audio_script.md",
+      "audioPath": "audio/generated/dailyart_single_image_articulation_via_latent_dynamics.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/lamp_image_editing_as_3d_priors_for_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/lamp_image_editing_as_3d_priors_for_manipulation_audio_script.md",
+      "audioPath": "audio/generated/lamp_image_editing_as_3d_priors_for_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
