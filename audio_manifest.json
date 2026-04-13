@@ -148,6 +148,27 @@
       "audioPath": "audio/generated/lamp_image_editing_as_3d_priors_for_manipulation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-13.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-13_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-13_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/physically_grounded_3d_reconstruction_under_hand_occlusion.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/physically_grounded_3d_reconstruction_under_hand_occlusion_audio_script.md",
+      "audioPath": "audio/generated/physically_grounded_3d_reconstruction_under_hand_occlusion.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/toward_hardware_agnostic_quadrupedal_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/toward_hardware_agnostic_quadrupedal_world_models_audio_script.md",
+      "audioPath": "audio/generated/toward_hardware_agnostic_quadrupedal_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
