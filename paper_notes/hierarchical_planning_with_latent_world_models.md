@@ -101,10 +101,11 @@ Because it is a good example of decomposition that actually changes the computat
 ## Key figures from HTML
 
 ### Figure 1
-ArXiv HTML caption summary: top-down picture of hierarchical latent planning. A high-level planner searches over macro-actions to reach the goal, the first predicted latent waypoint becomes a subgoal for low-level planning, and the bottom panels summarize success-rate gains and planning-efficiency improvements across different world-model backbones.
+![Figure 1 from the paper](../assets/html_figures/hierarchical_planning_with_latent_world_models_fig1.png)
 
-### Figure 2
-ArXiv HTML caption summary: latent-space hierarchy diagram showing high-level optimization toward the final goal and low-level primitive-action optimization toward the first latent subgoal.
+Caption summary: Top: Hierarchical planning in latent space. A high-level planner optimizes macro-actions using a long-horizon world model to reach the goal; the first predicted latent state serves as a subgoal for a low-level planner, which optimizes primitive actions with a short-horizon world model. Solid borders denote ground-truth observations; others are decoder reconstructions shown for interpretability only. Bottom Left: Empirical coverage. Hierarchical planning improves success on non-greedy, long-horizon tasks across multiple latent world models. Δ\DeltaSR denotes the absolute success-rate gain from hierarchy. Oracle subgoals use externally provided subgoal images; otherwise, planning relies only on the final goal. Bottom Right: Planning efficiency. Success rate versus normalized planning time for flat and hierarchical planners; hierarchical planning matches or exceeds success with ≈3×\approx 3\times lower planning time. Highlighted HWM results prioritize planning efficiency rather than peak performance.
 
 ### Figure 3
-ArXiv HTML caption summary: training setup for the high-level world model, where latent actions are encoded from chunks of low-level actions and used to predict waypoint latents with a causal model trained by latent prediction loss.
+![Figure 3 from the paper](../assets/html_figures/hierarchical_planning_with_latent_world_models_fig2.png)
+
+Caption summary: The high-level world model captures long-horizon dynamics using latent actions encoded from chunks of low-level actions. It is causal and trained with a latent prediction loss (Eq.˜1).

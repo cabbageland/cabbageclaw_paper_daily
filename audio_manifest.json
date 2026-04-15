@@ -638,6 +638,34 @@
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-15.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-15_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-15_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/lyra_2_0_explorable_generative_3d_worlds.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/lyra_2_0_explorable_generative_3d_worlds_audio_script.md",
+      "audioPath": "audio/generated/lyra_2_0_explorable_generative_3d_worlds.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/robotic_manipulation_is_vision_to_geometry_mapping.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/robotic_manipulation_is_vision_to_geometry_mapping_audio_script.md",
+      "audioPath": "audio/generated/robotic_manipulation_is_vision_to_geometry_mapping.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/hazardarena_evaluating_semantic_safety_in_vlas.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/hazardarena_evaluating_semantic_safety_in_vlas_audio_script.md",
+      "audioPath": "audio/generated/hazardarena_evaluating_semantic_safety_in_vlas.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }

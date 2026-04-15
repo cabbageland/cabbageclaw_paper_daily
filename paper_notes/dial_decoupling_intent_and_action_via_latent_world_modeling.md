@@ -100,10 +100,16 @@ Because it is a serious attempt to separate semantic reasoning from motor execut
 ## Key figures from HTML
 
 ### Figure 1
-ArXiv HTML caption summary: overview of DIAL as a differentiable latent-intent bottleneck. The VLM predicts latent visual foresight in its native ViT space, the policy decodes actions from current observation plus that foresight, and training moves from decoupled warmup to end-to-end refinement.
+![Figure 1 from the paper](../assets/html_figures/dial_decoupling_intent_and_action_via_latent_world_modeling_fig1.png)
+
+Caption summary: Overview of the DIAL Framework. DIAL bridges high-level decision making and low-level motor control through a differentiable latent intent bottleneck. (Left) System-2 (VLM) performs latent world modeling (LWM) to synthesize latent visual foresight within its native ViT feature space. This foresight serves as a structural bottleneck to convey the VLM’s intent, which System-1 (Policy) then decodes into actions via latent inverse dynamics. A decoupled-to-unified training paradigm ensures stability, leveraging initial alignment in a consistent latent space to facilitate subsequent end-to-end refinement via action-aware gradients. (Right) Powered by this structural grounding, DIAL scales across heterogeneous human-robot data, achieving SOTA performance with 10×10	imes higher data efficiency and robust zero-shot generalization to unseen real-world configurations.
 
 ### Figure 2
-ArXiv HTML caption summary: contrasts hierarchical planners, direct end-to-end VLAs, and DIAL. The paper’s claim is that DIAL is the only one of the three that both keeps the pipeline differentiable and structurally forces action generation to depend on predicted intent.
+![Figure 2 from the paper](../assets/html_figures/dial_decoupling_intent_and_action_via_latent_world_modeling_fig2.png)
+
+Caption summary: Comparison of VLA Architectures. (Left) Hierarchical Models decouple reasoning and execution via text or pixels, resulting in non-differentiable gaps and significant deployment latency. (Middle) End-to-End VLAs map multimodal features directly to actions. Even when auxiliary tasks are used, they are typically treated as optional context, which cannot strictly guarantee that actions are grounded in the VLM’s intent. (Right) DIAL (Ours) introduces a differentiable latent bottleneck. By requiring System-1 to bridge the gap between current visual features and System-2’s predicted latent foresight, DIAL ensures that execution is inherently anchored to the VLM’s predictive intent.
 
 ### Figure 3
-ArXiv HTML caption summary: detailed architecture showing the shared frozen ViT, System-2 latent-foresight prediction, System-1 self-attention fusion and DiT action decoder, plus the shift from ground-truth future-feature conditioning during warmup to predicted-latent conditioning during joint training.
+![Figure 3 from the paper](../assets/html_figures/dial_decoupling_intent_and_action_via_latent_world_modeling_fig3.png)
+
+Caption summary: The Dual-System Architecture of DIAL. Built upon a pre-trained VLM, System-2 (top) synthesizes a latent foresight (xtx_{t}) from language (ltl_{t}), current visual observation (oto_{t}), and learnable queries via its LLM backbone and an MLP head. System-1 (bottom) employs self-attention to fuse current and foresight visual features, serving as the cross-attention condition for a DiT-based action decoder. This decoder directly takes the projected proprioceptive state (qtq_{t}) and noisy action tokens to generate action chunks. To ensure feature consistency, both systems share the VLM’s frozen pre-trained ViT. As indicated by the switches, the training transitions from a decoupled warmup (conditioned on ground-truth features of ot+Ho_{t+H}) to end-to-end optimization (conditioned on xtx_{t}). Throughout both stages, an MSE loss is applied to align the latent foresight with ground-truth features.
