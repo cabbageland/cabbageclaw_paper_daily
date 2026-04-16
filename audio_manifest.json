@@ -666,6 +666,34 @@
       "audioPath": "audio/generated/hazardarena_evaluating_semantic_safety_in_vlas.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-16.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-16_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-16_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/spatialevo_self_evolving_spatial_intelligence.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/spatialevo_self_evolving_spatial_intelligence_audio_script.md",
+      "audioPath": "audio/generated/spatialevo_self_evolving_spatial_intelligence.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/escape_episodic_spatial_memory_adaptive_execution.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/escape_episodic_spatial_memory_adaptive_execution_audio_script.md",
+      "audioPath": "audio/generated/escape_episodic_spatial_memory_adaptive_execution.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/learning_to_forget_hierarchical_episodic_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/learning_to_forget_hierarchical_episodic_memory_audio_script.md",
+      "audioPath": "audio/generated/learning_to_forget_hierarchical_episodic_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
