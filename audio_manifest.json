@@ -694,6 +694,34 @@
       "audioPath": "audio/generated/learning_to_forget_hierarchical_episodic_memory.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-17.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-17_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-17_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/r3d_revisiting_3d_policy_learning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/r3d_revisiting_3d_policy_learning_audio_script.md",
+      "audioPath": "audio/generated/r3d_revisiting_3d_policy_learning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/streamcachevggt_streaming_visual_geometry_transformers.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/streamcachevggt_streaming_visual_geometry_transformers_audio_script.md",
+      "audioPath": "audio/generated/streamcachevggt_streaming_visual_geometry_transformers.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/generalization_in_llm_problem_solving_shortest_path.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/generalization_in_llm_problem_solving_shortest_path_audio_script.md",
+      "audioPath": "audio/generated/generalization_in_llm_problem_solving_shortest_path.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
