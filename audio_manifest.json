@@ -722,6 +722,34 @@
       "audioPath": "audio/generated/generalization_in_llm_problem_solving_shortest_path.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-18.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-18_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-18_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/abstract_sim2real_through_approximate_information_states.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/abstract_sim2real_through_approximate_information_states_audio_script.md",
+      "audioPath": "audio/generated/abstract_sim2real_through_approximate_information_states.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/globalsplat_efficient_feed_forward_3d_gaussian_splatting_via_global_scene_tokens.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/globalsplat_efficient_feed_forward_3d_gaussian_splatting_via_global_scene_tokens_audio_script.md",
+      "audioPath": "audio/generated/globalsplat_efficient_feed_forward_3d_gaussian_splatting_via_global_scene_tokens.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/stability_and_generalization_in_looped_transformers.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/stability_and_generalization_in_looped_transformers_audio_script.md",
+      "audioPath": "audio/generated/stability_and_generalization_in_looped_transformers.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
