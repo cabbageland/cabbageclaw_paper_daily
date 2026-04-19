@@ -750,6 +750,34 @@
       "audioPath": "audio/generated/stability_and_generalization_in_looped_transformers.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-19.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-19_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-19_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/tokengs_decoupling_3d_gaussian_prediction_from_pixels.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/tokengs_decoupling_3d_gaussian_prediction_from_pixels_audio_script.md",
+      "audioPath": "audio/generated/tokengs_decoupling_3d_gaussian_prediction_from_pixels.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/hierarchical_spatiotemporal_action_tokenizer_in_context_imitation_learning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/hierarchical_spatiotemporal_action_tokenizer_in_context_imitation_learning_audio_script.md",
+      "audioPath": "audio/generated/hierarchical_spatiotemporal_action_tokenizer_in_context_imitation_learning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/specguard_verification_aware_speculative_decoding.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/specguard_verification_aware_speculative_decoding_audio_script.md",
+      "audioPath": "audio/generated/specguard_verification_aware_speculative_decoding.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
