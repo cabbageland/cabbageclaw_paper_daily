@@ -778,6 +778,27 @@
       "audioPath": "audio/generated/specguard_verification_aware_speculative_decoding.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-20.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-20_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-20_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/grounded_world_model_semantically_generalizable_planning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/grounded_world_model_semantically_generalizable_planning_audio_script.md",
+      "audioPath": "audio/generated/grounded_world_model_semantically_generalizable_planning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/lavigen_repurposing_3d_generative_model_layout_generation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/lavigen_repurposing_3d_generative_model_layout_generation_audio_script.md",
+      "audioPath": "audio/generated/lavigen_repurposing_3d_generative_model_layout_generation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
