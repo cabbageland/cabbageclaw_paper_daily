@@ -799,6 +799,34 @@
       "audioPath": "audio/generated/lavigen_repurposing_3d_generative_model_layout_generation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-21.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-21_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-21_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dual_anchoring_addressing_state_drift_in_vision_language_navigation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dual_anchoring_addressing_state_drift_in_vision_language_navigation_audio_script.md",
+      "audioPath": "audio/generated/dual_anchoring_addressing_state_drift_in_vision_language_navigation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/multiworld_scalable_multi_agent_multi_view_video_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/multiworld_scalable_multi_agent_multi_view_video_world_models_audio_script.md",
+      "audioPath": "audio/generated/multiworld_scalable_multi_agent_multi_view_video_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/onevl_one_step_latent_reasoning_and_planning_with_vision_language_explanation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/onevl_one_step_latent_reasoning_and_planning_with_vision_language_explanation_audio_script.md",
+      "audioPath": "audio/generated/onevl_one_step_latent_reasoning_and_planning_with_vision_language_explanation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
