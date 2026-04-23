@@ -827,6 +827,34 @@
       "audioPath": "audio/generated/st_pi_structured_spatiotemporal_vla_for_robotic_manipulation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-23.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-23_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-23_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/devi_dexterous_video_imitation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/devi_dexterous_video_imitation_audio_script.md",
+      "audioPath": "audio/generated/devi_dexterous_video_imitation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/diagnosing_cfg_interpretation_in_llms.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/diagnosing_cfg_interpretation_in_llms_audio_script.md",
+      "audioPath": "audio/generated/diagnosing_cfg_interpretation_in_llms.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/pokevla_world_knowledge_guidance.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/pokevla_world_knowledge_guidance_audio_script.md",
+      "audioPath": "audio/generated/pokevla_world_knowledge_guidance.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
