@@ -855,6 +855,34 @@
       "audioPath": "audio/generated/pokevla_world_knowledge_guidance.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-24.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-24_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-24_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/hi_wm_human_in_the_world_model_scalable_robot_post_training.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/hi_wm_human_in_the_world_model_scalable_robot_post_training_audio_script.md",
+      "audioPath": "audio/generated/hi_wm_human_in_the_world_model_scalable_robot_post_training.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/how_vlas_really_work_in_open_world_environments.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/how_vlas_really_work_in_open_world_environments_audio_script.md",
+      "audioPath": "audio/generated/how_vlas_really_work_in_open_world_environments.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/long_horizon_manipulation_trace_conditioned_vla_planning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/long_horizon_manipulation_trace_conditioned_vla_planning_audio_script.md",
+      "audioPath": "audio/generated/long_horizon_manipulation_trace_conditioned_vla_planning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
