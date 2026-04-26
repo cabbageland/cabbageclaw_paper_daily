@@ -897,6 +897,20 @@
       "audioPath": "audio/generated/cortex_2_0_grounding_world_models_in_real_world_industrial_deployment.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-26.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-26_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-26_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/loho_manip_long_horizon_manipulation_via_trace_conditioned_vla_planning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/loho_manip_long_horizon_manipulation_via_trace_conditioned_vla_planning_audio_script.md",
+      "audioPath": "audio/generated/loho_manip_long_horizon_manipulation_via_trace_conditioned_vla_planning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
