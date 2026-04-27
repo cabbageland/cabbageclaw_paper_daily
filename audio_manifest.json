@@ -911,6 +911,27 @@
       "audioPath": "audio/generated/loho_manip_long_horizon_manipulation_via_trace_conditioned_vla_planning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "paper_notes/dworldeval_discrete_diffusion_world_model_for_policy_evaluation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dworldeval_discrete_diffusion_world_model_for_policy_evaluation_audio_script.md",
+      "audioPath": "audio/generated/dworldeval_discrete_diffusion_world_model_for_policy_evaluation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-04-27.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-27_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-27_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/cgc_compositional_grounded_contrast_multi_image_understanding.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/cgc_compositional_grounded_contrast_multi_image_understanding_audio_script.md",
+      "audioPath": "audio/generated/cgc_compositional_grounded_contrast_multi_image_understanding.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
