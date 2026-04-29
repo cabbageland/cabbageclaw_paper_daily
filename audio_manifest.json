@@ -988,6 +988,34 @@
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-04-29.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-04-29_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-04-29_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/anchor_physically_grounded_closed_loop_mobile_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/anchor_physically_grounded_closed_loop_mobile_manipulation_audio_script.md",
+      "audioPath": "audio/generated/anchor_physically_grounded_closed_loop_mobile_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/privileged_foresight_distillation_world_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/privileged_foresight_distillation_world_action_models_audio_script.md",
+      "audioPath": "audio/generated/privileged_foresight_distillation_world_action_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/vision_sls_safe_perception_based_control.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/vision_sls_safe_perception_based_control_audio_script.md",
+      "audioPath": "audio/generated/vision_sls_safe_perception_based_control.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
