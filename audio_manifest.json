@@ -296,6 +296,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-05-01.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-01_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-01_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -489,6 +496,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/fast_wam_world_action_models_without_test_time_imagination_audio_script.md",
       "audioPath": "audio/generated/fast_wam_world_action_models_without_test_time_imagination.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/freeocc_training_free_embodied_open_vocabulary_occupancy_prediction.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/freeocc_training_free_embodied_open_vocabulary_occupancy_prediction_audio_script.md",
+      "audioPath": "audio/generated/freeocc_training_free_embodied_open_vocabulary_occupancy_prediction.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -832,6 +846,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/r3d_revisiting_3d_policy_learning_audio_script.md",
       "audioPath": "audio/generated/r3d_revisiting_3d_policy_learning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/recgen_multi_object_scene_reconstruction_from_sparse_observations.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/recgen_multi_object_scene_reconstruction_from_sparse_observations_audio_script.md",
+      "audioPath": "audio/generated/recgen_multi_object_scene_reconstruction_from_sparse_observations.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
