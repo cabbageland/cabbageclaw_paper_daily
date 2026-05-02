@@ -303,6 +303,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-05-02.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-02_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-02_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -839,6 +846,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/prox_e_primitive_based_3d_shape_editing_audio_script.md",
       "audioPath": "audio/generated/prox_e_primitive_based_3d_shape_editing.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/prts_primitive_reasoning_and_tasking_system_via_contrastive_representations.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/prts_primitive_reasoning_and_tasking_system_via_contrastive_representations_audio_script.md",
+      "audioPath": "audio/generated/prts_primitive_reasoning_and_tasking_system_via_contrastive_representations.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
