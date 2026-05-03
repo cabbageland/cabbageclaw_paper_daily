@@ -310,6 +310,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-05-03.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-03_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-03_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -643,6 +650,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/lamp_image_editing_as_3d_priors_for_manipulation_audio_script.md",
       "audioPath": "audio/generated/lamp_image_editing_as_3d_priors_for_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/last_r1_reinforcing_action_via_adaptive_physical_latent_reasoning_for_vla_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/last_r1_reinforcing_action_via_adaptive_physical_latent_reasoning_for_vla_models_audio_script.md",
+      "audioPath": "audio/generated/last_r1_reinforcing_action_via_adaptive_physical_latent_reasoning_for_vla_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
