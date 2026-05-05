@@ -317,13 +317,6 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
-    "daily_papers/2026-05-04.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-05-04_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-05-04_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -496,13 +489,6 @@
       "label": "listen",
       "scriptPath": "audio_scripts/edit_as_act_goal_regressive_planning_3d_scene_editing_audio_script.md",
       "audioPath": "audio/generated/edit_as_act_goal_regressive_planning_3d_scene_editing.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/energyflow_recovering_hidden_reward_in_diffusion_based_policies.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/energyflow_recovering_hidden_reward_in_diffusion_based_policies_audio_script.md",
-      "audioPath": "audio/generated/energyflow_recovering_hidden_reward_in_diffusion_based_policies.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1105,6 +1091,34 @@
       "label": "listen",
       "scriptPath": "audio_scripts/vla_memory_and_continual_learning_audio_script.md",
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-05.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-05_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-05_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/piegraph_learning_equivariant_neural_augmented_object_dynamics.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/piegraph_learning_equivariant_neural_augmented_object_dynamics_audio_script.md",
+      "audioPath": "audio/generated/piegraph_learning_equivariant_neural_augmented_object_dynamics.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-04.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-04_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-04_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/energyflow_recovering_hidden_reward_in_diffusion_based_policies.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/energyflow_recovering_hidden_reward_in_diffusion_based_policies_audio_script.md",
+      "audioPath": "audio/generated/energyflow_recovering_hidden_reward_in_diffusion_based_policies.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     }
