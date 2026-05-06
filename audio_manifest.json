@@ -1121,6 +1121,20 @@
       "audioPath": "audio/generated/energyflow_recovering_hidden_reward_in_diffusion_based_policies.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-06.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-06_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-06_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/refining_compositional_diffusion_reliable_long_horizon_planning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/refining_compositional_diffusion_reliable_long_horizon_planning_audio_script.md",
+      "audioPath": "audio/generated/refining_compositional_diffusion_reliable_long_horizon_planning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
