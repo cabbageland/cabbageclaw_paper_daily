@@ -317,6 +317,34 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-05-04.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-04_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-04_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-05.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-05_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-05_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-06.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-06_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-06_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-07.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-07_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-07_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -422,6 +450,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/consisvla_4d_spatiotemporal_consistency_robotic_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/consisvla_4d_spatiotemporal_consistency_robotic_manipulation_audio_script.md",
+      "audioPath": "audio/generated/consisvla_4d_spatiotemporal_consistency_robotic_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/cortex_2_0_grounding_world_models_in_real_world_industrial_deployment.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/cortex_2_0_grounding_world_models_in_real_world_industrial_deployment_audio_script.md",
@@ -489,6 +524,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/edit_as_act_goal_regressive_planning_3d_scene_editing_audio_script.md",
       "audioPath": "audio/generated/edit_as_act_goal_regressive_planning_3d_scene_editing.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/energyflow_recovering_hidden_reward_in_diffusion_based_policies.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/energyflow_recovering_hidden_reward_in_diffusion_based_policies_audio_script.md",
+      "audioPath": "audio/generated/energyflow_recovering_hidden_reward_in_diffusion_based_policies.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -587,6 +629,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/hazardarena_evaluating_semantic_safety_in_vlas_audio_script.md",
       "audioPath": "audio/generated/hazardarena_evaluating_semantic_safety_in_vlas.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/hdflow_hierarchical_diffusion_flow_planning_long_horizon_tasks.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/hdflow_hierarchical_diffusion_flow_planning_long_horizon_tasks_audio_script.md",
+      "audioPath": "audio/generated/hdflow_hierarchical_diffusion_flow_planning_long_horizon_tasks.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -814,6 +863,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/piegraph_learning_equivariant_neural_augmented_object_dynamics.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/piegraph_learning_equivariant_neural_augmented_object_dynamics_audio_script.md",
+      "audioPath": "audio/generated/piegraph_learning_equivariant_neural_augmented_object_dynamics.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/pijepa_policy_guided_world_model_navigation.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/pijepa_policy_guided_world_model_navigation_audio_script.md",
@@ -881,6 +937,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/recgen_multi_object_scene_reconstruction_from_sparse_observations_audio_script.md",
       "audioPath": "audio/generated/recgen_multi_object_scene_reconstruction_from_sparse_observations.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/refining_compositional_diffusion_reliable_long_horizon_planning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/refining_compositional_diffusion_reliable_long_horizon_planning_audio_script.md",
+      "audioPath": "audio/generated/refining_compositional_diffusion_reliable_long_horizon_planning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1091,48 +1154,6 @@
       "label": "listen",
       "scriptPath": "audio_scripts/vla_memory_and_continual_learning_audio_script.md",
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-05-05.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-05-05_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-05-05_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/piegraph_learning_equivariant_neural_augmented_object_dynamics.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/piegraph_learning_equivariant_neural_augmented_object_dynamics_audio_script.md",
-      "audioPath": "audio/generated/piegraph_learning_equivariant_neural_augmented_object_dynamics.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-05-04.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-05-04_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-05-04_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/energyflow_recovering_hidden_reward_in_diffusion_based_policies.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/energyflow_recovering_hidden_reward_in_diffusion_based_policies_audio_script.md",
-      "audioPath": "audio/generated/energyflow_recovering_hidden_reward_in_diffusion_based_policies.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-05-06.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-05-06_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-05-06_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/refining_compositional_diffusion_reliable_long_horizon_planning.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/refining_compositional_diffusion_reliable_long_horizon_planning_audio_script.md",
-      "audioPath": "audio/generated/refining_compositional_diffusion_reliable_long_horizon_planning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     }
