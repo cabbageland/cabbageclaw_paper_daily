@@ -345,6 +345,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-05-08.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-08_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-08_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -384,6 +391,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/adaptive_action_chunking_at_inference_time_for_vla_models_audio_script.md",
       "audioPath": "audio/generated/adaptive_action_chunking_at_inference_time_for_vla_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/adaptive_action_execution_world_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/adaptive_action_execution_world_action_models_audio_script.md",
+      "audioPath": "audio/generated/adaptive_action_execution_world_action_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -821,6 +835,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/oa_wam_object_addressable_world_action_model_robust_robot_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/oa_wam_object_addressable_world_action_model_robust_robot_manipulation_audio_script.md",
+      "audioPath": "audio/generated/oa_wam_object_addressable_world_action_model_robust_robot_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/occsim_long_horizon_occupancy_world_models.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/occsim_long_horizon_occupancy_world_models_audio_script.md",
@@ -937,6 +958,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/recgen_multi_object_scene_reconstruction_from_sparse_observations_audio_script.md",
       "audioPath": "audio/generated/recgen_multi_object_scene_reconstruction_from_sparse_observations.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/reconstruction_or_semantics_latent_space_useful_robotic_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/reconstruction_or_semantics_latent_space_useful_robotic_world_models_audio_script.md",
+      "audioPath": "audio/generated/reconstruction_or_semantics_latent_space_useful_robotic_world_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
