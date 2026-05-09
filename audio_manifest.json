@@ -1184,6 +1184,34 @@
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-09.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-09_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-09_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/ea_wm_event_aware_generative_world_model_structured_kinematic_to_visual_action_fields.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/ea_wm_event_aware_generative_world_model_structured_kinematic_to_visual_action_fields_audio_script.md",
+      "audioPath": "audio/generated/ea_wm_event_aware_generative_world_model_structured_kinematic_to_visual_action_fields.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/trirelvla_triadic_relational_structure_for_generalizable_embodied_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/trirelvla_triadic_relational_structure_for_generalizable_embodied_manipulation_audio_script.md",
+      "audioPath": "audio/generated/trirelvla_triadic_relational_structure_for_generalizable_embodied_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/ckt_wam_parameter_efficient_context_knowledge_transfer_between_world_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/ckt_wam_parameter_efficient_context_knowledge_transfer_between_world_action_models_audio_script.md",
+      "audioPath": "audio/generated/ckt_wam_parameter_efficient_context_knowledge_transfer_between_world_action_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
