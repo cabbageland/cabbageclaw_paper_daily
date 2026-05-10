@@ -1212,6 +1212,20 @@
       "audioPath": "audio/generated/ckt_wam_parameter_efficient_context_knowledge_transfer_between_world_action_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-10.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-10_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-10_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/earth_o1_grid_free_observation_native_atmospheric_world_model.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/earth_o1_grid_free_observation_native_atmospheric_world_model_audio_script.md",
+      "audioPath": "audio/generated/earth_o1_grid_free_observation_native_atmospheric_world_model.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
