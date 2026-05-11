@@ -1226,6 +1226,34 @@
       "audioPath": "audio/generated/earth_o1_grid_free_observation_native_atmospheric_world_model.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-11.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-11_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-11_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/agwm_affordance_grounded_world_models_compositional_prerequisites.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/agwm_affordance_grounded_world_models_compositional_prerequisites_audio_script.md",
+      "audioPath": "audio/generated/agwm_affordance_grounded_world_models_compositional_prerequisites.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/is_the_future_compatible_dynamic_consistency_world_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/is_the_future_compatible_dynamic_consistency_world_action_models_audio_script.md",
+      "audioPath": "audio/generated/is_the_future_compatible_dynamic_consistency_world_action_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/one_token_per_frame_visual_bandwidth_world_models_for_vla_policy.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/one_token_per_frame_visual_bandwidth_world_models_for_vla_policy_audio_script.md",
+      "audioPath": "audio/generated/one_token_per_frame_visual_bandwidth_world_models_for_vla_policy.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
