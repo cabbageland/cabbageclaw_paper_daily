@@ -1254,6 +1254,20 @@
       "audioPath": "audio/generated/one_token_per_frame_visual_bandwidth_world_models_for_vla_policy.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-12.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-12_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-12_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/latent_geometry_beyond_search_amortizing_planning_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/latent_geometry_beyond_search_amortizing_planning_world_models_audio_script.md",
+      "audioPath": "audio/generated/latent_geometry_beyond_search_amortizing_planning_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
