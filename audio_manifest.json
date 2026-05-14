@@ -1275,6 +1275,27 @@
       "audioPath": "audio/generated/grounding_by_remembering_cross_scene_and_in_scene_memory_for_3d_functional_affordances.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-14.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-14_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-14_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/retrieve_then_steer_online_success_memory_test_time_adaptation_generative_vlas.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/retrieve_then_steer_online_success_memory_test_time_adaptation_generative_vlas_audio_script.md",
+      "audioPath": "audio/generated/retrieve_then_steer_online_success_memory_test_time_adaptation_generative_vlas.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/flame3d_zero_shot_compositional_reasoning_3d_scenes_agentic_language_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/flame3d_zero_shot_compositional_reasoning_3d_scenes_agentic_language_models_audio_script.md",
+      "audioPath": "audio/generated/flame3d_zero_shot_compositional_reasoning_3d_scenes_agentic_language_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
