@@ -1296,6 +1296,27 @@
       "audioPath": "audio/generated/flame3d_zero_shot_compositional_reasoning_3d_scenes_agentic_language_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-15.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-15_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-15_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/slot_mpc_goal_conditioned_model_predictive_control_object_centric_representations.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/slot_mpc_goal_conditioned_model_predictive_control_object_centric_representations_audio_script.md",
+      "audioPath": "audio/generated/slot_mpc_goal_conditioned_model_predictive_control_object_centric_representations.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/lexi_sg_monocular_3d_scene_graph_mapping_room_guided_feed_forward_reconstruction.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/lexi_sg_monocular_3d_scene_graph_mapping_room_guided_feed_forward_reconstruction_audio_script.md",
+      "audioPath": "audio/generated/lexi_sg_monocular_3d_scene_graph_mapping_room_guided_feed_forward_reconstruction.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
