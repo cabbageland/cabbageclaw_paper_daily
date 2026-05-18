@@ -1366,6 +1366,20 @@
       "audioPath": "audio/generated/articraft_an_agentic_system_for_scalable_articulated_3d_asset_generation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-18.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-18_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-18_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/learning_bilevel_policies_over_symbolic_world_models_for_long_horizon_planning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/learning_bilevel_policies_over_symbolic_world_models_for_long_horizon_planning_audio_script.md",
+      "audioPath": "audio/generated/learning_bilevel_policies_over_symbolic_world_models_for_long_horizon_planning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
