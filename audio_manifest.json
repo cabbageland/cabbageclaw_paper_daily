@@ -1380,6 +1380,27 @@
       "audioPath": "audio/generated/learning_bilevel_policies_over_symbolic_world_models_for_long_horizon_planning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-19.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-19_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-19_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dare_eeg_dual_aligned_representation_of_eeg.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dare_eeg_dual_aligned_representation_of_eeg_audio_script.md",
+      "audioPath": "audio/generated/dare_eeg_dual_aligned_representation_of_eeg.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/key_gram_extensible_world_knowledge_for_embodied_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/key_gram_extensible_world_knowledge_for_embodied_manipulation_audio_script.md",
+      "audioPath": "audio/generated/key_gram_extensible_world_knowledge_for_embodied_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
