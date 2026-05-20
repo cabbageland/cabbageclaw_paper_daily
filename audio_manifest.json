@@ -408,6 +408,34 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-05-17.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-17_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-17_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-18.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-18_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-18_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-19.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-19_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-19_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-20.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-20_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-20_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -485,6 +513,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/articraft_an_agentic_system_for_scalable_articulated_3d_asset_generation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/articraft_an_agentic_system_for_scalable_articulated_3d_asset_generation_audio_script.md",
+      "audioPath": "audio/generated/articraft_an_agentic_system_for_scalable_articulated_3d_asset_generation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/cgc_compositional_grounded_contrast_multi_image_understanding.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/cgc_compositional_grounded_contrast_multi_image_understanding_audio_script.md",
@@ -559,6 +594,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/dailyart_single_image_articulation_via_latent_dynamics_audio_script.md",
       "audioPath": "audio/generated/dailyart_single_image_articulation_via_latent_dynamics.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dare_eeg_dual_aligned_representation_of_eeg.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dare_eeg_dual_aligned_representation_of_eeg_audio_script.md",
+      "audioPath": "audio/generated/dare_eeg_dual_aligned_representation_of_eeg.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -821,6 +863,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/key_gram_extensible_world_knowledge_for_embodied_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/key_gram_extensible_world_knowledge_for_embodied_manipulation_audio_script.md",
+      "audioPath": "audio/generated/key_gram_extensible_world_knowledge_for_embodied_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/lamp_image_editing_as_3d_priors_for_manipulation.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/lamp_image_editing_as_3d_priors_for_manipulation_audio_script.md",
@@ -856,6 +905,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/learning_bilevel_policies_over_symbolic_world_models_for_long_horizon_planning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/learning_bilevel_policies_over_symbolic_world_models_for_long_horizon_planning_audio_script.md",
+      "audioPath": "audio/generated/learning_bilevel_policies_over_symbolic_world_models_for_long_horizon_planning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/learning_pomdp_world_models_from_observations_with_language_model_priors.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/learning_pomdp_world_models_from_observations_with_language_model_priors_audio_script.md",
@@ -874,6 +930,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/lexi_sg_monocular_3d_scene_graph_mapping_room_guided_feed_forward_reconstruction_audio_script.md",
       "audioPath": "audio/generated/lexi_sg_monocular_3d_scene_graph_mapping_room_guided_feed_forward_reconstruction.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/lifting_embodied_world_models_for_planning_and_control.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/lifting_embodied_world_models_for_planning_and_control_audio_script.md",
+      "audioPath": "audio/generated/lifting_embodied_world_models_for_planning_and_control.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1350,55 +1413,6 @@
       "label": "listen",
       "scriptPath": "audio_scripts/vla_memory_and_continual_learning_audio_script.md",
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-05-17.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-05-17_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-05-17_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/articraft_an_agentic_system_for_scalable_articulated_3d_asset_generation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/articraft_an_agentic_system_for_scalable_articulated_3d_asset_generation_audio_script.md",
-      "audioPath": "audio/generated/articraft_an_agentic_system_for_scalable_articulated_3d_asset_generation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-05-18.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-05-18_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-05-18_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/learning_bilevel_policies_over_symbolic_world_models_for_long_horizon_planning.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/learning_bilevel_policies_over_symbolic_world_models_for_long_horizon_planning_audio_script.md",
-      "audioPath": "audio/generated/learning_bilevel_policies_over_symbolic_world_models_for_long_horizon_planning.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-05-19.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-05-19_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-05-19_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/dare_eeg_dual_aligned_representation_of_eeg.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/dare_eeg_dual_aligned_representation_of_eeg_audio_script.md",
-      "audioPath": "audio/generated/dare_eeg_dual_aligned_representation_of_eeg.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/key_gram_extensible_world_knowledge_for_embodied_manipulation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/key_gram_extensible_world_knowledge_for_embodied_manipulation_audio_script.md",
-      "audioPath": "audio/generated/key_gram_extensible_world_knowledge_for_embodied_manipulation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     }
