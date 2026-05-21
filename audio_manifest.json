@@ -1415,6 +1415,27 @@
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-21.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-21_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-21_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/echo_continuous_hierarchical_memory_for_vision_language_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/echo_continuous_hierarchical_memory_for_vision_language_action_models_audio_script.md",
+      "audioPath": "audio/generated/echo_continuous_hierarchical_memory_for_vision_language_action_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/jointly_learning_predicates_and_actions_enables_zero_shot_skill_composition.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/jointly_learning_predicates_and_actions_enables_zero_shot_skill_composition_audio_script.md",
+      "audioPath": "audio/generated/jointly_learning_predicates_and_actions_enables_zero_shot_skill_composition.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
