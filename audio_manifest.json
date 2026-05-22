@@ -1436,6 +1436,27 @@
       "audioPath": "audio/generated/jointly_learning_predicates_and_actions_enables_zero_shot_skill_composition.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-22.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-22_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-22_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dila_disentangled_latent_action_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dila_disentangled_latent_action_world_models_audio_script.md",
+      "audioPath": "audio/generated/dila_disentangled_latent_action_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects_audio_script.md",
+      "audioPath": "audio/generated/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
