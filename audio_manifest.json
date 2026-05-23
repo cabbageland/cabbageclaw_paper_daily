@@ -436,6 +436,27 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-05-21.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-21_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-21_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-22.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-22_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-22_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-23.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-23_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-23_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -517,6 +538,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/articraft_an_agentic_system_for_scalable_articulated_3d_asset_generation_audio_script.md",
       "audioPath": "audio/generated/articraft_an_agentic_system_for_scalable_articulated_3d_asset_generation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/cambrian_p_pose_grounded_video_understanding.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/cambrian_p_pose_grounded_video_understanding_audio_script.md",
+      "audioPath": "audio/generated/cambrian_p_pose_grounded_video_understanding.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -639,6 +667,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/dila_disentangled_latent_action_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dila_disentangled_latent_action_world_models_audio_script.md",
+      "audioPath": "audio/generated/dila_disentangled_latent_action_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/dual_anchoring_addressing_state_drift_in_vision_language_navigation.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/dual_anchoring_addressing_state_drift_in_vision_language_navigation_audio_script.md",
@@ -664,6 +699,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/earth_o1_grid_free_observation_native_atmospheric_world_model_audio_script.md",
       "audioPath": "audio/generated/earth_o1_grid_free_observation_native_atmospheric_world_model.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/echo_continuous_hierarchical_memory_for_vision_language_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/echo_continuous_hierarchical_memory_for_vision_language_action_models_audio_script.md",
+      "audioPath": "audio/generated/echo_continuous_hierarchical_memory_for_vision_language_action_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -860,6 +902,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/is_the_future_compatible_dynamic_consistency_world_action_models_audio_script.md",
       "audioPath": "audio/generated/is_the_future_compatible_dynamic_consistency_world_action_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/jointly_learning_predicates_and_actions_enables_zero_shot_skill_composition.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/jointly_learning_predicates_and_actions_enables_zero_shot_skill_composition_audio_script.md",
+      "audioPath": "audio/generated/jointly_learning_predicates_and_actions_enables_zero_shot_skill_composition.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1206,6 +1255,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects_audio_script.md",
+      "audioPath": "audio/generated/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/sg_vla_spatially_grounded_vla_mobile_manipulation.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/sg_vla_spatially_grounded_vla_mobile_manipulation_audio_script.md",
@@ -1231,6 +1287,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/slot_mpc_goal_conditioned_model_predictive_control_object_centric_representations_audio_script.md",
       "audioPath": "audio/generated/slot_mpc_goal_conditioned_model_predictive_control_object_centric_representations.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/soma_spatial_memory_for_out_of_vision_manipulation_in_vla.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/soma_spatial_memory_for_out_of_vision_manipulation_in_vla_audio_script.md",
+      "audioPath": "audio/generated/soma_spatial_memory_for_out_of_vision_manipulation_in_vla.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1413,48 +1476,6 @@
       "label": "listen",
       "scriptPath": "audio_scripts/vla_memory_and_continual_learning_audio_script.md",
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-05-21.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-05-21_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-05-21_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/echo_continuous_hierarchical_memory_for_vision_language_action_models.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/echo_continuous_hierarchical_memory_for_vision_language_action_models_audio_script.md",
-      "audioPath": "audio/generated/echo_continuous_hierarchical_memory_for_vision_language_action_models.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/jointly_learning_predicates_and_actions_enables_zero_shot_skill_composition.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/jointly_learning_predicates_and_actions_enables_zero_shot_skill_composition_audio_script.md",
-      "audioPath": "audio/generated/jointly_learning_predicates_and_actions_enables_zero_shot_skill_composition.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-05-22.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-05-22_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-05-22_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/dila_disentangled_latent_action_world_models.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/dila_disentangled_latent_action_world_models_audio_script.md",
-      "audioPath": "audio/generated/dila_disentangled_latent_action_world_models.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects_audio_script.md",
-      "audioPath": "audio/generated/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     }
