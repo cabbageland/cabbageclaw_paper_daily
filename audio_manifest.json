@@ -1478,6 +1478,27 @@
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-24.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-24_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-24_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/evoscene_vla_evolving_scene_beliefs_inside_the_action_decoder_for_chunked_robot_control.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/evoscene_vla_evolving_scene_beliefs_inside_the_action_decoder_for_chunked_robot_control_audio_script.md",
+      "audioPath": "audio/generated/evoscene_vla_evolving_scene_beliefs_inside_the_action_decoder_for_chunked_robot_control.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/repairing_latent_world_models_with_horizon_matched_trajectory_reachability_metrics.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/repairing_latent_world_models_with_horizon_matched_trajectory_reachability_metrics_audio_script.md",
+      "audioPath": "audio/generated/repairing_latent_world_models_with_horizon_matched_trajectory_reachability_metrics.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
