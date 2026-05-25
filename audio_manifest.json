@@ -1499,6 +1499,34 @@
       "audioPath": "audio/generated/repairing_latent_world_models_with_horizon_matched_trajectory_reachability_metrics.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-25.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-25_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-25_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/horizonstream_long_horizon_attention_for_streaming_3d_reconstruction.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/horizonstream_long_horizon_attention_for_streaming_3d_reconstruction_audio_script.md",
+      "audioPath": "audio/generated/horizonstream_long_horizon_attention_for_streaming_3d_reconstruction.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/pathnavigate_training_free_pathology_agent_with_surprise_guided_scan_and_shared_slide_memory_for_whole_slide_image_vqa.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/pathnavigate_training_free_pathology_agent_with_surprise_guided_scan_and_shared_slide_memory_for_whole_slide_image_vqa_audio_script.md",
+      "audioPath": "audio/generated/pathnavigate_training_free_pathology_agent_with_surprise_guided_scan_and_shared_slide_memory_for_whole_slide_image_vqa.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/point_tracking_improves_world_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/point_tracking_improves_world_action_models_audio_script.md",
+      "audioPath": "audio/generated/point_tracking_improves_world_action_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
