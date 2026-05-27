@@ -478,6 +478,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-05-27.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-27_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-27_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -566,6 +573,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/cambrian_p_pose_grounded_video_understanding_audio_script.md",
       "audioPath": "audio/generated/cambrian_p_pose_grounded_video_understanding.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/can_vla_models_learn_from_real_world_data_continually_without_forgetting.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/can_vla_models_learn_from_real_world_data_continually_without_forgetting_audio_script.md",
+      "audioPath": "audio/generated/can_vla_models_learn_from_real_world_data_continually_without_forgetting.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1322,6 +1336,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects_audio_script.md",
       "audioPath": "audio/generated/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/semantically_structured_mixture_of_experts_for_compositional_robotic_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/semantically_structured_mixture_of_experts_for_compositional_robotic_manipulation_audio_script.md",
+      "audioPath": "audio/generated/semantically_structured_mixture_of_experts_for_compositional_robotic_manipulation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
