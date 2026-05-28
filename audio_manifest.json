@@ -1569,6 +1569,27 @@
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-28.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-28_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-28_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/primitivevla_learning_reusable_motion_primitives_for_efficient_and_generalizable_robotic_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/primitivevla_learning_reusable_motion_primitives_for_efficient_and_generalizable_robotic_manipulation_audio_script.md",
+      "audioPath": "audio/generated/primitivevla_learning_reusable_motion_primitives_for_efficient_and_generalizable_robotic_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/progvla_progress_aware_robot_manipulation_skill_learning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/progvla_progress_aware_robot_manipulation_skill_learning_audio_script.md",
+      "audioPath": "audio/generated/progvla_progress_aware_robot_manipulation_skill_learning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
