@@ -1590,6 +1590,27 @@
       "audioPath": "audio/generated/progvla_progress_aware_robot_manipulation_skill_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-05-29.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-29_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-29_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dynaflip_rethinking_robotics_perception_via_tri_modal_dynamics_guided_representation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dynaflip_rethinking_robotics_perception_via_tri_modal_dynamics_guided_representation_audio_script.md",
+      "audioPath": "audio/generated/dynaflip_rethinking_robotics_perception_via_tri_modal_dynamics_guided_representation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/adastate_self_evolving_anchors_for_streaming_video_generation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/adastate_self_evolving_anchors_for_streaming_video_generation_audio_script.md",
+      "audioPath": "audio/generated/adastate_self_evolving_anchors_for_streaming_video_generation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
