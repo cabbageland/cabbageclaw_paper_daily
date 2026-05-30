@@ -485,6 +485,27 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-05-28.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-28_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-28_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-29.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-29_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-29_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-05-30.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-30_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-30_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -538,6 +559,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/adaptive_action_execution_world_action_models_audio_script.md",
       "audioPath": "audio/generated/adaptive_action_execution_world_action_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/adastate_self_evolving_anchors_for_streaming_video_generation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/adastate_self_evolving_anchors_for_streaming_video_generation_audio_script.md",
+      "audioPath": "audio/generated/adastate_self_evolving_anchors_for_streaming_video_generation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -723,6 +751,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/dynaflip_rethinking_robotics_perception_via_tri_modal_dynamics_guided_representation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dynaflip_rethinking_robotics_perception_via_tri_modal_dynamics_guided_representation_audio_script.md",
+      "audioPath": "audio/generated/dynaflip_rethinking_robotics_perception_via_tri_modal_dynamics_guided_representation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/ea_wm_event_aware_generative_world_model_structured_kinematic_to_visual_action_fields.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/ea_wm_event_aware_generative_world_model_structured_kinematic_to_visual_action_fields_audio_script.md",
@@ -748,6 +783,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/edit_as_act_goal_regressive_planning_3d_scene_editing_audio_script.md",
       "audioPath": "audio/generated/edit_as_act_goal_regressive_planning_3d_scene_editing.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/embodied_interpretability_linking_causal_understanding_to_generalization_in_vision_language_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/embodied_interpretability_linking_causal_understanding_to_generalization_in_vision_language_action_models_audio_script.md",
+      "audioPath": "audio/generated/embodied_interpretability_linking_causal_understanding_to_generalization_in_vision_language_action_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1255,10 +1297,24 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/primitivevla_learning_reusable_motion_primitives_for_efficient_and_generalizable_robotic_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/primitivevla_learning_reusable_motion_primitives_for_efficient_and_generalizable_robotic_manipulation_audio_script.md",
+      "audioPath": "audio/generated/primitivevla_learning_reusable_motion_primitives_for_efficient_and_generalizable_robotic_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/privileged_foresight_distillation_world_action_models.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/privileged_foresight_distillation_world_action_models_audio_script.md",
       "audioPath": "audio/generated/privileged_foresight_distillation_world_action_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/progvla_progress_aware_robot_manipulation_skill_learning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/progvla_progress_aware_robot_manipulation_skill_learning_audio_script.md",
+      "audioPath": "audio/generated/progvla_progress_aware_robot_manipulation_skill_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1329,6 +1385,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/robotic_manipulation_is_vision_to_geometry_mapping_audio_script.md",
       "audioPath": "audio/generated/robotic_manipulation_is_vision_to_geometry_mapping.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/sam_state_adaptive_memory_for_long_horizon_reasoning_agent.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/sam_state_adaptive_memory_for_long_horizon_reasoning_agent_audio_script.md",
+      "audioPath": "audio/generated/sam_state_adaptive_memory_for_long_horizon_reasoning_agent.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1567,48 +1630,6 @@
       "label": "listen",
       "scriptPath": "audio_scripts/vla_memory_and_continual_learning_audio_script.md",
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-05-28.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-05-28_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-05-28_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/primitivevla_learning_reusable_motion_primitives_for_efficient_and_generalizable_robotic_manipulation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/primitivevla_learning_reusable_motion_primitives_for_efficient_and_generalizable_robotic_manipulation_audio_script.md",
-      "audioPath": "audio/generated/primitivevla_learning_reusable_motion_primitives_for_efficient_and_generalizable_robotic_manipulation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/progvla_progress_aware_robot_manipulation_skill_learning.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/progvla_progress_aware_robot_manipulation_skill_learning_audio_script.md",
-      "audioPath": "audio/generated/progvla_progress_aware_robot_manipulation_skill_learning.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-05-29.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-05-29_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-05-29_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/dynaflip_rethinking_robotics_perception_via_tri_modal_dynamics_guided_representation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/dynaflip_rethinking_robotics_perception_via_tri_modal_dynamics_guided_representation_audio_script.md",
-      "audioPath": "audio/generated/dynaflip_rethinking_robotics_perception_via_tri_modal_dynamics_guided_representation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/adastate_self_evolving_anchors_for_streaming_video_generation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/adastate_self_evolving_anchors_for_streaming_video_generation_audio_script.md",
-      "audioPath": "audio/generated/adastate_self_evolving_anchors_for_streaming_video_generation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     }
