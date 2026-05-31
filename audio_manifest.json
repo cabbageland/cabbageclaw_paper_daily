@@ -506,6 +506,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-05-31.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-05-31_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-05-31_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -1588,6 +1595,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/world_action_verifier_self_improving_world_models_via_forward_inverse_asymmetry_audio_script.md",
       "audioPath": "audio/generated/world_action_verifier_self_improving_world_models_via_forward_inverse_asymmetry.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/world_ego_modeling_for_long_horizon_evolution_in_hybrid_embodied_tasks.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/world_ego_modeling_for_long_horizon_evolution_in_hybrid_embodied_tasks_audio_script.md",
+      "audioPath": "audio/generated/world_ego_modeling_for_long_horizon_evolution_in_hybrid_embodied_tasks.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
