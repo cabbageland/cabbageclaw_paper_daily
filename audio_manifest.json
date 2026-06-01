@@ -513,6 +513,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-06-01.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-01_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-01_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -790,6 +797,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/edit_as_act_goal_regressive_planning_3d_scene_editing_audio_script.md",
       "audioPath": "audio/generated/edit_as_act_goal_regressive_planning_3d_scene_editing.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/elan4d_embodiment_centric_4d_supervision_for_vision_language_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/elan4d_embodiment_centric_4d_supervision_for_vision_language_action_models_audio_script.md",
+      "audioPath": "audio/generated/elan4d_embodiment_centric_4d_supervision_for_vision_language_action_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
