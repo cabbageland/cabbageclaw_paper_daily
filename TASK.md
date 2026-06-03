@@ -42,11 +42,13 @@ Usually prioritize:
 - compositional reasoning
 - embodied intelligence / robotics
 - memory, planning, tool use
+- continual learning
 - representation learning
 - controllability / interpretability
 - neurosymbolic and hybrid systems
 - neurosymbolic memory and continual learning in VLA / VLM / world models
 - physical structure, explicit state, and reusable abstractions
+- foundation-model technical reports and serious field-deployment documentation
 
 Especially valuable are papers that:
 
@@ -56,6 +58,7 @@ Especially valuable are papers that:
 - connect perception, generation, reasoning, and action in a defensible way
 - introduce transferable design ideas across domains
 - sharpen novelty framing, related-work positioning, or baseline choice
+- document how foundation models actually behave in production, field deployment, or long-lived adaptation settings
 
 Lower priority:
 
