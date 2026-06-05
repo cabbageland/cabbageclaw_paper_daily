@@ -1688,6 +1688,27 @@
       "audioPath": "audio/generated/oscar_omni_embodiment_action_conditioned_world_model_for_robotics.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-05.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-05_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-05_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/pil_world_chunk_wise_world_model_vla_policy_in_loop_evaluation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/pil_world_chunk_wise_world_model_vla_policy_in_loop_evaluation_audio_script.md",
+      "audioPath": "audio/generated/pil_world_chunk_wise_world_model_vla_policy_in_loop_evaluation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/world_language_action_model_unified_world_modeling_language_reasoning_action_synthesis.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/world_language_action_model_unified_world_modeling_language_reasoning_action_synthesis_audio_script.md",
+      "audioPath": "audio/generated/world_language_action_model_unified_world_modeling_language_reasoning_action_synthesis.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
