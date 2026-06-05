@@ -1660,6 +1660,34 @@
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-04.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-04_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-04_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/3d_isovist_world_model_unseen_city_geometry.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/3d_isovist_world_model_unseen_city_geometry_audio_script.md",
+      "audioPath": "audio/generated/3d_isovist_world_model_unseen_city_geometry.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/generalization_world_models_environmental_variability_quadrotor_navigation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/generalization_world_models_environmental_variability_quadrotor_navigation_audio_script.md",
+      "audioPath": "audio/generated/generalization_world_models_environmental_variability_quadrotor_navigation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/oscar_omni_embodiment_action_conditioned_world_model_for_robotics.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/oscar_omni_embodiment_action_conditioned_world_model_for_robotics_audio_script.md",
+      "audioPath": "audio/generated/oscar_omni_embodiment_action_conditioned_world_model_for_robotics.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
