@@ -1709,6 +1709,34 @@
       "audioPath": "audio/generated/world_language_action_model_unified_world_modeling_language_reasoning_action_synthesis.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-06.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-06_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-06_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/astra_agentic_visual_spatial_reasoning_world_simulators.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/astra_agentic_visual_spatial_reasoning_world_simulators_audio_script.md",
+      "audioPath": "audio/generated/astra_agentic_visual_spatial_reasoning_world_simulators.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/pact_action_state_communication_multi_agent_systems.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/pact_action_state_communication_multi_agent_systems_audio_script.md",
+      "audioPath": "audio/generated/pact_action_state_communication_multi_agent_systems.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/vaso_formally_verifiable_self_evolving_skills_physical_ai_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/vaso_formally_verifiable_self_evolving_skills_physical_ai_agents_audio_script.md",
+      "audioPath": "audio/generated/vaso_formally_verifiable_self_evolving_skills_physical_ai_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
