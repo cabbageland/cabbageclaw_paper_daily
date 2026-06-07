@@ -1737,6 +1737,34 @@
       "audioPath": "audio/generated/vaso_formally_verifiable_self_evolving_skills_physical_ai_agents.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-07.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-07_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-07_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/patchworld_gradient_free_executable_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/patchworld_gradient_free_executable_world_models_audio_script.md",
+      "audioPath": "audio/generated/patchworld_gradient_free_executable_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/worth_remembering_surprise_gated_robot_episodic_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/worth_remembering_surprise_gated_robot_episodic_memory_audio_script.md",
+      "audioPath": "audio/generated/worth_remembering_surprise_gated_robot_episodic_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/longspace_long_horizon_spatial_memory_video.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/longspace_long_horizon_spatial_memory_video_audio_script.md",
+      "audioPath": "audio/generated/longspace_long_horizon_spatial_memory_video.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }

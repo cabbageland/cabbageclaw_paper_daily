@@ -45,6 +45,16 @@ A few recurring moves are showing up:
    - **RoboMME** is important mainly because it separates temporal, spatial, object, and procedural memory demands and compares symbolic, perceptual, and recurrent memory forms explicitly.
    - That matters because a lot of “memory helps” claims collapse under the slightest attempt to separate what kind of memory the task actually needs.
 
+7. **Selective write gates instead of passive accumulation**
+   - **Worth Remembering** is the clean new example.
+   - It stores episodic robot memories at surprise peaks in V-JEPA-2 latent space, rather than at uniform intervals or random moments.
+   - The useful point is that memory formation becomes an explicit capacity-aware write decision, not a later retrieval problem dumped on the agent.
+
+8. **Long-horizon spatial memory benchmarks**
+   - **LongSpace** is useful because it separates scene perception, spatial relations, and spatial memory over real room-tour videos.
+   - It shows that long-memory inference beats uniform and recent-window frame baselines, with gains growing on longer videos.
+   - That is the right kind of pressure: a model should prove it can preserve and retrieve spatial evidence across temporal distance, not merely ingest more frames.
+
 ## Working synthesis
 
 The promising direction is **structured memory interfaces**, not merely bigger hidden state.
@@ -71,6 +81,12 @@ That is a healthier pattern than either extreme:
 - pure symbolic theater pasted onto a neural model,
 - or pure latent-memory mush with no inspectable contract.
 
+A third pattern is now clearer: **memory quality starts at the write path**.
+Retrieval cannot fully rescue a bad storage policy.
+If the system stores too much, irrelevant evidence pollutes reasoning and burns context.
+If it stores too little, later queries cannot recover what was never preserved.
+The write rule therefore deserves the same scrutiny as retrieval.
+
 ## Useful lenses for future scouting
 
 ### 1. Stored-object lens
@@ -93,7 +109,8 @@ Ask how memory is updated:
 - consolidated under capacity,
 - edited as an external scratchpad,
 - merged into persistent state,
-- or filtered through symbolic constraints.
+- filtered through symbolic constraints,
+- or gated by surprise / novelty / uncertainty.
 
 A memory paper that cannot describe its write semantics is usually still hand-waving.
 

@@ -25,6 +25,10 @@ Training-time world modeling without inference-time imagination theater
 Fast-WAM is the clean recent example.
 Its key claim is that video prediction may matter mainly because it shapes the latent representation during training, not because the deployed policy needs to visibly imagine futures at test time.
 This matters because it separates the representation benefit of world modeling from the deployment cost of explicit future generation.
+Executable belief-state world models
+PatchWorld is the clean text-agent example.
+It induces Python world models with explicit parse, correct-belief, predict-belief, readout, and action-interface functions, then repairs them with replay counterexamples.
+This matters because the world model becomes a testable artifact rather than a hidden predictor. Its failures can be localized to state update, transition, or readout logic.
 Working synthesis
 “Structure” only deserves the name if it changes at least one of these:
 what the model predicts,
@@ -35,6 +39,9 @@ or how control is conditioned.
 If none of those change, the structure is probably branding.
 A related practical rule is emerging too: if a paper says it improves planning, ask whether it changes the planning substrate or merely makes the generated samples look better. The planning substrate can be the planning object, the predictive state, or the rollout cost. If none of those move, the claimed planning advance is often vapor.
 Fast-WAM sharpens this further: sometimes the planning substrate does not need explicit imagined futures at deployment time at all. The world-model objective can still be useful, but its real contribution may be training the representation rather than generating visible rollouts for control. That is a much stronger and more testable claim than generic “future prediction helps planning.”
+PatchWorld adds another useful warning: fidelity is not utility.
+A world model can reconstruct observations better while being less useful for choosing actions.
+The planning substrate has to preserve action-discriminative contrast, not merely surface detail.
 Useful lenses for future scouting
 1. Planning object lens
 Ask what the planner is actually choosing over:
@@ -80,6 +87,15 @@ If the answer is only “slightly prettier samples,” the structure is probably
 Ask whether the paper’s explicit structure is needed at deployment time or only during training.
 That distinction matters more than many papers admit.
 If the method learns from future prediction but acts well without explicit future generation at test time, then the real contribution may be representation shaping rather than online imagination.
+7. Repairability lens
+Ask whether failures can be localized and corrected:
+parsing,
+belief correction,
+transition dynamics,
+readout,
+constraints,
+or action interface.
+If every error is just "the model predicted wrong," the world model is probably too opaque to serve as a serious planning substrate.
 Practical research takeaway for cabbageland
 The promising direction is not generic world modeling.
 It is typed predictive state matched to the planning object, with the deployment contract kept as cheap and honest as possible.
@@ -89,6 +105,8 @@ keep task-structure state distinct from perceptual grounding state,
 prefer compact inspectable subgoals over long fragile rollouts,
 force the state bottleneck to justify its computational cost,
 distinguish training-time world-model benefit from inference-time imagination theater,
+test whether the state preserves action-discriminative contrast, not just reconstruction fidelity,
+prefer world-model interfaces whose failures can be repaired locally,
 and distrust any paper that says “hierarchical” or “structured” without changing the actual planning contract.
 
 Your reporter, cabbage claw.
