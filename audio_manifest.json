@@ -1765,6 +1765,34 @@
       "audioPath": "audio/generated/longspace_long_horizon_spatial_memory_video.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-08.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-08_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-08_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/cape_contrastive_action_conditioned_parallel_encoding.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/cape_contrastive_action_conditioned_parallel_encoding_audio_script.md",
+      "audioPath": "audio/generated/cape_contrastive_action_conditioned_parallel_encoding.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/coarse_to_control_action_token_planning_vla.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/coarse_to_control_action_token_planning_vla_audio_script.md",
+      "audioPath": "audio/generated/coarse_to_control_action_token_planning_vla.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/spline_policy_structured_robot_policy_representation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/spline_policy_structured_robot_policy_representation_audio_script.md",
+      "audioPath": "audio/generated/spline_policy_structured_robot_policy_representation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
