@@ -1793,6 +1793,34 @@
       "audioPath": "audio/generated/spline_policy_structured_robot_policy_representation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-09.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-09_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-09_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/imac_motion_contact_images_embodied_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/imac_motion_contact_images_embodied_world_models_audio_script.md",
+      "audioPath": "audio/generated/imac_motion_contact_images_embodied_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/latent_spatial_memory_video_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/latent_spatial_memory_video_world_models_audio_script.md",
+      "audioPath": "audio/generated/latent_spatial_memory_video_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/memoryvla_pp_temporal_modeling_memory_imagination.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/memoryvla_pp_temporal_modeling_memory_imagination_audio_script.md",
+      "audioPath": "audio/generated/memoryvla_pp_temporal_modeling_memory_imagination.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
