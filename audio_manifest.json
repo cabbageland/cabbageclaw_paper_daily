@@ -1821,6 +1821,34 @@
       "audioPath": "audio/generated/memoryvla_pp_temporal_modeling_memory_imagination.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-10.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-10_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-10_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/libero_occ_viewpoint_imagination_scene_induced_occlusion.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/libero_occ_viewpoint_imagination_scene_induced_occlusion_audio_script.md",
+      "audioPath": "audio/generated/libero_occ_viewpoint_imagination_scene_induced_occlusion.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/next_forcing_causal_world_modeling_multi_chunk_prediction.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/next_forcing_causal_world_modeling_multi_chunk_prediction_audio_script.md",
+      "audioPath": "audio/generated/next_forcing_causal_world_modeling_multi_chunk_prediction.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/tacforesight_force_guided_tactile_world_model.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/tacforesight_force_guided_tactile_world_model_audio_script.md",
+      "audioPath": "audio/generated/tacforesight_force_guided_tactile_world_model.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
