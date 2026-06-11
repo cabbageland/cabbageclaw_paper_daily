@@ -1849,6 +1849,34 @@
       "audioPath": "audio/generated/tacforesight_force_guided_tactile_world_model.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-11.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-11_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-11_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dam_vla_decoupled_asynchronous_multimodal_vla.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dam_vla_decoupled_asynchronous_multimodal_vla_audio_script.md",
+      "audioPath": "audio/generated/dam_vla_decoupled_asynchronous_multimodal_vla.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/making_foresight_actionable_representation_alignment_world_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/making_foresight_actionable_representation_alignment_world_action_models_audio_script.md",
+      "audioPath": "audio/generated/making_foresight_actionable_representation_alignment_world_action_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/world_pilot_steering_vla_with_world_action_priors.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/world_pilot_steering_vla_with_world_action_priors_audio_script.md",
+      "audioPath": "audio/generated/world_pilot_steering_vla_with_world_action_priors.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
