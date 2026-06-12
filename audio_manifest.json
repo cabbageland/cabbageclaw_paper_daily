@@ -1877,6 +1877,34 @@
       "audioPath": "audio/generated/world_pilot_steering_vla_with_world_action_priors.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-12.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-12_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-12_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/weaver_effective_world_model_for_robotic_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/weaver_effective_world_model_for_robotic_manipulation_audio_script.md",
+      "audioPath": "audio/generated/weaver_effective_world_model_for_robotic_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/maskwam_unifying_mask_prompting_prediction_world_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/maskwam_unifying_mask_prompting_prediction_world_action_models_audio_script.md",
+      "audioPath": "audio/generated/maskwam_unifying_mask_prompting_prediction_world_action_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/ea_wm_event_aware_world_models_task_specification_grounding.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/ea_wm_event_aware_world_models_task_specification_grounding_audio_script.md",
+      "audioPath": "audio/generated/ea_wm_event_aware_world_models_task_specification_grounding.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
