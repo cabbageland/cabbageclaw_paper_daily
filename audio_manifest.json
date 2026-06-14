@@ -1926,6 +1926,27 @@
       "audioPath": "audio/generated/scale_buys_interpolation_structure_buys_horizon_certified_predictability_equivariant_world_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-14.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-14_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-14_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/mu_vla_recurrent_memory_partially_observable_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/mu_vla_recurrent_memory_partially_observable_manipulation_audio_script.md",
+      "audioPath": "audio/generated/mu_vla_recurrent_memory_partially_observable_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/sparse2act_action_aligned_sparse_3d_representations.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/sparse2act_action_aligned_sparse_3d_representations_audio_script.md",
+      "audioPath": "audio/generated/sparse2act_action_aligned_sparse_3d_representations.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
