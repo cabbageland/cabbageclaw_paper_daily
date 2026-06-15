@@ -50,6 +50,15 @@ Usually prioritize:
 - physical structure, explicit state, and reusable abstractions
 - foundation-model technical reports and serious field-deployment documentation
 
+Topic balance guardrail:
+
+- Paper Daily must not become a VLA or robotics digest by default.
+- Treat robotics, embodied manipulation, and VLA/WAM work as one important lane, not the center of gravity.
+- For a typical digest, aim for at most one robotics/VLA paper in the top 3 unless multiple robotics/VLA papers are clearly exceptional and beat strong non-robotics alternatives on mechanism, evidence, and future usefulness.
+- Every scouting run should deliberately inspect non-robotics lanes too: medical/healthcare/neuro AI, evaluation and interpretability, continual learning, foundation-model technical reports, field-deployment documentation, scientific ML, 3D/generative media, representation learning, data/model infrastructure, or other mechanism-rich agentic systems.
+- If the strongest candidate is robotic or VLA, keep it only when the mechanism is genuinely strong; do not preserve another robot manipulation paper just because it says world model, memory, action, or agentic.
+- When more than one robotics/VLA item appears in a digest, justify why each one clears a higher bar than the best non-robotics alternatives found that day.
+
 Especially valuable are papers that:
 
 - replace mushy implicit behavior with explicit state or structure

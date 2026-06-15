@@ -45,6 +45,8 @@ This repository prioritizes papers around:
 - mechanism-rich agentic systems
 - foundation-model technical reports and serious field-deployment documentation
 
+Robotics and VLA work are one important lane, not the house style. The digest should deliberately keep room for strong non-robotics work: medical, healthcare, neuro, evaluation, interpretability, continual learning, foundation-model reports, field deployment, scientific ML, 3D/generative media, and representation learning.
+
 These topics matter most when the paper improves one of the following:
 
 - structure over mush
