@@ -1968,6 +1968,27 @@
       "audioPath": "audio/generated/when_errors_become_narratives_silent_failures_llm_agent_runtime.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-16.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-16_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-16_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/context_aware_rl_agentic_multimodal_llms.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/context_aware_rl_agentic_multimodal_llms_audio_script.md",
+      "audioPath": "audio/generated/context_aware_rl_agentic_multimodal_llms.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/value_axis_language_models_encode_whether_theyre_on_right_track.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/value_axis_language_models_encode_whether_theyre_on_right_track_audio_script.md",
+      "audioPath": "audio/generated/value_axis_language_models_encode_whether_theyre_on_right_track.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
