@@ -1989,6 +1989,27 @@
       "audioPath": "audio/generated/value_axis_language_models_encode_whether_theyre_on_right_track.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-17.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-17_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-17_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/chest_radiography_vlms_do_not_always_need_image.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/chest_radiography_vlms_do_not_always_need_image_audio_script.md",
+      "audioPath": "audio/generated/chest_radiography_vlms_do_not_always_need_image.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/memtrace_long_term_memory_evaluation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/memtrace_long_term_memory_evaluation_audio_script.md",
+      "audioPath": "audio/generated/memtrace_long_term_memory_evaluation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
