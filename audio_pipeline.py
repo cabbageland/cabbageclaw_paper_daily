@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import re
 import subprocess
+from array import array
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -51,6 +52,7 @@ AUDIO_MANIFEST = ROOT / 'audio_manifest.json'
 VOICE_NAME = 'en_US-hfc_male-medium'
 SPEECH_RATE = 0.95
 SILENCE_BETWEEN_CHUNKS_SEC = 0.32
+PUBLISHED_AUDIO_RATE = 8000
 
 
 def read_text(path: Path) -> str:
@@ -376,6 +378,39 @@ def validate_script(job: AudioJob, script: str) -> None:
         raise ValueError(f'{job.script_path.name}: math/latex-like markup left in script')
 
 
+def compact_wav_file(path: Path, target_rate: int = PUBLISHED_AUDIO_RATE) -> None:
+    """Downsample Piper's 16-bit mono output so GitHub Pages artifacts stay deployable."""
+    import sys
+    import wave
+
+    with wave.open(str(path), 'rb') as src:
+        channels = src.getnchannels()
+        sample_width = src.getsampwidth()
+        source_rate = src.getframerate()
+        frame_count = src.getnframes()
+        raw = src.readframes(frame_count)
+
+    if channels != 1 or sample_width != 2:
+        raise ValueError(f'{path}: expected 16-bit mono WAV, got {channels}ch/{sample_width} bytes')
+
+    samples = array('h')
+    samples.frombytes(raw)
+    if sys.byteorder != 'little':
+        samples.byteswap()
+
+    out_frames = max(1, int(frame_count * target_rate / source_rate))
+    compact = bytearray(out_frames)
+    for i in range(out_frames):
+        sample = int(samples[(i * source_rate) // target_rate])
+        compact[i] = max(0, min(255, (sample + 32768) // 256))
+
+    with wave.open(str(path), 'wb') as dst:
+        dst.setnchannels(1)
+        dst.setsampwidth(1)
+        dst.setframerate(target_rate)
+        dst.writeframes(compact)
+
+
 def write_scripts(jobs: Iterable[AudioJob]) -> None:
     for job in jobs:
         script = render_script(job)
@@ -409,6 +444,8 @@ for script_path, out_path in jobs:
     print('wrote', out_path)
 '''
     subprocess.run([str(VENV_PYTHON), '-c', script], check=True)
+    for job in jobs_list:
+        compact_wav_file(job.audio_path)
 
 
 def update_manifest(jobs: Iterable[AudioJob]) -> None:
