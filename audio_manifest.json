@@ -2010,6 +2010,34 @@
       "audioPath": "audio/generated/memtrace_long_term_memory_evaluation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-18.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-18_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-18_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/confidence_not_reliability_brain_tumour_segmentation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/confidence_not_reliability_brain_tumour_segmentation_audio_script.md",
+      "audioPath": "audio/generated/confidence_not_reliability_brain_tumour_segmentation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/explaining_attention_program_synthesis.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/explaining_attention_program_synthesis_audio_script.md",
+      "audioPath": "audio/generated/explaining_attention_program_synthesis.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/large_language_gibbs_structured_inference.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/large_language_gibbs_structured_inference_audio_script.md",
+      "audioPath": "audio/generated/large_language_gibbs_structured_inference.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
