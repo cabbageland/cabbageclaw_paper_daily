@@ -2038,6 +2038,34 @@
       "audioPath": "audio/generated/large_language_gibbs_structured_inference.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-19.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-19_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-19_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/current_world_models_lack_persistent_state_core.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/current_world_models_lack_persistent_state_core_audio_script.md",
+      "audioPath": "audio/generated/current_world_models_lack_persistent_state_core.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/fid_lottery_generative_model_evaluation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/fid_lottery_generative_model_evaluation_audio_script.md",
+      "audioPath": "audio/generated/fid_lottery_generative_model_evaluation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/ledgeragent_structured_state_tool_calling_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/ledgeragent_structured_state_tool_calling_agents_audio_script.md",
+      "audioPath": "audio/generated/ledgeragent_structured_state_tool_calling_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
