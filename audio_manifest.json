@@ -2066,6 +2066,34 @@
       "audioPath": "audio/generated/ledgeragent_structured_state_tool_calling_agents.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-20.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-20_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-20_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/deepswip_quotient_wmc_counterfactuals.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/deepswip_quotient_wmc_counterfactuals_audio_script.md",
+      "audioPath": "audio/generated/deepswip_quotient_wmc_counterfactuals.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/judging_to_improve_debiased_vlm_3d_judge.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/judging_to_improve_debiased_vlm_3d_judge_audio_script.md",
+      "audioPath": "audio/generated/judging_to_improve_debiased_vlm_3d_judge.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/sensorimotor_world_models_inverse_dynamics.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/sensorimotor_world_models_inverse_dynamics_audio_script.md",
+      "audioPath": "audio/generated/sensorimotor_world_models_inverse_dynamics.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
