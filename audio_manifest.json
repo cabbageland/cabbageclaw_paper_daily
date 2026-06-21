@@ -2094,6 +2094,34 @@
       "audioPath": "audio/generated/sensorimotor_world_models_inverse_dynamics.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-21.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-21_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-21_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/calibrated_moe_distribution_shift.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/calibrated_moe_distribution_shift_audio_script.md",
+      "audioPath": "audio/generated/calibrated_moe_distribution_shift.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/how_transparent_is_diffusiongemma.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/how_transparent_is_diffusiongemma_audio_script.md",
+      "audioPath": "audio/generated/how_transparent_is_diffusiongemma.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/thinking_in_boxes_3d_editing.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/thinking_in_boxes_3d_editing_audio_script.md",
+      "audioPath": "audio/generated/thinking_in_boxes_3d_editing.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
