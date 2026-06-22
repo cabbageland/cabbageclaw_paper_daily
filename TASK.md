@@ -246,8 +246,17 @@ For `cabbageclaw_paper_daily`, that means:
 6. commit the web repo changes
 7. push the source repo changes
 8. push the web repo changes
+9. run `python3 scripts/verify_live_publish.py` in `/home/ttt/.openclaw/workspace/cabbageclaw_paper_daily`
 
 The daily paper task is not complete until the website reflects the latest repo content and the verify step passes.
+
+GitHub Pages propagation note:
+
+- live `content.json` and audio can lag briefly after push
+- do not invent ad hoc inline polling scripts if the helper already exists
+- use `scripts/verify_live_publish.py` as the canonical live check
+- if the first live check times out, wait briefly and rerun the same helper once before deciding the publish failed
+- do not describe the whole run as failed if an earlier propagation check failed but the final live verification later succeeds
 
 ## 5. Required paper note template
 
