@@ -2122,6 +2122,34 @@
       "audioPath": "audio/generated/thinking_in_boxes_3d_editing.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-22.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-22_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-22_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/federated_crc_vulnerable_hospital.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/federated_crc_vulnerable_hospital_audio_script.md",
+      "audioPath": "audio/generated/federated_crc_vulnerable_hospital.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/optimal_deterministic_multicalibration_omniprediction.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/optimal_deterministic_multicalibration_omniprediction_audio_script.md",
+      "audioPath": "audio/generated/optimal_deterministic_multicalibration_omniprediction.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/probabilistic_verification_ai_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/probabilistic_verification_ai_agents_audio_script.md",
+      "audioPath": "audio/generated/probabilistic_verification_ai_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
