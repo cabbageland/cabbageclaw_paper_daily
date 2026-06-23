@@ -69,7 +69,7 @@ def head_ok(url: str) -> tuple[int, str | None, str | None]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--base-url", default=DEFAULT_BASE_URL)
-    parser.add_argument("--timeout", type=int, default=120)
+    parser.add_argument("--timeout", type=int, default=300)
     parser.add_argument("--interval", type=int, default=5)
     args = parser.parse_args()
 
