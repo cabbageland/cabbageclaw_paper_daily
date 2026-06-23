@@ -2150,6 +2150,34 @@
       "audioPath": "audio/generated/probabilistic_verification_ai_agents.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-23.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-23_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-23_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/evaluation_awareness_not_one_capability.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/evaluation_awareness_not_one_capability_audio_script.md",
+      "audioPath": "audio/generated/evaluation_awareness_not_one_capability.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/multi_prefix_embedding_long_context_retrieval.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/multi_prefix_embedding_long_context_retrieval_audio_script.md",
+      "audioPath": "audio/generated/multi_prefix_embedding_long_context_retrieval.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/self_compacting_language_model_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/self_compacting_language_model_agents_audio_script.md",
+      "audioPath": "audio/generated/self_compacting_language_model_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
