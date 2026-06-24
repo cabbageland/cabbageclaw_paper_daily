@@ -2178,6 +2178,34 @@
       "audioPath": "audio/generated/self_compacting_language_model_agents.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-24.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-24_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-24_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/diffusionbench_holistic_evaluation_diffusion_transformers.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/diffusionbench_holistic_evaluation_diffusion_transformers_audio_script.md",
+      "audioPath": "audio/generated/diffusionbench_holistic_evaluation_diffusion_transformers.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/flat_feedforward_latent_triangle_splatting.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/flat_feedforward_latent_triangle_splatting_audio_script.md",
+      "audioPath": "audio/generated/flat_feedforward_latent_triangle_splatting.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/sherloc_structured_diagnostic_localization_code_repair_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/sherloc_structured_diagnostic_localization_code_repair_agents_audio_script.md",
+      "audioPath": "audio/generated/sherloc_structured_diagnostic_localization_code_repair_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
