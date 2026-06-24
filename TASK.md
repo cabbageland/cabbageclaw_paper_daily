@@ -246,7 +246,8 @@ For `cabbageclaw_paper_daily`, that means:
 6. commit the web repo changes
 7. push the source repo changes
 8. push the web repo changes
-9. run `python3 scripts/verify_live_publish.py` in `/home/ttt/.openclaw/workspace/cabbageclaw_paper_daily`
+9. run `python3 scripts/verify_live_publish.py` in `/home/ttt/.openclaw/workspace/cabbageclaw_paper_daily`, capture the exit status, and treat the first non-zero result after push as a possible propagation delay rather than an immediate task failure
+10. if the first live check is non-zero, wait briefly and rerun the same helper once; only the second non-zero result counts as a real publish failure
 
 The daily paper task is not complete until the website reflects the latest repo content and the verify step passes.
 
@@ -255,7 +256,9 @@ GitHub Pages propagation note:
 - live `content.json` and audio can lag briefly after push
 - do not invent ad hoc inline polling scripts if the helper already exists
 - use `scripts/verify_live_publish.py` as the canonical live check
-- if the first live check times out, wait briefly and rerun the same helper once before deciding the publish failed
+- run the helper in a way that preserves control after a first failure, for example: `python3 scripts/verify_live_publish.py; live_status=$?; echo LIVE_VERIFY_EXIT=$live_status`
+- if the first live check is non-zero or times out, wait briefly and rerun the same helper once before deciding the publish failed
+- do not let the first failed live check terminate the whole task before the required second pass happens
 - do not describe the whole run as failed if an earlier propagation check failed but the final live verification later succeeds
 
 ## 5. Required paper note template
