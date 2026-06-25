@@ -2206,6 +2206,34 @@
       "audioPath": "audio/generated/sherloc_structured_diagnostic_localization_code_repair_agents.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-25.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-25_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-25_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dense_supervision_readout_blind_spot_looped_language_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dense_supervision_readout_blind_spot_looped_language_models_audio_script.md",
+      "audioPath": "audio/generated/dense_supervision_readout_blind_spot_looped_language_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/project_auto_world_automated_benchmarking_relational_reasoners.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/project_auto_world_automated_benchmarking_relational_reasoners_audio_script.md",
+      "audioPath": "audio/generated/project_auto_world_automated_benchmarking_relational_reasoners.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/reclaim_evaluation_lossy_memory_worse_than_empty.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/reclaim_evaluation_lossy_memory_worse_than_empty_audio_script.md",
+      "audioPath": "audio/generated/reclaim_evaluation_lossy_memory_worse_than_empty.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
