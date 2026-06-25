@@ -261,6 +261,13 @@ GitHub Pages propagation note:
 - do not let the first failed live check terminate the whole task before the required second pass happens
 - do not describe the whole run as failed if an earlier propagation check failed but the final live verification later succeeds
 
+Cron reliability guardrails:
+
+- do not use inline Python heredocs or ad hoc multiline parser scripts in cron runs for repo inspection, manifest checks, content checks, or live-publish checks
+- prefer the checked-in helper scripts (`scripts/verify_publish.py`, `scripts/verify_live_publish.py`, `build_content.py`, `audio_pipeline.py`) plus ordinary shell inspection commands like `find`, `grep`, `sed`, `head`, `wc`, `git status`, and `git log`
+- when you need to inspect a file, use literal paths and plain shell reads rather than abstract helper actions or improvised inline code
+- if a helper already exists for the task, use it instead of recreating the logic inside the turn
+
 ## 5. Required paper note template
 
 Use this exact structure for paper notes:
