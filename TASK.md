@@ -257,6 +257,8 @@ GitHub Pages propagation note:
 - do not invent ad hoc inline polling scripts if the helper already exists
 - use `scripts/verify_live_publish.py` as the canonical live check
 - run the helper in a way that preserves control after a first failure, for example: `python3 scripts/verify_live_publish.py; live_status=$?; echo LIVE_VERIFY_EXIT=$live_status`
+- do not wrap the helper in a short outer shell timeout like `timeout 90 ...`; that can convert normal GitHub Pages propagation lag into a fake task failure before the helper's own retry window does its job
+- if an outer timeout is absolutely necessary in some environment, it must be comfortably longer than the helper's own polling window and still preserve the two-pass retry rule; otherwise omit the outer timeout entirely
 - if the first live check is non-zero or times out, wait briefly and rerun the same helper once before deciding the publish failed
 - do not let the first failed live check terminate the whole task before the required second pass happens
 - do not describe the whole run as failed if an earlier propagation check failed but the final live verification later succeeds
