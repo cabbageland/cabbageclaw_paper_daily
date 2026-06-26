@@ -520,6 +520,167 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "daily_papers/2026-06-04.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-04_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-04_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-05.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-05_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-05_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-06.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-06_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-06_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-07.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-07_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-07_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-08.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-08_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-08_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-09.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-09_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-09_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-10.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-10_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-10_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-11.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-11_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-11_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-12.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-12_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-12_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-13.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-13_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-13_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-14.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-14_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-14_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-15.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-15_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-15_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-16.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-16_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-16_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-17.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-17_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-17_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-18.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-18_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-18_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-19.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-19_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-19_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-20.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-20_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-20_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-21.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-21_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-21_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-22.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-22_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-22_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-23.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-23_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-23_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-24.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-24_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-24_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-25.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-25_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-25_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "daily_papers/2026-06-26.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-26_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-26_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/3d_anchored_lookahead_planning_persistent_robotic_scene_memory.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/3d_anchored_lookahead_planning_persistent_robotic_scene_memory_audio_script.md",
@@ -534,6 +695,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/3d_isovist_world_model_unseen_city_geometry.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/3d_isovist_world_model_unseen_city_geometry_audio_script.md",
+      "audioPath": "audio/generated/3d_isovist_world_model_unseen_city_geometry.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/abstract_sim2real_through_approximate_information_states.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/abstract_sim2real_through_approximate_information_states_audio_script.md",
@@ -545,6 +713,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/act_sense_act_active_perception_egocentric_human_data_audio_script.md",
       "audioPath": "audio/generated/act_sense_act_active_perception_egocentric_human_data.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/action_effect_memory_pretraining_robot_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/action_effect_memory_pretraining_robot_manipulation_audio_script.md",
+      "audioPath": "audio/generated/action_effect_memory_pretraining_robot_manipulation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -611,6 +786,20 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/astra_agentic_visual_spatial_reasoning_world_simulators.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/astra_agentic_visual_spatial_reasoning_world_simulators_audio_script.md",
+      "audioPath": "audio/generated/astra_agentic_visual_spatial_reasoning_world_simulators.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/calibrated_moe_distribution_shift.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/calibrated_moe_distribution_shift_audio_script.md",
+      "audioPath": "audio/generated/calibrated_moe_distribution_shift.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/cambrian_p_pose_grounded_video_understanding.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/cambrian_p_pose_grounded_video_understanding_audio_script.md",
@@ -625,6 +814,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/cape_contrastive_action_conditioned_parallel_encoding.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/cape_contrastive_action_conditioned_parallel_encoding_audio_script.md",
+      "audioPath": "audio/generated/cape_contrastive_action_conditioned_parallel_encoding.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/cgc_compositional_grounded_contrast_multi_image_understanding.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/cgc_compositional_grounded_contrast_multi_image_understanding_audio_script.md",
@@ -636,6 +832,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/chameleon_episodic_memory_long_horizon_robotic_manipulation_audio_script.md",
       "audioPath": "audio/generated/chameleon_episodic_memory_long_horizon_robotic_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/chest_radiography_vlms_do_not_always_need_image.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/chest_radiography_vlms_do_not_always_need_image_audio_script.md",
+      "audioPath": "audio/generated/chest_radiography_vlms_do_not_always_need_image.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -660,6 +863,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/coarse_to_control_action_token_planning_vla.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/coarse_to_control_action_token_planning_vla_audio_script.md",
+      "audioPath": "audio/generated/coarse_to_control_action_token_planning_vla.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/codegraphvlp_non_markovian_vla_semantic_graph_planner.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/codegraphvlp_non_markovian_vla_semantic_graph_planner_audio_script.md",
@@ -681,10 +891,31 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/confidence_not_reliability_brain_tumour_segmentation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/confidence_not_reliability_brain_tumour_segmentation_audio_script.md",
+      "audioPath": "audio/generated/confidence_not_reliability_brain_tumour_segmentation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/conflictscore_conflicting_evidence_metric.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/conflictscore_conflicting_evidence_metric_audio_script.md",
+      "audioPath": "audio/generated/conflictscore_conflicting_evidence_metric.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/consisvla_4d_spatiotemporal_consistency_robotic_manipulation.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/consisvla_4d_spatiotemporal_consistency_robotic_manipulation_audio_script.md",
       "audioPath": "audio/generated/consisvla_4d_spatiotemporal_consistency_robotic_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/context_aware_rl_agentic_multimodal_llms.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/context_aware_rl_agentic_multimodal_llms_audio_script.md",
+      "audioPath": "audio/generated/context_aware_rl_agentic_multimodal_llms.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -695,10 +926,24 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/current_world_models_lack_persistent_state_core.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/current_world_models_lack_persistent_state_core_audio_script.md",
+      "audioPath": "audio/generated/current_world_models_lack_persistent_state_core.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/dailyart_single_image_articulation_via_latent_dynamics.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/dailyart_single_image_articulation_via_latent_dynamics_audio_script.md",
       "audioPath": "audio/generated/dailyart_single_image_articulation_via_latent_dynamics.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dam_vla_decoupled_asynchronous_multimodal_vla.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dam_vla_decoupled_asynchronous_multimodal_vla_audio_script.md",
+      "audioPath": "audio/generated/dam_vla_decoupled_asynchronous_multimodal_vla.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -716,10 +961,24 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/deepswip_quotient_wmc_counterfactuals.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/deepswip_quotient_wmc_counterfactuals_audio_script.md",
+      "audioPath": "audio/generated/deepswip_quotient_wmc_counterfactuals.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/delta_world_efficient_generative_world_modeling_with_delta_tokens.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/delta_world_efficient_generative_world_modeling_with_delta_tokens_audio_script.md",
       "audioPath": "audio/generated/delta_world_efficient_generative_world_modeling_with_delta_tokens.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dense_supervision_readout_blind_spot_looped_language_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dense_supervision_readout_blind_spot_looped_language_models_audio_script.md",
+      "audioPath": "audio/generated/dense_supervision_readout_blind_spot_looped_language_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -741,6 +1000,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/dial_decoupling_intent_and_action_via_latent_world_modeling_audio_script.md",
       "audioPath": "audio/generated/dial_decoupling_intent_and_action_via_latent_world_modeling.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/diffusionbench_holistic_evaluation_diffusion_transformers.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/diffusionbench_holistic_evaluation_diffusion_transformers_audio_script.md",
+      "audioPath": "audio/generated/diffusionbench_holistic_evaluation_diffusion_transformers.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -776,6 +1042,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/ea_wm_event_aware_generative_world_model_structured_kinematic_to_visual_action_fields_audio_script.md",
       "audioPath": "audio/generated/ea_wm_event_aware_generative_world_model_structured_kinematic_to_visual_action_fields.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/ea_wm_event_aware_world_models_task_specification_grounding.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/ea_wm_event_aware_world_models_task_specification_grounding_audio_script.md",
+      "audioPath": "audio/generated/ea_wm_event_aware_world_models_task_specification_grounding.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -828,10 +1101,24 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/evaluation_awareness_not_one_capability.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/evaluation_awareness_not_one_capability_audio_script.md",
+      "audioPath": "audio/generated/evaluation_awareness_not_one_capability.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/evoscene_vla_evolving_scene_beliefs_inside_the_action_decoder_for_chunked_robot_control.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/evoscene_vla_evolving_scene_beliefs_inside_the_action_decoder_for_chunked_robot_control_audio_script.md",
       "audioPath": "audio/generated/evoscene_vla_evolving_scene_beliefs_inside_the_action_decoder_for_chunked_robot_control.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/explaining_attention_program_synthesis.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/explaining_attention_program_synthesis_audio_script.md",
+      "audioPath": "audio/generated/explaining_attention_program_synthesis.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -849,10 +1136,31 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/federated_crc_vulnerable_hospital.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/federated_crc_vulnerable_hospital_audio_script.md",
+      "audioPath": "audio/generated/federated_crc_vulnerable_hospital.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/fid_lottery_generative_model_evaluation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/fid_lottery_generative_model_evaluation_audio_script.md",
+      "audioPath": "audio/generated/fid_lottery_generative_model_evaluation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/flame3d_zero_shot_compositional_reasoning_3d_scenes_agentic_language_models.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/flame3d_zero_shot_compositional_reasoning_3d_scenes_agentic_language_models_audio_script.md",
       "audioPath": "audio/generated/flame3d_zero_shot_compositional_reasoning_3d_scenes_agentic_language_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/flat_feedforward_latent_triangle_splatting.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/flat_feedforward_latent_triangle_splatting_audio_script.md",
+      "audioPath": "audio/generated/flat_feedforward_latent_triangle_splatting.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -877,10 +1185,24 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/gaze_heads_how_vlms_look_at_what_they_describe.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/gaze_heads_how_vlms_look_at_what_they_describe_audio_script.md",
+      "audioPath": "audio/generated/gaze_heads_how_vlms_look_at_what_they_describe.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/generalization_in_llm_problem_solving_shortest_path.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/generalization_in_llm_problem_solving_shortest_path_audio_script.md",
       "audioPath": "audio/generated/generalization_in_llm_problem_solving_shortest_path.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/generalization_world_models_environmental_variability_quadrotor_navigation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/generalization_world_models_environmental_variability_quadrotor_navigation_audio_script.md",
+      "audioPath": "audio/generated/generalization_world_models_environmental_variability_quadrotor_navigation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -982,6 +1304,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/how_transparent_is_diffusiongemma.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/how_transparent_is_diffusiongemma_audio_script.md",
+      "audioPath": "audio/generated/how_transparent_is_diffusiongemma.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/how_vlas_really_work_in_open_world_environments.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/how_vlas_really_work_in_open_world_environments_audio_script.md",
@@ -993,6 +1322,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/hybrid_memory_dynamic_video_world_models_audio_script.md",
       "audioPath": "audio/generated/hybrid_memory_dynamic_video_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/imac_motion_contact_images_embodied_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/imac_motion_contact_images_embodied_world_models_audio_script.md",
+      "audioPath": "audio/generated/imac_motion_contact_images_embodied_world_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1024,6 +1360,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/judging_to_improve_debiased_vlm_3d_judge.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/judging_to_improve_debiased_vlm_3d_judge_audio_script.md",
+      "audioPath": "audio/generated/judging_to_improve_debiased_vlm_3d_judge.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/key_gram_extensible_world_knowledge_for_embodied_manipulation.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/key_gram_extensible_world_knowledge_for_embodied_manipulation_audio_script.md",
@@ -1038,6 +1381,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/large_language_gibbs_structured_inference.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/large_language_gibbs_structured_inference_audio_script.md",
+      "audioPath": "audio/generated/large_language_gibbs_structured_inference.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/last_r1_reinforcing_action_via_adaptive_physical_latent_reasoning_for_vla_models.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/last_r1_reinforcing_action_via_adaptive_physical_latent_reasoning_for_vla_models_audio_script.md",
@@ -1049,6 +1399,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/latent_geometry_beyond_search_amortizing_planning_world_models_audio_script.md",
       "audioPath": "audio/generated/latent_geometry_beyond_search_amortizing_planning_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/latent_spatial_memory_video_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/latent_spatial_memory_video_world_models_audio_script.md",
+      "audioPath": "audio/generated/latent_spatial_memory_video_world_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1087,6 +1444,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/ledgeragent_structured_state_tool_calling_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/ledgeragent_structured_state_tool_calling_agents_audio_script.md",
+      "audioPath": "audio/generated/ledgeragent_structured_state_tool_calling_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/lexi_sg_monocular_3d_scene_graph_mapping_room_guided_feed_forward_reconstruction.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/lexi_sg_monocular_3d_scene_graph_mapping_room_guided_feed_forward_reconstruction_audio_script.md",
@@ -1094,10 +1458,31 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/libero_occ_viewpoint_imagination_scene_induced_occlusion.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/libero_occ_viewpoint_imagination_scene_induced_occlusion_audio_script.md",
+      "audioPath": "audio/generated/libero_occ_viewpoint_imagination_scene_induced_occlusion.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/life_after_benchmark_saturation_core_bench.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/life_after_benchmark_saturation_core_bench_audio_script.md",
+      "audioPath": "audio/generated/life_after_benchmark_saturation_core_bench.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/lifting_embodied_world_models_for_planning_and_control.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/lifting_embodied_world_models_for_planning_and_control_audio_script.md",
       "audioPath": "audio/generated/lifting_embodied_world_models_for_planning_and_control.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/localizing_rl_induced_tool_use_crosscoder_feature.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/localizing_rl_induced_tool_use_crosscoder_feature_audio_script.md",
+      "audioPath": "audio/generated/localizing_rl_induced_tool_use_crosscoder_feature.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1115,10 +1500,24 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/longspace_long_horizon_spatial_memory_video.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/longspace_long_horizon_spatial_memory_video_audio_script.md",
+      "audioPath": "audio/generated/longspace_long_horizon_spatial_memory_video.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/lyra_2_0_explorable_generative_3d_worlds.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/lyra_2_0_explorable_generative_3d_worlds_audio_script.md",
       "audioPath": "audio/generated/lyra_2_0_explorable_generative_3d_worlds.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/making_foresight_actionable_representation_alignment_world_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/making_foresight_actionable_representation_alignment_world_action_models_audio_script.md",
+      "audioPath": "audio/generated/making_foresight_actionable_representation_alignment_world_action_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1143,6 +1542,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/maskwam_unifying_mask_prompting_prediction_world_action_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/maskwam_unifying_mask_prompting_prediction_world_action_models_audio_script.md",
+      "audioPath": "audio/generated/maskwam_unifying_mask_prompting_prediction_world_action_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/mem_multiscale_embodied_memory_vla.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/mem_multiscale_embodied_memory_vla_audio_script.md",
@@ -1154,6 +1560,20 @@
       "label": "listen",
       "scriptPath": "audio_scripts/memoryvla_perceptual_cognitive_memory_vla_audio_script.md",
       "audioPath": "audio/generated/memoryvla_perceptual_cognitive_memory_vla.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/memoryvla_pp_temporal_modeling_memory_imagination.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/memoryvla_pp_temporal_modeling_memory_imagination_audio_script.md",
+      "audioPath": "audio/generated/memoryvla_pp_temporal_modeling_memory_imagination.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/memtrace_long_term_memory_evaluation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/memtrace_long_term_memory_evaluation_audio_script.md",
+      "audioPath": "audio/generated/memtrace_long_term_memory_evaluation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1178,10 +1598,31 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/mu_vla_recurrent_memory_partially_observable_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/mu_vla_recurrent_memory_partially_observable_manipulation_audio_script.md",
+      "audioPath": "audio/generated/mu_vla_recurrent_memory_partially_observable_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/multi_prefix_embedding_long_context_retrieval.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/multi_prefix_embedding_long_context_retrieval_audio_script.md",
+      "audioPath": "audio/generated/multi_prefix_embedding_long_context_retrieval.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/multiworld_scalable_multi_agent_multi_view_video_world_models.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/multiworld_scalable_multi_agent_multi_view_video_world_models_audio_script.md",
       "audioPath": "audio/generated/multiworld_scalable_multi_agent_multi_view_video_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/next_forcing_causal_world_modeling_multi_chunk_prediction.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/next_forcing_causal_world_modeling_multi_chunk_prediction_audio_script.md",
+      "audioPath": "audio/generated/next_forcing_causal_world_modeling_multi_chunk_prediction.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1248,6 +1689,34 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/optimal_deterministic_multicalibration_omniprediction.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/optimal_deterministic_multicalibration_omniprediction_audio_script.md",
+      "audioPath": "audio/generated/optimal_deterministic_multicalibration_omniprediction.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/oscar_omni_embodiment_action_conditioned_world_model_for_robotics.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/oscar_omni_embodiment_action_conditioned_world_model_for_robotics_audio_script.md",
+      "audioPath": "audio/generated/oscar_omni_embodiment_action_conditioned_world_model_for_robotics.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/pact_action_state_communication_multi_agent_systems.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/pact_action_state_communication_multi_agent_systems_audio_script.md",
+      "audioPath": "audio/generated/pact_action_state_communication_multi_agent_systems.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/patchworld_gradient_free_executable_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/patchworld_gradient_free_executable_world_models_audio_script.md",
+      "audioPath": "audio/generated/patchworld_gradient_free_executable_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/pathnavigate_training_free_pathology_agent_with_surprise_guided_scan_and_shared_slide_memory_for_whole_slide_image_vqa.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/pathnavigate_training_free_pathology_agent_with_surprise_guided_scan_and_shared_slide_memory_for_whole_slide_image_vqa_audio_script.md",
@@ -1280,6 +1749,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/pijepa_policy_guided_world_model_navigation_audio_script.md",
       "audioPath": "audio/generated/pijepa_policy_guided_world_model_navigation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/pil_world_chunk_wise_world_model_vla_policy_in_loop_evaluation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/pil_world_chunk_wise_world_model_vla_policy_in_loop_evaluation_audio_script.md",
+      "audioPath": "audio/generated/pil_world_chunk_wise_world_model_vla_policy_in_loop_evaluation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1332,10 +1808,24 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/probabilistic_verification_ai_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/probabilistic_verification_ai_agents_audio_script.md",
+      "audioPath": "audio/generated/probabilistic_verification_ai_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/progvla_progress_aware_robot_manipulation_skill_learning.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/progvla_progress_aware_robot_manipulation_skill_learning_audio_script.md",
       "audioPath": "audio/generated/progvla_progress_aware_robot_manipulation_skill_learning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/project_auto_world_automated_benchmarking_relational_reasoners.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/project_auto_world_automated_benchmarking_relational_reasoners_audio_script.md",
+      "audioPath": "audio/generated/project_auto_world_automated_benchmarking_relational_reasoners.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1364,6 +1854,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/recgen_multi_object_scene_reconstruction_from_sparse_observations_audio_script.md",
       "audioPath": "audio/generated/recgen_multi_object_scene_reconstruction_from_sparse_observations.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/reclaim_evaluation_lossy_memory_worse_than_empty.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/reclaim_evaluation_lossy_memory_worse_than_empty_audio_script.md",
+      "audioPath": "audio/generated/reclaim_evaluation_lossy_memory_worse_than_empty.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1416,10 +1913,24 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/scale_buys_interpolation_structure_buys_horizon_certified_predictability_equivariant_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/scale_buys_interpolation_structure_buys_horizon_certified_predictability_equivariant_world_models_audio_script.md",
+      "audioPath": "audio/generated/scale_buys_interpolation_structure_buys_horizon_certified_predictability_equivariant_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects_audio_script.md",
       "audioPath": "audio/generated/scenecode_executable_world_programs_for_editable_indoor_scenes_with_articulated_objects.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/self_compacting_language_model_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/self_compacting_language_model_agents_audio_script.md",
+      "audioPath": "audio/generated/self_compacting_language_model_agents.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1430,10 +1941,24 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/sensorimotor_world_models_inverse_dynamics.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/sensorimotor_world_models_inverse_dynamics_audio_script.md",
+      "audioPath": "audio/generated/sensorimotor_world_models_inverse_dynamics.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/sg_vla_spatially_grounded_vla_mobile_manipulation.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/sg_vla_spatially_grounded_vla_mobile_manipulation_audio_script.md",
       "audioPath": "audio/generated/sg_vla_spatially_grounded_vla_mobile_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/sherloc_structured_diagnostic_localization_code_repair_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/sherloc_structured_diagnostic_localization_code_repair_agents_audio_script.md",
+      "audioPath": "audio/generated/sherloc_structured_diagnostic_localization_code_repair_agents.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1465,6 +1990,13 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/sparse2act_action_aligned_sparse_3d_representations.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/sparse2act_action_aligned_sparse_3d_representations_audio_script.md",
+      "audioPath": "audio/generated/sparse2act_action_aligned_sparse_3d_representations.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/spatialevo_self_evolving_spatial_intelligence.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/spatialevo_self_evolving_spatial_intelligence_audio_script.md",
@@ -1476,6 +2008,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/specguard_verification_aware_speculative_decoding_audio_script.md",
       "audioPath": "audio/generated/specguard_verification_aware_speculative_decoding.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/spline_policy_structured_robot_policy_representation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/spline_policy_structured_robot_policy_representation_audio_script.md",
+      "audioPath": "audio/generated/spline_policy_structured_robot_policy_representation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1514,10 +2053,24 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/tacforesight_force_guided_tactile_world_model.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/tacforesight_force_guided_tactile_world_model_audio_script.md",
+      "audioPath": "audio/generated/tacforesight_force_guided_tactile_world_model.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/temporal_memory_resource_constrained_agents.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/temporal_memory_resource_constrained_agents_audio_script.md",
       "audioPath": "audio/generated/temporal_memory_resource_constrained_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/thinking_in_boxes_3d_editing.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/thinking_in_boxes_3d_editing_audio_script.md",
+      "audioPath": "audio/generated/thinking_in_boxes_3d_editing.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1556,6 +2109,20 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/value_axis_language_models_encode_whether_theyre_on_right_track.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/value_axis_language_models_encode_whether_theyre_on_right_track_audio_script.md",
+      "audioPath": "audio/generated/value_axis_language_models_encode_whether_theyre_on_right_track.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/vaso_formally_verifiable_self_evolving_skills_physical_ai_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/vaso_formally_verifiable_self_evolving_skills_physical_ai_agents_audio_script.md",
+      "audioPath": "audio/generated/vaso_formally_verifiable_self_evolving_skills_physical_ai_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/vectorworld_streaming_world_model_vector_graphs.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/vectorworld_streaming_world_model_vector_graphs_audio_script.md",
@@ -1591,6 +2158,20 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/weaver_effective_world_model_for_robotic_manipulation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/weaver_effective_world_model_for_robotic_manipulation_audio_script.md",
+      "audioPath": "audio/generated/weaver_effective_world_model_for_robotic_manipulation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/when_errors_become_narratives_silent_failures_llm_agent_runtime.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/when_errors_become_narratives_silent_failures_llm_agent_runtime_audio_script.md",
+      "audioPath": "audio/generated/when_errors_become_narratives_silent_failures_llm_agent_runtime.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/world2rules_neuro_symbolic_safety_rules_aviation.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/world2rules_neuro_symbolic_safety_rules_aviation_audio_script.md",
@@ -1619,6 +2200,20 @@
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
+    "paper_notes/world_language_action_model_unified_world_modeling_language_reasoning_action_synthesis.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/world_language_action_model_unified_world_modeling_language_reasoning_action_synthesis_audio_script.md",
+      "audioPath": "audio/generated/world_language_action_model_unified_world_modeling_language_reasoning_action_synthesis.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/world_pilot_steering_vla_with_world_action_priors.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/world_pilot_steering_vla_with_world_action_priors_audio_script.md",
+      "audioPath": "audio/generated/world_pilot_steering_vla_with_world_action_priors.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
     "paper_notes/worldmap_bootstrapping_vision_language_navigation_trajectory_prediction_with_generative_world_models.md": {
       "label": "listen",
       "scriptPath": "audio_scripts/worldmap_bootstrapping_vision_language_navigation_trajectory_prediction_with_generative_world_models_audio_script.md",
@@ -1630,6 +2225,13 @@
       "label": "listen",
       "scriptPath": "audio_scripts/worldstereo_geometric_memories_video_generation_audio_script.md",
       "audioPath": "audio/generated/worldstereo_geometric_memories_video_generation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/worth_remembering_surprise_gated_robot_episodic_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/worth_remembering_surprise_gated_robot_episodic_memory_audio_script.md",
+      "audioPath": "audio/generated/worth_remembering_surprise_gated_robot_episodic_memory.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     },
@@ -1658,580 +2260,6 @@
       "label": "listen",
       "scriptPath": "audio_scripts/vla_memory_and_continual_learning_audio_script.md",
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-04.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-04_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-04_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/3d_isovist_world_model_unseen_city_geometry.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/3d_isovist_world_model_unseen_city_geometry_audio_script.md",
-      "audioPath": "audio/generated/3d_isovist_world_model_unseen_city_geometry.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/generalization_world_models_environmental_variability_quadrotor_navigation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/generalization_world_models_environmental_variability_quadrotor_navigation_audio_script.md",
-      "audioPath": "audio/generated/generalization_world_models_environmental_variability_quadrotor_navigation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/oscar_omni_embodiment_action_conditioned_world_model_for_robotics.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/oscar_omni_embodiment_action_conditioned_world_model_for_robotics_audio_script.md",
-      "audioPath": "audio/generated/oscar_omni_embodiment_action_conditioned_world_model_for_robotics.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-05.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-05_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-05_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/pil_world_chunk_wise_world_model_vla_policy_in_loop_evaluation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/pil_world_chunk_wise_world_model_vla_policy_in_loop_evaluation_audio_script.md",
-      "audioPath": "audio/generated/pil_world_chunk_wise_world_model_vla_policy_in_loop_evaluation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/world_language_action_model_unified_world_modeling_language_reasoning_action_synthesis.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/world_language_action_model_unified_world_modeling_language_reasoning_action_synthesis_audio_script.md",
-      "audioPath": "audio/generated/world_language_action_model_unified_world_modeling_language_reasoning_action_synthesis.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-06.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-06_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-06_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/astra_agentic_visual_spatial_reasoning_world_simulators.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/astra_agentic_visual_spatial_reasoning_world_simulators_audio_script.md",
-      "audioPath": "audio/generated/astra_agentic_visual_spatial_reasoning_world_simulators.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/pact_action_state_communication_multi_agent_systems.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/pact_action_state_communication_multi_agent_systems_audio_script.md",
-      "audioPath": "audio/generated/pact_action_state_communication_multi_agent_systems.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/vaso_formally_verifiable_self_evolving_skills_physical_ai_agents.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/vaso_formally_verifiable_self_evolving_skills_physical_ai_agents_audio_script.md",
-      "audioPath": "audio/generated/vaso_formally_verifiable_self_evolving_skills_physical_ai_agents.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-07.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-07_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-07_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/patchworld_gradient_free_executable_world_models.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/patchworld_gradient_free_executable_world_models_audio_script.md",
-      "audioPath": "audio/generated/patchworld_gradient_free_executable_world_models.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/worth_remembering_surprise_gated_robot_episodic_memory.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/worth_remembering_surprise_gated_robot_episodic_memory_audio_script.md",
-      "audioPath": "audio/generated/worth_remembering_surprise_gated_robot_episodic_memory.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/longspace_long_horizon_spatial_memory_video.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/longspace_long_horizon_spatial_memory_video_audio_script.md",
-      "audioPath": "audio/generated/longspace_long_horizon_spatial_memory_video.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-08.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-08_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-08_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/cape_contrastive_action_conditioned_parallel_encoding.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/cape_contrastive_action_conditioned_parallel_encoding_audio_script.md",
-      "audioPath": "audio/generated/cape_contrastive_action_conditioned_parallel_encoding.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/coarse_to_control_action_token_planning_vla.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/coarse_to_control_action_token_planning_vla_audio_script.md",
-      "audioPath": "audio/generated/coarse_to_control_action_token_planning_vla.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/spline_policy_structured_robot_policy_representation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/spline_policy_structured_robot_policy_representation_audio_script.md",
-      "audioPath": "audio/generated/spline_policy_structured_robot_policy_representation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-09.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-09_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-09_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/imac_motion_contact_images_embodied_world_models.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/imac_motion_contact_images_embodied_world_models_audio_script.md",
-      "audioPath": "audio/generated/imac_motion_contact_images_embodied_world_models.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/latent_spatial_memory_video_world_models.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/latent_spatial_memory_video_world_models_audio_script.md",
-      "audioPath": "audio/generated/latent_spatial_memory_video_world_models.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/memoryvla_pp_temporal_modeling_memory_imagination.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/memoryvla_pp_temporal_modeling_memory_imagination_audio_script.md",
-      "audioPath": "audio/generated/memoryvla_pp_temporal_modeling_memory_imagination.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-10.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-10_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-10_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/libero_occ_viewpoint_imagination_scene_induced_occlusion.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/libero_occ_viewpoint_imagination_scene_induced_occlusion_audio_script.md",
-      "audioPath": "audio/generated/libero_occ_viewpoint_imagination_scene_induced_occlusion.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/next_forcing_causal_world_modeling_multi_chunk_prediction.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/next_forcing_causal_world_modeling_multi_chunk_prediction_audio_script.md",
-      "audioPath": "audio/generated/next_forcing_causal_world_modeling_multi_chunk_prediction.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/tacforesight_force_guided_tactile_world_model.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/tacforesight_force_guided_tactile_world_model_audio_script.md",
-      "audioPath": "audio/generated/tacforesight_force_guided_tactile_world_model.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-11.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-11_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-11_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/dam_vla_decoupled_asynchronous_multimodal_vla.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/dam_vla_decoupled_asynchronous_multimodal_vla_audio_script.md",
-      "audioPath": "audio/generated/dam_vla_decoupled_asynchronous_multimodal_vla.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/making_foresight_actionable_representation_alignment_world_action_models.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/making_foresight_actionable_representation_alignment_world_action_models_audio_script.md",
-      "audioPath": "audio/generated/making_foresight_actionable_representation_alignment_world_action_models.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/world_pilot_steering_vla_with_world_action_priors.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/world_pilot_steering_vla_with_world_action_priors_audio_script.md",
-      "audioPath": "audio/generated/world_pilot_steering_vla_with_world_action_priors.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-12.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-12_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-12_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/weaver_effective_world_model_for_robotic_manipulation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/weaver_effective_world_model_for_robotic_manipulation_audio_script.md",
-      "audioPath": "audio/generated/weaver_effective_world_model_for_robotic_manipulation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/maskwam_unifying_mask_prompting_prediction_world_action_models.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/maskwam_unifying_mask_prompting_prediction_world_action_models_audio_script.md",
-      "audioPath": "audio/generated/maskwam_unifying_mask_prompting_prediction_world_action_models.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/ea_wm_event_aware_world_models_task_specification_grounding.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/ea_wm_event_aware_world_models_task_specification_grounding_audio_script.md",
-      "audioPath": "audio/generated/ea_wm_event_aware_world_models_task_specification_grounding.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-13.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-13_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-13_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/action_effect_memory_pretraining_robot_manipulation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/action_effect_memory_pretraining_robot_manipulation_audio_script.md",
-      "audioPath": "audio/generated/action_effect_memory_pretraining_robot_manipulation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/scale_buys_interpolation_structure_buys_horizon_certified_predictability_equivariant_world_models.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/scale_buys_interpolation_structure_buys_horizon_certified_predictability_equivariant_world_models_audio_script.md",
-      "audioPath": "audio/generated/scale_buys_interpolation_structure_buys_horizon_certified_predictability_equivariant_world_models.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-14.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-14_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-14_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/mu_vla_recurrent_memory_partially_observable_manipulation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/mu_vla_recurrent_memory_partially_observable_manipulation_audio_script.md",
-      "audioPath": "audio/generated/mu_vla_recurrent_memory_partially_observable_manipulation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/sparse2act_action_aligned_sparse_3d_representations.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/sparse2act_action_aligned_sparse_3d_representations_audio_script.md",
-      "audioPath": "audio/generated/sparse2act_action_aligned_sparse_3d_representations.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-15.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-15_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-15_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/gaze_heads_how_vlms_look_at_what_they_describe.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/gaze_heads_how_vlms_look_at_what_they_describe_audio_script.md",
-      "audioPath": "audio/generated/gaze_heads_how_vlms_look_at_what_they_describe.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/when_errors_become_narratives_silent_failures_llm_agent_runtime.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/when_errors_become_narratives_silent_failures_llm_agent_runtime_audio_script.md",
-      "audioPath": "audio/generated/when_errors_become_narratives_silent_failures_llm_agent_runtime.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-16.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-16_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-16_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/context_aware_rl_agentic_multimodal_llms.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/context_aware_rl_agentic_multimodal_llms_audio_script.md",
-      "audioPath": "audio/generated/context_aware_rl_agentic_multimodal_llms.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/value_axis_language_models_encode_whether_theyre_on_right_track.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/value_axis_language_models_encode_whether_theyre_on_right_track_audio_script.md",
-      "audioPath": "audio/generated/value_axis_language_models_encode_whether_theyre_on_right_track.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-17.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-17_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-17_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/chest_radiography_vlms_do_not_always_need_image.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/chest_radiography_vlms_do_not_always_need_image_audio_script.md",
-      "audioPath": "audio/generated/chest_radiography_vlms_do_not_always_need_image.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/memtrace_long_term_memory_evaluation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/memtrace_long_term_memory_evaluation_audio_script.md",
-      "audioPath": "audio/generated/memtrace_long_term_memory_evaluation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-18.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-18_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-18_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/confidence_not_reliability_brain_tumour_segmentation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/confidence_not_reliability_brain_tumour_segmentation_audio_script.md",
-      "audioPath": "audio/generated/confidence_not_reliability_brain_tumour_segmentation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/explaining_attention_program_synthesis.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/explaining_attention_program_synthesis_audio_script.md",
-      "audioPath": "audio/generated/explaining_attention_program_synthesis.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/large_language_gibbs_structured_inference.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/large_language_gibbs_structured_inference_audio_script.md",
-      "audioPath": "audio/generated/large_language_gibbs_structured_inference.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-19.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-19_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-19_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/current_world_models_lack_persistent_state_core.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/current_world_models_lack_persistent_state_core_audio_script.md",
-      "audioPath": "audio/generated/current_world_models_lack_persistent_state_core.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/fid_lottery_generative_model_evaluation.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/fid_lottery_generative_model_evaluation_audio_script.md",
-      "audioPath": "audio/generated/fid_lottery_generative_model_evaluation.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/ledgeragent_structured_state_tool_calling_agents.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/ledgeragent_structured_state_tool_calling_agents_audio_script.md",
-      "audioPath": "audio/generated/ledgeragent_structured_state_tool_calling_agents.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-20.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-20_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-20_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/deepswip_quotient_wmc_counterfactuals.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/deepswip_quotient_wmc_counterfactuals_audio_script.md",
-      "audioPath": "audio/generated/deepswip_quotient_wmc_counterfactuals.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/judging_to_improve_debiased_vlm_3d_judge.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/judging_to_improve_debiased_vlm_3d_judge_audio_script.md",
-      "audioPath": "audio/generated/judging_to_improve_debiased_vlm_3d_judge.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/sensorimotor_world_models_inverse_dynamics.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/sensorimotor_world_models_inverse_dynamics_audio_script.md",
-      "audioPath": "audio/generated/sensorimotor_world_models_inverse_dynamics.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-21.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-21_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-21_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/calibrated_moe_distribution_shift.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/calibrated_moe_distribution_shift_audio_script.md",
-      "audioPath": "audio/generated/calibrated_moe_distribution_shift.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/how_transparent_is_diffusiongemma.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/how_transparent_is_diffusiongemma_audio_script.md",
-      "audioPath": "audio/generated/how_transparent_is_diffusiongemma.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/thinking_in_boxes_3d_editing.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/thinking_in_boxes_3d_editing_audio_script.md",
-      "audioPath": "audio/generated/thinking_in_boxes_3d_editing.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-22.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-22_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-22_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/federated_crc_vulnerable_hospital.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/federated_crc_vulnerable_hospital_audio_script.md",
-      "audioPath": "audio/generated/federated_crc_vulnerable_hospital.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/optimal_deterministic_multicalibration_omniprediction.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/optimal_deterministic_multicalibration_omniprediction_audio_script.md",
-      "audioPath": "audio/generated/optimal_deterministic_multicalibration_omniprediction.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/probabilistic_verification_ai_agents.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/probabilistic_verification_ai_agents_audio_script.md",
-      "audioPath": "audio/generated/probabilistic_verification_ai_agents.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-23.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-23_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-23_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/evaluation_awareness_not_one_capability.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/evaluation_awareness_not_one_capability_audio_script.md",
-      "audioPath": "audio/generated/evaluation_awareness_not_one_capability.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/multi_prefix_embedding_long_context_retrieval.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/multi_prefix_embedding_long_context_retrieval_audio_script.md",
-      "audioPath": "audio/generated/multi_prefix_embedding_long_context_retrieval.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/self_compacting_language_model_agents.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/self_compacting_language_model_agents_audio_script.md",
-      "audioPath": "audio/generated/self_compacting_language_model_agents.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-24.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-24_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-24_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/diffusionbench_holistic_evaluation_diffusion_transformers.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/diffusionbench_holistic_evaluation_diffusion_transformers_audio_script.md",
-      "audioPath": "audio/generated/diffusionbench_holistic_evaluation_diffusion_transformers.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/flat_feedforward_latent_triangle_splatting.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/flat_feedforward_latent_triangle_splatting_audio_script.md",
-      "audioPath": "audio/generated/flat_feedforward_latent_triangle_splatting.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/sherloc_structured_diagnostic_localization_code_repair_agents.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/sherloc_structured_diagnostic_localization_code_repair_agents_audio_script.md",
-      "audioPath": "audio/generated/sherloc_structured_diagnostic_localization_code_repair_agents.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "daily_papers/2026-06-25.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/2026-06-25_digest_audio_script.md",
-      "audioPath": "audio/generated/2026-06-25_digest.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/dense_supervision_readout_blind_spot_looped_language_models.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/dense_supervision_readout_blind_spot_looped_language_models_audio_script.md",
-      "audioPath": "audio/generated/dense_supervision_readout_blind_spot_looped_language_models.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/project_auto_world_automated_benchmarking_relational_reasoners.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/project_auto_world_automated_benchmarking_relational_reasoners_audio_script.md",
-      "audioPath": "audio/generated/project_auto_world_automated_benchmarking_relational_reasoners.wav",
-      "voice": "en_US-hfc_male-medium",
-      "rate": 0.95
-    },
-    "paper_notes/reclaim_evaluation_lossy_memory_worse_than_empty.md": {
-      "label": "listen",
-      "scriptPath": "audio_scripts/reclaim_evaluation_lossy_memory_worse_than_empty_audio_script.md",
-      "audioPath": "audio/generated/reclaim_evaluation_lossy_memory_worse_than_empty.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
     }
