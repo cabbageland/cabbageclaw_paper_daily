@@ -268,6 +268,8 @@ Cron reliability guardrails:
 - do not use inline Python heredocs or ad hoc multiline parser scripts in cron runs for repo inspection, manifest checks, content checks, or live-publish checks
 - prefer the checked-in helper scripts (`scripts/verify_publish.py`, `scripts/verify_live_publish.py`, `build_content.py`, `audio_pipeline.py`) plus ordinary shell inspection commands like `find`, `grep`, `sed`, `head`, `wc`, `git status`, and `git log`
 - when you need to inspect a file, use literal paths and plain shell reads rather than abstract helper actions or improvised inline code
+- do not narrate shell intent as fake commands like `search "pattern" in file` or `print lines 1-220 from file`; every inspection step must be a literal shell command that Bash can execute
+- when checking a file for non-ASCII characters, use a real command such as `grep -n '[^ -~]' path/to/file || true`; a no-match exit is normal and must not be treated as a task failure
 - if a helper already exists for the task, use it instead of recreating the logic inside the turn
 
 ## 5. Required paper note template
