@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import re
 import subprocess
+import sys
 from array import array
 from dataclasses import dataclass
 from datetime import datetime
@@ -448,12 +449,18 @@ for script_path, out_path in jobs:
         compact_wav_file(job.audio_path)
 
 
-def update_manifest(jobs: Iterable[AudioJob]) -> None:
-    data = {
-        'voice': VOICE_NAME,
-        'rate': SPEECH_RATE,
-        'items': {},
-    }
+def update_manifest(jobs: Iterable[AudioJob], incremental: bool = False) -> None:
+    if incremental and AUDIO_MANIFEST.exists():
+        data = json.loads(AUDIO_MANIFEST.read_text(encoding='utf-8'))
+        data['voice'] = VOICE_NAME
+        data['rate'] = SPEECH_RATE
+        data.setdefault('items', {})
+    else:
+        data = {
+            'voice': VOICE_NAME,
+            'rate': SPEECH_RATE,
+            'items': {},
+        }
     for job in jobs:
         data['items'][job.source_path] = {
             'label': job.label,
@@ -465,11 +472,32 @@ def update_manifest(jobs: Iterable[AudioJob]) -> None:
     AUDIO_MANIFEST.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
 
 
+def normalize_source_arg(arg: str) -> str:
+    path = Path(arg)
+    if path.is_absolute():
+        path = path.resolve().relative_to(ROOT)
+    return path.as_posix().lstrip('./')
+
+
 def main() -> None:
     jobs = build_jobs()
+    requested = sys.argv[1:]
+    if requested:
+        jobs_by_source = {job.source_path: job for job in jobs}
+        selected: list[AudioJob] = []
+        seen: set[str] = set()
+        for arg in requested:
+            source_path = normalize_source_arg(arg)
+            if source_path not in jobs_by_source:
+                raise SystemExit(f'unknown source path for audio generation: {arg}')
+            if source_path not in seen:
+                selected.append(jobs_by_source[source_path])
+                seen.add(source_path)
+        jobs = selected
+
     write_scripts(jobs)
     synthesize(jobs)
-    update_manifest(jobs)
+    update_manifest(jobs, incremental=bool(requested))
     print(f'generated {len(jobs)} audio items')
 
 

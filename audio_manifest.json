@@ -2262,6 +2262,34 @@
       "audioPath": "audio/generated/vla_memory_and_continual_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-27.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-27_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-27_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/river_ground_truth_free_executable_optimization_rl.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/river_ground_truth_free_executable_optimization_rl_audio_script.md",
+      "audioPath": "audio/generated/river_ground_truth_free_executable_optimization_rl.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/error_conditioned_neural_solvers_pde_residual_input.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/error_conditioned_neural_solvers_pde_residual_input_audio_script.md",
+      "audioPath": "audio/generated/error_conditioned_neural_solvers_pde_residual_input.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/sae_guided_activation_regularization_continual_learning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/sae_guided_activation_regularization_continual_learning_audio_script.md",
+      "audioPath": "audio/generated/sae_guided_activation_regularization_continual_learning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
