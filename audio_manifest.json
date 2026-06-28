@@ -2290,6 +2290,34 @@
       "audioPath": "audio/generated/sae_guided_activation_regularization_continual_learning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-28.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-28_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-28_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/beyond_hard_budget_topk_sae_regularizers.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/beyond_hard_budget_topk_sae_regularizers_audio_script.md",
+      "audioPath": "audio/generated/beyond_hard_budget_topk_sae_regularizers.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/physiformer_world_space_mechanics_diffusion.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/physiformer_world_space_mechanics_diffusion_audio_script.md",
+      "audioPath": "audio/generated/physiformer_world_space_mechanics_diffusion.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/decision_aligned_uncertainty_quantification.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/decision_aligned_uncertainty_quantification_audio_script.md",
+      "audioPath": "audio/generated/decision_aligned_uncertainty_quantification.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
