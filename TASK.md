@@ -101,6 +101,24 @@ Always ask:
 
 ## 4. Workflow
 
+### Cron restart / idempotence check
+
+For cron or retry runs, begin with a literal shell-level existence check before doing any new scouting work.
+
+Use an ordinary command sequence like:
+
+```bash
+today=$(TZ=America/Los_Angeles date +%F)
+test -f "daily_papers/$today.md" && sed -n '1,40p' "daily_papers/$today.md"
+```
+
+If today's digest already exists:
+
+- do not invent fake helper actions like `run test daily_papers/YYYY-MM-DD.md -> print lines 1-220 from daily_papers/YYYY-MM-DD.md`
+- do not restate shell intent in English and pretend it is a command
+- verify the existing publish state with literal commands such as `python3 scripts/verify_publish.py --date "$today"`, `git status --short --branch`, `git log --oneline -1`, and `git ls-remote origin main`
+- if the verifier passes and the source/web repos are already clean and pushed, finish quietly instead of trying to regenerate the day
+
 ### Step 1: Search
 
 Use Brave Search first for discovery and initial filtering when scouting papers for this repo. Treat it as the default search surface unless a better source is explicitly required.
