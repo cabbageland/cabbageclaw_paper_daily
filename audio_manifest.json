@@ -2318,6 +2318,34 @@
       "audioPath": "audio/generated/decision_aligned_uncertainty_quantification.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-29.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-29_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-29_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/vision_default_prior_override_vlm_conflict_circuits.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/vision_default_prior_override_vlm_conflict_circuits_audio_script.md",
+      "audioPath": "audio/generated/vision_default_prior_override_vlm_conflict_circuits.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/mdm_vgb_value_guided_backtracking_masked_diffusion.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/mdm_vgb_value_guided_backtracking_masked_diffusion_audio_script.md",
+      "audioPath": "audio/generated/mdm_vgb_value_guided_backtracking_masked_diffusion.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/perceptionrubrics_gated_multimodal_perception_evaluation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/perceptionrubrics_gated_multimodal_perception_evaluation_audio_script.md",
+      "audioPath": "audio/generated/perceptionrubrics_gated_multimodal_perception_evaluation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
