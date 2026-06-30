@@ -2346,6 +2346,34 @@
       "audioPath": "audio/generated/perceptionrubrics_gated_multimodal_perception_evaluation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-06-30.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-06-30_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-06-30_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/entity_binding_failures_tool_augmented_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/entity_binding_failures_tool_augmented_agents_audio_script.md",
+      "audioPath": "audio/generated/entity_binding_failures_tool_augmented_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/c2r_cross_sample_consistency_sae.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/c2r_cross_sample_consistency_sae_audio_script.md",
+      "audioPath": "audio/generated/c2r_cross_sample_consistency_sae.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/shovir_radiology_vision_shortcut_benchmark.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/shovir_radiology_vision_shortcut_benchmark_audio_script.md",
+      "audioPath": "audio/generated/shovir_radiology_vision_shortcut_benchmark.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
