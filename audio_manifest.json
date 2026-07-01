@@ -2374,6 +2374,34 @@
       "audioPath": "audio/generated/shovir_radiology_vision_shortcut_benchmark.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-01.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-01_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-01_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/qval_dense_supervision_long_horizon_llm_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/qval_dense_supervision_long_horizon_llm_agents_audio_script.md",
+      "audioPath": "audio/generated/qval_dense_supervision_long_horizon_llm_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/healthagentbench_agentic_healthcare_environments.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/healthagentbench_agentic_healthcare_environments_audio_script.md",
+      "audioPath": "audio/generated/healthagentbench_agentic_healthcare_environments.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/adajepa_adaptive_latent_world_model.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/adajepa_adaptive_latent_world_model_audio_script.md",
+      "audioPath": "audio/generated/adajepa_adaptive_latent_world_model.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
