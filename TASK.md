@@ -43,6 +43,7 @@ Usually prioritize:
 - embodied intelligence / robotics
 - memory, planning, tool use
 - continual learning
+- uncertainty quantification, calibration, verification, and decision-making under uncertainty
 - representation learning
 - controllability / interpretability
 - neurosymbolic and hybrid systems
@@ -54,8 +55,9 @@ Topic balance guardrail:
 
 - Paper Daily must not become a VLA or robotics digest by default.
 - Treat robotics, embodied manipulation, and VLA/WAM work as one important lane, not the center of gravity.
-- For a typical digest, aim for at most one robotics/VLA paper in the top 3 unless multiple robotics/VLA papers are clearly exceptional and beat strong non-robotics alternatives on mechanism, evidence, and future usefulness.
-- Every scouting run should deliberately inspect non-robotics lanes too: medical/healthcare/neuro AI, evaluation and interpretability, continual learning, foundation-model technical reports, field-deployment documentation, scientific ML, 3D/generative media, representation learning, data/model infrastructure, or other mechanism-rich agentic systems.
+- Recommend 5 papers in every daily digest, but keep the tail honest: not every recommended paper needs a full preserved note.
+- For a typical digest, aim for at most one robotics/VLA paper in the top 5. Only allow a second robotics/VLA paper when it clearly beats the best non-robotics alternatives on mechanism, evidence, and future usefulness.
+- Every scouting run should deliberately inspect non-robotics lanes too: medical/healthcare/neuro AI, evaluation and interpretability, uncertainty quantification/calibration/verification, continual learning, foundation-model technical reports, field-deployment documentation, scientific ML, 3D/generative media, representation learning, data/model infrastructure, or other mechanism-rich agentic systems.
 - If the strongest candidate is robotic or VLA, keep it only when the mechanism is genuinely strong; do not preserve another robot manipulation paper just because it says world model, memory, action, or agentic.
 - When more than one robotics/VLA item appears in a digest, justify why each one clears a higher bar than the best non-robotics alternatives found that day.
 
@@ -88,7 +90,8 @@ Classify surfaced papers into:
 - **Mostly citation material**
 - **Sounds relevant but weak**
 
-Prefer a small number of real hits.
+Prefer a small number of real preserve-worthy hits inside the daily five.
+The digest should still surface 5 recommendations, but weaker items must be labeled honestly as runner-ups, adjacent inspiration, or citation material rather than inflated into fake keeps.
 If nothing is strong enough, say so plainly.
 
 Always ask:
@@ -202,7 +205,8 @@ Strong preference rules:
 
 For each scouting run, give:
 
-- the 1–3 papers most worth attention
+- 5 papers most worth attention, ranked honestly by strength
+- which ones are preserve-worthy note candidates versus lighter recommendations
 - which one is most relevant
 - which are direct vs adjacent
 - whether anything affects novelty, baselines, or framing
@@ -410,7 +414,7 @@ A daily digest should include:
 - date
 - theme
 - short overview
-- ranked list
+- ranked list of 5 recommendations
 - most relevant paper
 - novelty / framing / baseline impact
 - one-paragraph takeaway

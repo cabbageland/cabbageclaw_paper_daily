@@ -19,7 +19,7 @@ On a good day, the workflow:
 
 1. searches recent papers relevant to cabbageland's research taste,
 2. filters aggressively,
-3. ranks the strongest hits,
+3. ranks 5 daily recommendations,
 4. writes a compact daily digest,
 5. creates structured paper notes for papers that actually matter,
 6. updates topic-level synthesis notes when patterns emerge,
@@ -38,6 +38,7 @@ This repository prioritizes papers around:
 - compositional reasoning
 - structured representations
 - continual learning
+- uncertainty quantification, calibration, verification, and decision-making under uncertainty
 - memory, planning, and tool use
 - controllability and interpretability
 - neurosymbolic or hybrid systems
@@ -45,7 +46,7 @@ This repository prioritizes papers around:
 - mechanism-rich agentic systems
 - foundation-model technical reports and serious field-deployment documentation
 
-Robotics and VLA work are one important lane, not the house style. The digest should deliberately keep room for strong non-robotics work: medical, healthcare, neuro, evaluation, interpretability, continual learning, foundation-model reports, field deployment, scientific ML, 3D/generative media, and representation learning.
+Robotics and VLA work are one important lane, not the house style. The digest should deliberately keep room for strong non-robotics work: medical, healthcare, neuro, evaluation, interpretability, uncertainty, continual learning, foundation-model reports, field deployment, scientific ML, 3D/generative media, and representation learning.
 
 These topics matter most when the paper improves one of the following:
 
@@ -106,7 +107,7 @@ It should avoid:
 > optimize for research judgment, not paper throughput.
 
 A good day is not twenty weak summaries.
-A good day is two or three papers that genuinely sharpen future thinking.
+A good day is 5 ranked recommendations with honest judgment, where only the strongest subset earns full notes.
 
 ## Automation note
 
