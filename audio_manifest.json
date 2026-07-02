@@ -2402,6 +2402,34 @@
       "audioPath": "audio/generated/adajepa_adaptive_latent_world_model.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-02.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-02_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-02_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/self_gc_self_governing_context.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/self_gc_self_governing_context_audio_script.md",
+      "audioPath": "audio/generated/self_gc_self_governing_context.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/prototype_language_models_prism.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/prototype_language_models_prism_audio_script.md",
+      "audioPath": "audio/generated/prototype_language_models_prism.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/theoria_rewrite_acceptability_verification.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/theoria_rewrite_acceptability_verification_audio_script.md",
+      "audioPath": "audio/generated/theoria_rewrite_acceptability_verification.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
