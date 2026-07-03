@@ -2430,6 +2430,41 @@
       "audioPath": "audio/generated/theoria_rewrite_acceptability_verification.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-03.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-03_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-03_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/maven_evidence_state_rewards_long_context_reasoning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/maven_evidence_state_rewards_long_context_reasoning_audio_script.md",
+      "audioPath": "audio/generated/maven_evidence_state_rewards_long_context_reasoning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/hola_hippocampus_linear_attention_exact_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/hola_hippocampus_linear_attention_exact_memory_audio_script.md",
+      "audioPath": "audio/generated/hola_hippocampus_linear_attention_exact_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/single_layer_rl_transformer_layer_contribution.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/single_layer_rl_transformer_layer_contribution_audio_script.md",
+      "audioPath": "audio/generated/single_layer_rl_transformer_layer_contribution.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/hidden_forgetting_continual_multimodal_grounding.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/hidden_forgetting_continual_multimodal_grounding_audio_script.md",
+      "audioPath": "audio/generated/hidden_forgetting_continual_multimodal_grounding.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
