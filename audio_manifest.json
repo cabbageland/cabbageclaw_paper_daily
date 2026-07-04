@@ -2465,6 +2465,41 @@
       "audioPath": "audio/generated/hidden_forgetting_continual_multimodal_grounding.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-04.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-04_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-04_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/program_as_weights_paw_fuzzy_functions.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/program_as_weights_paw_fuzzy_functions_audio_script.md",
+      "audioPath": "audio/generated/program_as_weights_paw_fuzzy_functions.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/distributed_attacks_persistent_state_ai_control.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/distributed_attacks_persistent_state_ai_control_audio_script.md",
+      "audioPath": "audio/generated/distributed_attacks_persistent_state_ai_control.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/lacuna_unlearning_localization_precision.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/lacuna_unlearning_localization_precision_audio_script.md",
+      "audioPath": "audio/generated/lacuna_unlearning_localization_precision.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/prediction_sets_counterfactual_decisions.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/prediction_sets_counterfactual_decisions_audio_script.md",
+      "audioPath": "audio/generated/prediction_sets_counterfactual_decisions.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
