@@ -2500,6 +2500,41 @@
       "audioPath": "audio/generated/prediction_sets_counterfactual_decisions.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-05.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-05_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-05_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/decomprl_modular_code_generation_recombination.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/decomprl_modular_code_generation_recombination_audio_script.md",
+      "audioPath": "audio/generated/decomprl_modular_code_generation_recombination.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/vrrl_visually_grounded_self_reflection_vlm.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/vrrl_visually_grounded_self_reflection_vlm_audio_script.md",
+      "audioPath": "audio/generated/vrrl_visually_grounded_self_reflection_vlm.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/driftlens_memory_induced_reasoning_drift.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/driftlens_memory_induced_reasoning_drift_audio_script.md",
+      "audioPath": "audio/generated/driftlens_memory_induced_reasoning_drift.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/representation_distribution_matching_one_step_visual_generation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/representation_distribution_matching_one_step_visual_generation_audio_script.md",
+      "audioPath": "audio/generated/representation_distribution_matching_one_step_visual_generation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
