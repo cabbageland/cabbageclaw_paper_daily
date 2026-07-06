@@ -2535,6 +2535,41 @@
       "audioPath": "audio/generated/representation_distribution_matching_one_step_visual_generation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-06.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-06_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-06_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/agenticsts_bounded_memory_testbed.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/agenticsts_bounded_memory_testbed_audio_script.md",
+      "audioPath": "audio/generated/agenticsts_bounded_memory_testbed.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/hola_hippocampus_for_linear_attention.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/hola_hippocampus_for_linear_attention_audio_script.md",
+      "audioPath": "audio/generated/hola_hippocampus_for_linear_attention.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/typographic_attack_concept_localization.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/typographic_attack_concept_localization_audio_script.md",
+      "audioPath": "audio/generated/typographic_attack_concept_localization.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/worlddirector_persistent_dynamic_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/worlddirector_persistent_dynamic_memory_audio_script.md",
+      "audioPath": "audio/generated/worlddirector_persistent_dynamic_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
