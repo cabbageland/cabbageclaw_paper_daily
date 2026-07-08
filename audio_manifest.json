@@ -2570,6 +2570,41 @@
       "audioPath": "audio/generated/worlddirector_persistent_dynamic_memory.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-08.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-08_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-08_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/statefuse_conflict_preserving_agent_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/statefuse_conflict_preserving_agent_memory_audio_script.md",
+      "audioPath": "audio/generated/statefuse_conflict_preserving_agent_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/safeimpute_reliable_clinical_imputation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/safeimpute_reliable_clinical_imputation_audio_script.md",
+      "audioPath": "audio/generated/safeimpute_reliable_clinical_imputation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/elsa3d_elastic_semantic_anchoring.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/elsa3d_elastic_semantic_anchoring_audio_script.md",
+      "audioPath": "audio/generated/elsa3d_elastic_semantic_anchoring.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/rechannel_pixel_space_dense_prediction.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/rechannel_pixel_space_dense_prediction_audio_script.md",
+      "audioPath": "audio/generated/rechannel_pixel_space_dense_prediction.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
