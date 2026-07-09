@@ -2605,6 +2605,41 @@
       "audioPath": "audio/generated/rechannel_pixel_space_dense_prediction.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-09.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-09_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-09_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/multi_agent_ai_control_distributed_attacks.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/multi_agent_ai_control_distributed_attacks_audio_script.md",
+      "audioPath": "audio/generated/multi_agent_ai_control_distributed_attacks.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/aiauthz_identity_bound_agent_authorization.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/aiauthz_identity_bound_agent_authorization_audio_script.md",
+      "audioPath": "audio/generated/aiauthz_identity_bound_agent_authorization.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/medpmc_high_fidelity_medical_multimodal_data.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/medpmc_high_fidelity_medical_multimodal_data_audio_script.md",
+      "audioPath": "audio/generated/medpmc_high_fidelity_medical_multimodal_data.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/action_graded_severity_tool_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/action_graded_severity_tool_agents_audio_script.md",
+      "audioPath": "audio/generated/action_graded_severity_tool_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
