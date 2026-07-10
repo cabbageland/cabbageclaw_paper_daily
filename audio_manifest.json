@@ -2640,6 +2640,41 @@
       "audioPath": "audio/generated/action_graded_severity_tool_agents.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-10.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-10_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-10_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/tool_calling_evaluation_validity_audit.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/tool_calling_evaluation_validity_audit_audio_script.md",
+      "audioPath": "audio/generated/tool_calling_evaluation_validity_audit.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/cic_risk_controlled_llm_abstention.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/cic_risk_controlled_llm_abstention_audio_script.md",
+      "audioPath": "audio/generated/cic_risk_controlled_llm_abstention.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/latent_programming_horizons_coding_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/latent_programming_horizons_coding_agents_audio_script.md",
+      "audioPath": "audio/generated/latent_programming_horizons_coding_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/brainfibre_information_decomposition_microstructure.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/brainfibre_information_decomposition_microstructure_audio_script.md",
+      "audioPath": "audio/generated/brainfibre_information_decomposition_microstructure.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
