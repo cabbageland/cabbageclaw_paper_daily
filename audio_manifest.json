@@ -2675,6 +2675,41 @@
       "audioPath": "audio/generated/brainfibre_information_decomposition_microstructure.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-11.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-11_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-11_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/proactive_memory_agent_behavioral_state_decay.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/proactive_memory_agent_behavioral_state_decay_audio_script.md",
+      "audioPath": "audio/generated/proactive_memory_agent_behavioral_state_decay.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/causalds_causal_reasoning_data_science_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/causalds_causal_reasoning_data_science_agents_audio_script.md",
+      "audioPath": "audio/generated/causalds_causal_reasoning_data_science_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/patient_centered_conversational_ai_style_triage.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/patient_centered_conversational_ai_style_triage_audio_script.md",
+      "audioPath": "audio/generated/patient_centered_conversational_ai_style_triage.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/hidden_decoding_latent_computation_scaling.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/hidden_decoding_latent_computation_scaling_audio_script.md",
+      "audioPath": "audio/generated/hidden_decoding_latent_computation_scaling.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
