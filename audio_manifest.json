@@ -2717,6 +2717,41 @@
       "audioPath": "audio/generated/learning_sparse_latent_predictive_foundation_model_for_multimodal_neuroimaging.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-12.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-12_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-12_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/when_does_continual_learning_require_learning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/when_does_continual_learning_require_learning_audio_script.md",
+      "audioPath": "audio/generated/when_does_continual_learning_require_learning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/certified_interventional_fidelity_mechanistic_interpretability.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/certified_interventional_fidelity_mechanistic_interpretability_audio_script.md",
+      "audioPath": "audio/generated/certified_interventional_fidelity_mechanistic_interpretability.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/deltav_visual_state_updates_multimodal_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/deltav_visual_state_updates_multimodal_models_audio_script.md",
+      "audioPath": "audio/generated/deltav_visual_state_updates_multimodal_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/robust_bayesian_decision_making_adversarial_uncertainty.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/robust_bayesian_decision_making_adversarial_uncertainty_audio_script.md",
+      "audioPath": "audio/generated/robust_bayesian_decision_making_adversarial_uncertainty.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
