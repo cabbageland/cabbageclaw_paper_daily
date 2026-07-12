@@ -150,6 +150,12 @@ Default fallback policy:
 - If Brave is unavailable but AlphaXiv is reachable: use AlphaXiv plus arXiv / direct sources, and say Brave was unavailable with the exact verified reason.
 - If both Brave and AlphaXiv are unavailable: use arXiv / direct sources, and explicitly note that discovery quality may be narrower.
 
+Batch coverage sanity rules:
+
+- If an arXiv API date-window query returns zero or suspiciously thin results while recent category pages visibly show a fresh batch, treat the API result as unreliable and inspect the recent category pages directly before declaring that there is no new batch.
+- For every fresh batch scan in `cs.CV`, medical imaging, or adjacent multimodal lanes, run at least one explicit title-level pass for non-robotics terms such as `neuro`, `MRI`, `CT`, `radiology`, `medical`, `clinical`, `pathology`, `healthcare`, `foundation model`, `multimodal`, `JEPA`, or `MoE`.
+- If that pass surfaces a large-scale clinical imaging foundation model or a multimodal neuro paper with real code, weights, or serious cross-cohort evaluation, inspect it before concluding that the best papers that day all came from other lanes.
+
 ### Step 2: Filter
 
 Keep only papers that survive scrutiny.

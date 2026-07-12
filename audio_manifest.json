@@ -2710,6 +2710,13 @@
       "audioPath": "audio/generated/hidden_decoding_latent_computation_scaling.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "paper_notes/learning_sparse_latent_predictive_foundation_model_for_multimodal_neuroimaging.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/learning_sparse_latent_predictive_foundation_model_for_multimodal_neuroimaging_audio_script.md",
+      "audioPath": "audio/generated/learning_sparse_latent_predictive_foundation_model_for_multimodal_neuroimaging.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
