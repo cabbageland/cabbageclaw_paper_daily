@@ -2752,6 +2752,41 @@
       "audioPath": "audio/generated/robust_bayesian_decision_making_adversarial_uncertainty.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-13.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-13_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-13_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/interference_and_retention_in_continual_learning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/interference_and_retention_in_continual_learning_audio_script.md",
+      "audioPath": "audio/generated/interference_and_retention_in_continual_learning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/workflow_as_knowledge_semantic_persistence_for_llm_mediated_workflows.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/workflow_as_knowledge_semantic_persistence_for_llm_mediated_workflows_audio_script.md",
+      "audioPath": "audio/generated/workflow_as_knowledge_semantic_persistence_for_llm_mediated_workflows.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/multiview_bench_world_centric_multiview_integration_in_vlms.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/multiview_bench_world_centric_multiview_integration_in_vlms_audio_script.md",
+      "audioPath": "audio/generated/multiview_bench_world_centric_multiview_integration_in_vlms.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/alice_general_purpose_pathology_foundation_model.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/alice_general_purpose_pathology_foundation_model_audio_script.md",
+      "audioPath": "audio/generated/alice_general_purpose_pathology_foundation_model.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
