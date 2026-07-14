@@ -2787,6 +2787,41 @@
       "audioPath": "audio/generated/alice_general_purpose_pathology_foundation_model.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-14.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-14_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-14_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/can_a_language_model_learn_facts_continually_in_its_weights.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/can_a_language_model_learn_facts_continually_in_its_weights_audio_script.md",
+      "audioPath": "audio/generated/can_a_language_model_learn_facts_continually_in_its_weights.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/inside_the_unfair_judge_llm_as_judge_bias.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/inside_the_unfair_judge_llm_as_judge_bias_audio_script.md",
+      "audioPath": "audio/generated/inside_the_unfair_judge_llm_as_judge_bias.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/hourglass_reasoning_for_rigorous_induction.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/hourglass_reasoning_for_rigorous_induction_audio_script.md",
+      "audioPath": "audio/generated/hourglass_reasoning_for_rigorous_induction.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/haste_post_disaster_building_damage_assessment.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/haste_post_disaster_building_damage_assessment_audio_script.md",
+      "audioPath": "audio/generated/haste_post_disaster_building_damage_assessment.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
