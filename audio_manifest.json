@@ -2822,6 +2822,41 @@
       "audioPath": "audio/generated/haste_post_disaster_building_damage_assessment.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-15.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-15_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-15_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/when_does_reward_teach_state.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/when_does_reward_teach_state_audio_script.md",
+      "audioPath": "audio/generated/when_does_reward_teach_state.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/grid_grammar_railed_decoding.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/grid_grammar_railed_decoding_audio_script.md",
+      "audioPath": "audio/generated/grid_grammar_railed_decoding.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/repairing_shape_prior_shortcuts_fpp.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/repairing_shape_prior_shortcuts_fpp_audio_script.md",
+      "audioPath": "audio/generated/repairing_shape_prior_shortcuts_fpp.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/query_visibility_kv_cache_compression_audit.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/query_visibility_kv_cache_compression_audit_audio_script.md",
+      "audioPath": "audio/generated/query_visibility_kv_cache_compression_audit.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
