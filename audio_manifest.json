@@ -2857,6 +2857,41 @@
       "audioPath": "audio/generated/query_visibility_kv_cache_compression_audit.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-16.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-16_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-16_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/stocktake_fair_oracle_knowing_doing_gap.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/stocktake_fair_oracle_knowing_doing_gap_audio_script.md",
+      "audioPath": "audio/generated/stocktake_fair_oracle_knowing_doing_gap.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/do_agent_optimizers_compound_terminal_bench.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/do_agent_optimizers_compound_terminal_bench_audio_script.md",
+      "audioPath": "audio/generated/do_agent_optimizers_compound_terminal_bench.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/trace_turn_level_credit_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/trace_turn_level_credit_agents_audio_script.md",
+      "audioPath": "audio/generated/trace_turn_level_credit_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/temperature_scaling_soft_label_gap.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/temperature_scaling_soft_label_gap_audio_script.md",
+      "audioPath": "audio/generated/temperature_scaling_soft_label_gap.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
