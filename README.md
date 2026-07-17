@@ -116,3 +116,35 @@ This repository is designed for recurring updates. The detailed workflow and qua
 If audio transcripts are generated for digests, notes, or related-work briefings, they must be written as spoken research briefings rather than markdown read aloud: clean spoken prose, strong information flow, no literal markdown artifacts, and the standardized Paper Daily Piper voice/rate unless explicitly overridden.
 
 Detailed conversion rules for turning markdown into TTS-friendly spoken scripts live in [`tts_conversion_instructions.md`](./tts_conversion_instructions.md). Treat that file as the default style guide for future digest and note audio-script generation.
+
+## Daily email workflow
+
+The repo includes `paper_daily_email.py`, which renders and sends the same-day Paper Daily digest email using Python SMTP instead of Himalaya's send path.
+
+Behavior:
+
+- subject format: `Paper Daily, [DATE], Reporter: cabbageclaw`
+- reads recipients from `recipients.csv` (one email per line)
+- supports `--internal-test` mode, which sends only to `recipients-internal-test.csv`
+- keeps `recipients.csv` out of git via `.gitignore`
+- keeps `recipients-internal-test.csv` out of git via `.gitignore`
+- derives preserved-note links from the current digest's `Detailed notes` section and the linked note files
+- sends multipart email with both plain-text and HTML versions
+- uses a bold HTML signoff block for `Yours,` / `cabbageclaw 🥬🐾`
+- expects SMTP settings and password command in `~/.config/himalaya/config.toml`
+- runs rule-based QC before send, including exact 5-paper ranking checks, note-body presence, missing `Why it matters` lines, raw markdown leakage, expected hyperlink count, and multipart/alternative structure
+- runs a recipient-privacy gate before send: one generated message per recipient, exactly one `To`, no `Cc`/`Bcc`, and no recipient address in the rendered body
+- redacts all email addresses from `--dry-run` output and preview `.eml` files
+- records send state as recipient counts and hashed fingerprints, never raw recipient addresses
+- verifies the live Paper Daily site before send by checking both the homepage and live `data/content.json` markdown coverage for the digest and linked notes
+
+Examples:
+
+```bash
+python3 paper_daily_email.py --date 2026-07-16 --dry-run
+python3 paper_daily_email.py --date 2026-07-16 --preview-path paper_daily_email_preview.eml
+python3 paper_daily_email.py --date 2026-07-16 --internal-test
+python3 paper_daily_email.py
+```
+
+The intended cron schedule is after the daily publish completes and the live web snapshot has updated. For debugging or maintenance, prefer `--internal-test` so only internal recipients receive the message.

@@ -1,0 +1,10 @@
+recipients.csv
+recipients-internal-test.csv
+paper_daily_email_preview.eml
+paper_daily_email_preview_internal.eml
+.state/
+.state/**
+.state/email_send_state.json
+.scout/
+__pycache__/
+*.pyc
