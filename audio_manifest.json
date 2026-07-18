@@ -2927,6 +2927,48 @@
       "audioPath": "audio/generated/gate_zero_growth_function_preserving_cl.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-18.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-18_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-18_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/proof_or_stop_evidence_gated_lifecycle_control.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/proof_or_stop_evidence_gated_lifecycle_control_audio_script.md",
+      "audioPath": "audio/generated/proof_or_stop_evidence_gated_lifecycle_control.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/irt_reliability_for_ai_evaluation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/irt_reliability_for_ai_evaluation_audio_script.md",
+      "audioPath": "audio/generated/irt_reliability_for_ai_evaluation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/concept_guided_spatial_regularization_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/concept_guided_spatial_regularization_world_models_audio_script.md",
+      "audioPath": "audio/generated/concept_guided_spatial_regularization_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/xhc_expanded_hyper_connections.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/xhc_expanded_hyper_connections_audio_script.md",
+      "audioPath": "audio/generated/xhc_expanded_hyper_connections.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/crisp_target_free_medical_segmentation.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/crisp_target_free_medical_segmentation_audio_script.md",
+      "audioPath": "audio/generated/crisp_target_free_medical_segmentation.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
