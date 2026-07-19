@@ -2969,6 +2969,41 @@
       "audioPath": "audio/generated/crisp_target_free_medical_segmentation.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-19.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-19_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-19_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/harness_handbook_behavior_localization.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/harness_handbook_behavior_localization_audio_script.md",
+      "audioPath": "audio/generated/harness_handbook_behavior_localization.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/write_protected_discrete_bottlenecks_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/write_protected_discrete_bottlenecks_world_models_audio_script.md",
+      "audioPath": "audio/generated/write_protected_discrete_bottlenecks_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/computational_propaganda_pretraining_poisoning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/computational_propaganda_pretraining_poisoning_audio_script.md",
+      "audioPath": "audio/generated/computational_propaganda_pretraining_poisoning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/mcpevol_bench_dynamic_tool_evolution.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/mcpevol_bench_dynamic_tool_evolution_audio_script.md",
+      "audioPath": "audio/generated/mcpevol_bench_dynamic_tool_evolution.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
