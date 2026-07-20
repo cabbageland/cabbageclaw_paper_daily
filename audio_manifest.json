@@ -3004,6 +3004,41 @@
       "audioPath": "audio/generated/mcpevol_bench_dynamic_tool_evolution.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-20.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-20_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-20_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/presentation_not_mechanism_render_confound_memory_eval.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/presentation_not_mechanism_render_confound_memory_eval_audio_script.md",
+      "audioPath": "audio/generated/presentation_not_mechanism_render_confound_memory_eval.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/craft_rubric_capability_clustering.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/craft_rubric_capability_clustering_audio_script.md",
+      "audioPath": "audio/generated/craft_rubric_capability_clustering.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/pretraining_to_post_training_reasoning_scaling.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/pretraining_to_post_training_reasoning_scaling_audio_script.md",
+      "audioPath": "audio/generated/pretraining_to_post_training_reasoning_scaling.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/slotmem_character_addressable_video_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/slotmem_character_addressable_video_memory_audio_script.md",
+      "audioPath": "audio/generated/slotmem_character_addressable_video_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
