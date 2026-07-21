@@ -3039,6 +3039,48 @@
       "audioPath": "audio/generated/slotmem_character_addressable_video_memory.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-21.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-21_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-21_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/retain_or_consolidate_budget_dependent_agent_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/retain_or_consolidate_budget_dependent_agent_memory_audio_script.md",
+      "audioPath": "audio/generated/retain_or_consolidate_budget_dependent_agent_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/vrr_stop_noisy_verify_repair_loops.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/vrr_stop_noisy_verify_repair_loops_audio_script.md",
+      "audioPath": "audio/generated/vrr_stop_noisy_verify_repair_loops.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/three_body_scattering_generative_modeling.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/three_body_scattering_generative_modeling_audio_script.md",
+      "audioPath": "audio/generated/three_body_scattering_generative_modeling.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/calibration_channel_bayes_error_proxy_temperature.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/calibration_channel_bayes_error_proxy_temperature_audio_script.md",
+      "audioPath": "audio/generated/calibration_channel_bayes_error_proxy_temperature.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/gigapath_flash_gigatime_flash_pathology_foundation_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/gigapath_flash_gigatime_flash_pathology_foundation_models_audio_script.md",
+      "audioPath": "audio/generated/gigapath_flash_gigatime_flash_pathology_foundation_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
