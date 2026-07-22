@@ -3081,6 +3081,34 @@
       "audioPath": "audio/generated/gigapath_flash_gigatime_flash_pathology_foundation_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-22.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-22_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-22_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/coderescue_budget_calibrated_recovery_routing_coding_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/coderescue_budget_calibrated_recovery_routing_coding_agents_audio_script.md",
+      "audioPath": "audio/generated/coderescue_budget_calibrated_recovery_routing_coding_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dwm_world_effects_actions_latent_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dwm_world_effects_actions_latent_world_models_audio_script.md",
+      "audioPath": "audio/generated/dwm_world_effects_actions_latent_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/researcharena_sabotage_monitoring_automated_ai_rd.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/researcharena_sabotage_monitoring_automated_ai_rd_audio_script.md",
+      "audioPath": "audio/generated/researcharena_sabotage_monitoring_automated_ai_rd.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
