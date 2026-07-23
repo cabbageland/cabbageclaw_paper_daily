@@ -3109,6 +3109,34 @@
       "audioPath": "audio/generated/researcharena_sabotage_monitoring_automated_ai_rd.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-23.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-23_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-23_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/dream_rehearsal_continual_model_based_rl.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/dream_rehearsal_continual_model_based_rl_audio_script.md",
+      "audioPath": "audio/generated/dream_rehearsal_continual_model_based_rl.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/decodability_supervision_verifiable_activation_explanations.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/decodability_supervision_verifiable_activation_explanations_audio_script.md",
+      "audioPath": "audio/generated/decodability_supervision_verifiable_activation_explanations.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/pro_long_programmatic_memory_long_horizon_reasoning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/pro_long_programmatic_memory_long_horizon_reasoning_audio_script.md",
+      "audioPath": "audio/generated/pro_long_programmatic_memory_long_horizon_reasoning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
