@@ -3137,6 +3137,48 @@
       "audioPath": "audio/generated/pro_long_programmatic_memory_long_horizon_reasoning.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-24.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-24_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-24_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/delivery_not_storage_cue_anchored_working_memory_coding_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/delivery_not_storage_cue_anchored_working_memory_coding_agents_audio_script.md",
+      "audioPath": "audio/generated/delivery_not_storage_cue_anchored_working_memory_coding_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/naju_native_discrete_ssm_long_sequence_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/naju_native_discrete_ssm_long_sequence_memory_audio_script.md",
+      "audioPath": "audio/generated/naju_native_discrete_ssm_long_sequence_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/auditing_provenance_sensitivity_llm_agent_action_selection.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/auditing_provenance_sensitivity_llm_agent_action_selection_audio_script.md",
+      "audioPath": "audio/generated/auditing_provenance_sensitivity_llm_agent_action_selection.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/auditing_evidence_use_medical_llm_diagnosis.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/auditing_evidence_use_medical_llm_diagnosis_audio_script.md",
+      "audioPath": "audio/generated/auditing_evidence_use_medical_llm_diagnosis.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/test_time_scaling_via_error_localization.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/test_time_scaling_via_error_localization_audio_script.md",
+      "audioPath": "audio/generated/test_time_scaling_via_error_localization.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
