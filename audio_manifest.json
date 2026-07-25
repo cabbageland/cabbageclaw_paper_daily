@@ -3179,6 +3179,48 @@
       "audioPath": "audio/generated/test_time_scaling_via_error_localization.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-25.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-25_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-25_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/openforgerl_train_harness_native_agents_in_any_environment.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/openforgerl_train_harness_native_agents_in_any_environment_audio_script.md",
+      "audioPath": "audio/generated/openforgerl_train_harness_native_agents_in_any_environment.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/error_certificates_for_kv_cache_eviction_via_randomized_design.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/error_certificates_for_kv_cache_eviction_via_randomized_design_audio_script.md",
+      "audioPath": "audio/generated/error_certificates_for_kv_cache_eviction_via_randomized_design.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/sparse_concept_channels_in_frozen_3d_ct_vision_encoders.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/sparse_concept_channels_in_frozen_3d_ct_vision_encoders_audio_script.md",
+      "audioPath": "audio/generated/sparse_concept_channels_in_frozen_3d_ct_vision_encoders.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/self_supervised_learning_of_structured_dynamics_from_videos.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/self_supervised_learning_of_structured_dynamics_from_videos_audio_script.md",
+      "audioPath": "audio/generated/self_supervised_learning_of_structured_dynamics_from_videos.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/do_pathology_vision_language_models_truly_see_pathology.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/do_pathology_vision_language_models_truly_see_pathology_audio_script.md",
+      "audioPath": "audio/generated/do_pathology_vision_language_models_truly_see_pathology.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
