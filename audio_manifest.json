@@ -3221,6 +3221,27 @@
       "audioPath": "audio/generated/do_pathology_vision_language_models_truly_see_pathology.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-26.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-26_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-26_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/confidencebench_llm_confidence_calibration.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/confidencebench_llm_confidence_calibration_audio_script.md",
+      "audioPath": "audio/generated/confidencebench_llm_confidence_calibration.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/chronostitch_visual_kv_memory_composition.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/chronostitch_visual_kv_memory_composition_audio_script.md",
+      "audioPath": "audio/generated/chronostitch_visual_kv_memory_composition.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
