@@ -3242,6 +3242,48 @@
       "audioPath": "audio/generated/chronostitch_visual_kv_memory_composition.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-27.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-27_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-27_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/persistent_computational_state_session_centric_runtime.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/persistent_computational_state_session_centric_runtime_audio_script.md",
+      "audioPath": "audio/generated/persistent_computational_state_session_centric_runtime.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/self_poisoning_adaptive_ood_detection.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/self_poisoning_adaptive_ood_detection_audio_script.md",
+      "audioPath": "audio/generated/self_poisoning_adaptive_ood_detection.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/learning_on_the_job_deployment_feedback_frozen_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/learning_on_the_job_deployment_feedback_frozen_agents_audio_script.md",
+      "audioPath": "audio/generated/learning_on_the_job_deployment_feedback_frozen_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/securing_multimodal_ai_internal_information_decomposition.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/securing_multimodal_ai_internal_information_decomposition_audio_script.md",
+      "audioPath": "audio/generated/securing_multimodal_ai_internal_information_decomposition.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/identifiability_of_controlled_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/identifiability_of_controlled_world_models_audio_script.md",
+      "audioPath": "audio/generated/identifiability_of_controlled_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
