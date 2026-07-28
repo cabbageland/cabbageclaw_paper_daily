@@ -3284,6 +3284,48 @@
       "audioPath": "audio/generated/identifiability_of_controlled_world_models.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-28.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-28_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-28_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/eviction_as_estimation_fixed_lag_smoothing_test_time_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/eviction_as_estimation_fixed_lag_smoothing_test_time_memory_audio_script.md",
+      "audioPath": "audio/generated/eviction_as_estimation_fixed_lag_smoothing_test_time_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/memtx_transactional_belief_commit_stateful_agent_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/memtx_transactional_belief_commit_stateful_agent_memory_audio_script.md",
+      "audioPath": "audio/generated/memtx_transactional_belief_commit_stateful_agent_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/what_can_be_enforced_certified_runtime_safety_tool_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/what_can_be_enforced_certified_runtime_safety_tool_agents_audio_script.md",
+      "audioPath": "audio/generated/what_can_be_enforced_certified_runtime_safety_tool_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/looping_is_not_reliability_state_bound_evidence_code_repair.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/looping_is_not_reliability_state_bound_evidence_code_repair_audio_script.md",
+      "audioPath": "audio/generated/looping_is_not_reliability_state_bound_evidence_code_repair.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/role_stratified_conformal_risk_control_tool_calls.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/role_stratified_conformal_risk_control_tool_calls_audio_script.md",
+      "audioPath": "audio/generated/role_stratified_conformal_risk_control_tool_calls.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
