@@ -3326,6 +3326,41 @@
       "audioPath": "audio/generated/role_stratified_conformal_risk_control_tool_calls.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-29.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-29_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-29_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/forensic_reproducibility_audit_radiology_vlm_benchmark.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/forensic_reproducibility_audit_radiology_vlm_benchmark_audio_script.md",
+      "audioPath": "audio/generated/forensic_reproducibility_audit_radiology_vlm_benchmark.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/minimizing_targeted_activations_eval_awareness_latents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/minimizing_targeted_activations_eval_awareness_latents_audio_script.md",
+      "audioPath": "audio/generated/minimizing_targeted_activations_eval_awareness_latents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/wonder_video_world_model_done_better.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/wonder_video_world_model_done_better_audio_script.md",
+      "audioPath": "audio/generated/wonder_video_world_model_done_better.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/tools_are_not_islands_set_level_tool_retrieval.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/tools_are_not_islands_set_level_tool_retrieval_audio_script.md",
+      "audioPath": "audio/generated/tools_are_not_islands_set_level_tool_retrieval.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
