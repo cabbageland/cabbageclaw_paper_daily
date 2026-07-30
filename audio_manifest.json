@@ -3361,6 +3361,41 @@
       "audioPath": "audio/generated/tools_are_not_islands_set_level_tool_retrieval.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-30.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-30_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-30_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/scores_are_not_decisions_cost_aware_stopping_for_tool_acquisition.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/scores_are_not_decisions_cost_aware_stopping_for_tool_acquisition_audio_script.md",
+      "audioPath": "audio/generated/scores_are_not_decisions_cost_aware_stopping_for_tool_acquisition.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/latent_world_models_physical_parameter_identifiability.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/latent_world_models_physical_parameter_identifiability_audio_script.md",
+      "audioPath": "audio/generated/latent_world_models_physical_parameter_identifiability.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/visual_credit_audit_multimodal_spatial_reasoning.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/visual_credit_audit_multimodal_spatial_reasoning_audio_script.md",
+      "audioPath": "audio/generated/visual_credit_audit_multimodal_spatial_reasoning.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/prior_directions_gui_grounding_locked_in_the_past.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/prior_directions_gui_grounding_locked_in_the_past_audio_script.md",
+      "audioPath": "audio/generated/prior_directions_gui_grounding_locked_in_the_past.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
