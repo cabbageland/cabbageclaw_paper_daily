@@ -3396,6 +3396,41 @@
       "audioPath": "audio/generated/prior_directions_gui_grounding_locked_in_the_past.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-07-31.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-07-31_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-07-31_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/askchem_claim_centered_chemistry_literature_synthesis.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/askchem_claim_centered_chemistry_literature_synthesis_audio_script.md",
+      "audioPath": "audio/generated/askchem_claim_centered_chemistry_literature_synthesis.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/stage_replay_divergence_follows_the_kv_cache.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/stage_replay_divergence_follows_the_kv_cache_audio_script.md",
+      "audioPath": "audio/generated/stage_replay_divergence_follows_the_kv_cache.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/change2task_repository_changes_to_executable_coding_agent_tasks.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/change2task_repository_changes_to_executable_coding_agent_tasks_audio_script.md",
+      "audioPath": "audio/generated/change2task_repository_changes_to_executable_coding_agent_tasks.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/negative_controls_volume_driven_confounding_radiomics_foundation_features.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/negative_controls_volume_driven_confounding_radiomics_foundation_features_audio_script.md",
+      "audioPath": "audio/generated/negative_controls_volume_driven_confounding_radiomics_foundation_features.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
