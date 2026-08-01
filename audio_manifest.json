@@ -3431,6 +3431,41 @@
       "audioPath": "audio/generated/negative_controls_volume_driven_confounding_radiomics_foundation_features.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-08-01.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-08-01_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-08-01_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/osreward_standardized_evaluation_computer_use_reward_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/osreward_standardized_evaluation_computer_use_reward_models_audio_script.md",
+      "audioPath": "audio/generated/osreward_standardized_evaluation_computer_use_reward_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/retoken_visual_retrieval_for_vision_language_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/retoken_visual_retrieval_for_vision_language_models_audio_script.md",
+      "audioPath": "audio/generated/retoken_visual_retrieval_for_vision_language_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/chimera_hybrid_visual_diffusion_transformers.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/chimera_hybrid_visual_diffusion_transformers_audio_script.md",
+      "audioPath": "audio/generated/chimera_hybrid_visual_diffusion_transformers.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/orca_bench_language_model_agents_for_oncall.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/orca_bench_language_model_agents_for_oncall_audio_script.md",
+      "audioPath": "audio/generated/orca_bench_language_model_agents_for_oncall.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
