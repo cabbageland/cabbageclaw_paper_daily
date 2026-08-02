@@ -3466,6 +3466,41 @@
       "audioPath": "audio/generated/orca_bench_language_model_agents_for_oncall.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-08-02.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-08-02_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-08-02_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/why_gui_agents_are_correct_but_late.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/why_gui_agents_are_correct_but_late_audio_script.md",
+      "audioPath": "audio/generated/why_gui_agents_are_correct_but_late.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/tycho_active_abstraction_programmatic_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/tycho_active_abstraction_programmatic_world_models_audio_script.md",
+      "audioPath": "audio/generated/tycho_active_abstraction_programmatic_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/kaisen_subgroup_fairness_auditing_clinical_risk_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/kaisen_subgroup_fairness_auditing_clinical_risk_models_audio_script.md",
+      "audioPath": "audio/generated/kaisen_subgroup_fairness_auditing_clinical_risk_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/when_derived_measurements_mislead_llm_over_trust.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/when_derived_measurements_mislead_llm_over_trust_audio_script.md",
+      "audioPath": "audio/generated/when_derived_measurements_mislead_llm_over_trust.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
