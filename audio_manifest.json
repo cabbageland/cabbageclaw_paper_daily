@@ -3501,6 +3501,41 @@
       "audioPath": "audio/generated/when_derived_measurements_mislead_llm_over_trust.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-08-03.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-08-03_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-08-03_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/beyond_retrieval_analytic_memory_multimodal_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/beyond_retrieval_analytic_memory_multimodal_agents_audio_script.md",
+      "audioPath": "audio/generated/beyond_retrieval_analytic_memory_multimodal_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/cage_certified_authorization_typed_return_uncertainty_tool_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/cage_certified_authorization_typed_return_uncertainty_tool_agents_audio_script.md",
+      "audioPath": "audio/generated/cage_certified_authorization_typed_return_uncertainty_tool_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/validation_evidence_llm_repair_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/validation_evidence_llm_repair_agents_audio_script.md",
+      "audioPath": "audio/generated/validation_evidence_llm_repair_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/witcert_runtime_risk_observability_kv_cache_quantization.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/witcert_runtime_risk_observability_kv_cache_quantization_audio_script.md",
+      "audioPath": "audio/generated/witcert_runtime_risk_observability_kv_cache_quantization.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
