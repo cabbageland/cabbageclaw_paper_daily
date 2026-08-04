@@ -3536,6 +3536,41 @@
       "audioPath": "audio/generated/witcert_runtime_risk_observability_kv_cache_quantization.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-08-04.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-08-04_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-08-04_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/future_branch_closure_tests_stochastic_physical_world_models.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/future_branch_closure_tests_stochastic_physical_world_models_audio_script.md",
+      "audioPath": "audio/generated/future_branch_closure_tests_stochastic_physical_world_models.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/pmmc_prospective_multimodal_memory_compilation_long_term_lvlm_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/pmmc_prospective_multimodal_memory_compilation_long_term_lvlm_agents_audio_script.md",
+      "audioPath": "audio/generated/pmmc_prospective_multimodal_memory_compilation_long_term_lvlm_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/deterministic_executability_gating_llm_skill_selection.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/deterministic_executability_gating_llm_skill_selection_audio_script.md",
+      "audioPath": "audio/generated/deterministic_executability_gating_llm_skill_selection.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/pathology_foundation_model_atlas_signal_breast_cancer.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/pathology_foundation_model_atlas_signal_breast_cancer_audio_script.md",
+      "audioPath": "audio/generated/pathology_foundation_model_atlas_signal_breast_cancer.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
