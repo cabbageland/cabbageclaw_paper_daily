@@ -3571,6 +3571,41 @@
       "audioPath": "audio/generated/pathology_foundation_model_atlas_signal_breast_cancer.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-08-05.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-08-05_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-08-05_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/tracecompiler_skill_guided_compilation_llm_agent_traces.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/tracecompiler_skill_guided_compilation_llm_agent_traces_audio_script.md",
+      "audioPath": "audio/generated/tracecompiler_skill_guided_compilation_llm_agent_traces.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/value_of_information_routing_mixtures_lora_experts.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/value_of_information_routing_mixtures_lora_experts_audio_script.md",
+      "audioPath": "audio/generated/value_of_information_routing_mixtures_lora_experts.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/tarl_transaction_aware_reliable_ledgers_memory_updates.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/tarl_transaction_aware_reliable_ledgers_memory_updates_audio_script.md",
+      "audioPath": "audio/generated/tarl_transaction_aware_reliable_ledgers_memory_updates.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/preferred_not_safer_pairwise_preference_clinical_safety.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/preferred_not_safer_pairwise_preference_clinical_safety_audio_script.md",
+      "audioPath": "audio/generated/preferred_not_safer_pairwise_preference_clinical_safety.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
