@@ -3606,6 +3606,41 @@
       "audioPath": "audio/generated/preferred_not_safer_pairwise_preference_clinical_safety.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-08-06.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-08-06_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-08-06_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/ea_graph_artifact_anchored_verification_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/ea_graph_artifact_anchored_verification_memory_audio_script.md",
+      "audioPath": "audio/generated/ea_graph_artifact_anchored_verification_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/safecommit_certifying_memory_grounded_agents.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/safecommit_certifying_memory_grounded_agents_audio_script.md",
+      "audioPath": "audio/generated/safecommit_certifying_memory_grounded_agents.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/calibration_floor_format_repair_self_correction.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/calibration_floor_format_repair_self_correction_audio_script.md",
+      "audioPath": "audio/generated/calibration_floor_format_repair_self_correction.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/crs_triage_confidence_reliability_aware_triage.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/crs_triage_confidence_reliability_aware_triage_audio_script.md",
+      "audioPath": "audio/generated/crs_triage_confidence_reliability_aware_triage.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
