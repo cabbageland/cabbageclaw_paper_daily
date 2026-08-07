@@ -58,10 +58,10 @@ def linked_keys_for_digest(digest_key: str) -> list[str]:
     return sorted(set(LINK_RE.findall(text)))
 
 
-def expected_items(digest_key: str) -> list[ExpectedItem]:
-    items = [ExpectedItem(digest_key, audio_required=True)]
+def expected_items(digest_key: str, *, require_audio: bool) -> list[ExpectedItem]:
+    items = [ExpectedItem(digest_key, audio_required=require_audio)]
     for key in linked_keys_for_digest(digest_key):
-        items.append(ExpectedItem(key, audio_required=key.startswith("paper_notes/")))
+        items.append(ExpectedItem(key, audio_required=require_audio and key.startswith("paper_notes/")))
     return items
 
 
@@ -163,15 +163,20 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", help="digest date in YYYY-MM-DD; defaults to newest digest")
     parser.add_argument("--live", action="store_true", help="verify live GitHub Pages state too")
+    parser.add_argument(
+        "--require-audio",
+        action="store_true",
+        help="also require audio manifest/content wiring and live audio URLs",
+    )
     parser.add_argument("--base-url", default=DEFAULT_BASE_URL)
     parser.add_argument("--timeout", type=int, default=300)
     parser.add_argument("--interval", type=int, default=5)
     args = parser.parse_args(argv)
 
     digest_key = digest_key_for_date(args.date)
-    manifest = load_json(MANIFEST)
+    manifest = load_json(MANIFEST) if args.require_audio else {"items": {}}
     content = load_json(CONTENT)
-    items = expected_items(digest_key)
+    items = expected_items(digest_key, require_audio=args.require_audio)
 
     print(f"Checking {digest_key}")
     for item in items:

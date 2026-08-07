@@ -230,9 +230,9 @@ Use stable filenames and avoid duplication.
 If push is blocked, do not bluff.
 Say what is missing.
 
-### Step 6.5: If audio is generated, write for listening rather than reading
+### Step 6.5: Only if explicitly requested, write audio for listening rather than reading
 
-When generating audio transcripts or narration scripts for digests, paper notes, or related-work documents, the script must be treated as a spoken artifact rather than markdown being read aloud.
+As of 2026-08-07, routine Paper Daily publishes do not add listening audio. If Tracy explicitly requests audio for a specific digest, paper note, or related-work document, the script must be treated as a spoken artifact rather than markdown being read aloud.
 
 Requirements:
 
@@ -250,7 +250,7 @@ Requirements:
 The bar:
 A good audio transcript should feel like a compact private research briefing, not like markdown being exorcised through a speaker.
 
-Default policy for future Paper Daily audio scripts:
+Policy for explicitly requested Paper Daily audio scripts:
 - follow `tts_conversion_instructions.md` as the project style guide
 - use the standardized Paper Daily opening and closing unless explicitly overridden
 - preserve meaning, ranking, novelty framing, and uncertainty while compressing redundancy
@@ -266,22 +266,21 @@ If this scouting run changed anything that the site surfaces — daily digests, 
 
 For `cabbageclaw_paper_daily`, that means:
 
-1. generate or update audio for the touched/new digest and any touched/new notes before rebuilding the site
-2. run `python3 build_content.py` in `/home/ttt/.openclaw/workspace/cabbageclaw-paper-daily-web`
-3. inspect the regenerated `data/content.json`
-4. run `python3 scripts/verify_publish.py` in `/home/ttt/.openclaw/workspace/cabbageclaw_paper_daily`
-5. commit the source repo changes
-6. commit the web repo changes
-7. push the source repo changes
-8. push the web repo changes
-9. run `python3 scripts/verify_live_publish.py` in `/home/ttt/.openclaw/workspace/cabbageclaw_paper_daily`, capture the exit status, and treat the first non-zero result after push as a possible propagation delay rather than an immediate task failure
-10. if the first live check is non-zero, wait briefly and rerun the same helper once; only the second non-zero result counts as a real publish failure
+1. run `python3 build_content.py` in `/home/ttt/.openclaw/workspace/cabbageclaw-paper-daily-web`
+2. inspect the regenerated `data/content.json`
+3. run `python3 scripts/verify_publish.py` in `/home/ttt/.openclaw/workspace/cabbageclaw_paper_daily`
+4. commit the source repo changes
+5. commit the web repo changes
+6. push the source repo changes
+7. push the web repo changes
+8. run `python3 scripts/verify_live_publish.py` in `/home/ttt/.openclaw/workspace/cabbageclaw_paper_daily`, capture the exit status, and treat the first non-zero result after push as a possible propagation delay rather than an immediate task failure
+9. if the first live check is non-zero, wait briefly and rerun the same helper once; only the second non-zero result counts as a real publish failure
 
 The daily paper task is not complete until the website reflects the latest repo content and the verify step passes.
 
 GitHub Pages propagation note:
 
-- live `content.json` and audio can lag briefly after push
+- live `content.json` can lag briefly after push
 - do not invent ad hoc inline polling scripts if the helper already exists
 - use `scripts/verify_live_publish.py` as the canonical live check
 - run the helper in a way that preserves control after a first failure, for example: `python3 scripts/verify_live_publish.py; live_status=$?; echo LIVE_VERIFY_EXIT=$live_status`
@@ -294,7 +293,8 @@ GitHub Pages propagation note:
 Cron reliability guardrails:
 
 - do not use inline Python heredocs or ad hoc multiline parser scripts in cron runs for repo inspection, manifest checks, content checks, or live-publish checks
-- prefer the checked-in helper scripts (`scripts/verify_publish.py`, `scripts/verify_live_publish.py`, `build_content.py`, `audio_pipeline.py`) plus ordinary shell inspection commands like `find`, `grep`, `sed`, `head`, `wc`, `git status`, and `git log`
+- prefer the checked-in helper scripts (`scripts/verify_publish.py`, `scripts/verify_live_publish.py`, `build_content.py`) plus ordinary shell inspection commands like `find`, `grep`, `sed`, `head`, `wc`, `git status`, and `git log`
+- use `audio_pipeline.py` only when Tracy explicitly requests audio for a specific item
 - when you need to inspect a file, use literal paths and plain shell reads rather than abstract helper actions or improvised inline code
 - do not narrate shell intent as fake commands like `search "pattern" in file` or `print lines 1-220 from file`; every inspection step must be a literal shell command that Bash can execute
 - when checking a file for non-ASCII characters, use a real command such as `grep -n '[^ -~]' path/to/file || true`; a no-match exit is normal and must not be treated as a task failure

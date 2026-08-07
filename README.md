@@ -113,7 +113,7 @@ A good day is 5 ranked recommendations with honest judgment, where only the stro
 
 This repository is designed for recurring updates. The detailed workflow and quality bar live in [`TASK.md`](./TASK.md).
 
-If audio transcripts are generated for digests, notes, or related-work briefings, they must be written as spoken research briefings rather than markdown read aloud: clean spoken prose, strong information flow, no literal markdown artifacts, and the standardized Paper Daily Piper voice/rate unless explicitly overridden.
+As of 2026-08-07, routine Paper Daily publishes do not add listening audio. If Tracy explicitly requests audio for a specific digest, note, or related-work briefing, the transcript must be written as a spoken research briefing rather than markdown read aloud: clean spoken prose, strong information flow, no literal markdown artifacts, and the standardized Paper Daily Piper voice/rate unless explicitly overridden.
 
 Detailed conversion rules for turning markdown into TTS-friendly spoken scripts live in [`tts_conversion_instructions.md`](./tts_conversion_instructions.md). Treat that file as the default style guide for future digest and note audio-script generation.
 
