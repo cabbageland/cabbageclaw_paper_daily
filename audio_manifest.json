@@ -3641,6 +3641,41 @@
       "audioPath": "audio/generated/crs_triage_confidence_reliability_aware_triage.wav",
       "voice": "en_US-hfc_male-medium",
       "rate": 0.95
+    },
+    "daily_papers/2026-08-07.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/2026-08-07_digest_audio_script.md",
+      "audioPath": "audio/generated/2026-08-07_digest.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/runtime_observability_heterogeneous_attention_memory.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/runtime_observability_heterogeneous_attention_memory_audio_script.md",
+      "audioPath": "audio/generated/runtime_observability_heterogeneous_attention_memory.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/mass_multiplayer_world_models_authoritative_shared_state.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/mass_multiplayer_world_models_authoritative_shared_state_audio_script.md",
+      "audioPath": "audio/generated/mass_multiplayer_world_models_authoritative_shared_state.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/beyond_topk_interpretable_agentic_operations.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/beyond_topk_interpretable_agentic_operations_audio_script.md",
+      "audioPath": "audio/generated/beyond_topk_interpretable_agentic_operations.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
+    },
+    "paper_notes/when_history_lies_misleading_multiturn_histories.md": {
+      "label": "listen",
+      "scriptPath": "audio_scripts/when_history_lies_misleading_multiturn_histories_audio_script.md",
+      "audioPath": "audio/generated/when_history_lies_misleading_multiturn_histories.wav",
+      "voice": "en_US-hfc_male-medium",
+      "rate": 0.95
     }
   }
 }
