@@ -124,31 +124,29 @@ If today's digest already exists:
 
 ### Step 1: Search
 
-Use Brave Search first for discovery and initial filtering when scouting papers for this repo. Treat it as the default search surface unless a better source is explicitly required.
-
-If Brave Search is unavailable, do not write a vague claim like "Brave unavailable" unless you actually checked the tool in the current run and recorded the concrete reason. State the real failure mode, such as missing API key, auth/config problem, rate limiting, or transient tool failure.
+Do not use Brave API search as a default or required discovery surface. It is no longer needed for this workflow, and missing Brave API access should not be treated as a blocker, degraded mode, or something worth reporting in the digest.
 
 Discovery order for this repo:
 
-1. Brave Search first for broad discovery, naming variants, project pages, code repos, benchmark pages, and early filtering.
-2. AlphaXiv as a useful paper-discovery supplement when exploring recent arXiv-adjacent work, recommendation trails, or related-paper branching.
-3. arXiv / direct paper pages for primary-source inspection once candidate papers are identified.
-4. Major ML / CV / robotics / graphics venues and selected workshops when useful.
+1. arXiv recent/category pages, arXiv HTML/PDF, and direct paper pages for fresh-batch discovery and primary-source inspection.
+2. Major ML / CV / robotics / graphics venues and selected workshops when useful.
+3. AlphaXiv as a useful paper-discovery supplement when exploring recent arXiv-adjacent work, recommendation trails, or related-paper branching.
+4. Ordinary web/title search surfaces, project pages, code repos, benchmark pages, and lab pages for naming variants and supporting artifacts.
 
 Use recent sources such as:
 
-- Brave Search for discovery and recent web indexing
 - AlphaXiv for related-paper exploration and recommendation branching
 - arXiv
 - major ML / CV / robotics / graphics venues
 - selected workshops when useful
+- ordinary web/title search surfaces for project pages, code repos, benchmark pages, and PDFs
 - older papers only when foundational or newly relevant
 
 Default fallback policy:
 
-- If Brave works: use Brave first, then AlphaXiv / arXiv / direct sources for deeper reading.
-- If Brave is unavailable but AlphaXiv is reachable: use AlphaXiv plus arXiv / direct sources, and say Brave was unavailable with the exact verified reason.
-- If both Brave and AlphaXiv are unavailable: use arXiv / direct sources, and explicitly note that discovery quality may be narrower.
+- If AlphaXiv is reachable, use it as a supplement after direct scholarly/source inspection.
+- If AlphaXiv is unavailable, use arXiv / direct sources / venue pages / ordinary web-title lookup without treating the run as failed.
+- Do not check, configure, or mention Brave API availability as part of normal scouting.
 
 Batch coverage sanity rules:
 
@@ -182,7 +180,7 @@ Valid attempt categories include:
 6. arXiv / bioRxiv / medRxiv / OpenReview version search
 7. author manuscript search
 8. lab or project page search
-9. Google Scholar or Brave title search for PDF / HTML full text
+9. Google Scholar or ordinary title search for PDF / HTML full text
 10. Crossref or Unpaywall-style open-access lookup through available tools/surfaces
 11. institutional-access browser session if available
 12. references / supplementary / mirrored accessible versions when they expose main article text
