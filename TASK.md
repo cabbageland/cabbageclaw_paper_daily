@@ -45,6 +45,7 @@ Usually prioritize:
 - continual learning
 - uncertainty quantification, calibration, verification, and decision-making under uncertainty
 - representation learning
+- reinforcement learning, control, policy optimization, and long-horizon decision-making
 - controllability / interpretability
 - neurosymbolic and hybrid systems
 - neurosymbolic memory and continual learning in VLA / VLM / world models
@@ -53,6 +54,12 @@ Usually prioritize:
 
 Topic balance guardrail:
 
+- Paper Daily must not become an agent-research digest by default. Agent infrastructure, tool use, planning, memory, and workflow papers are one lane, not the center of gravity. Tracy has lower appetite for generic agent research than for mechanism-rich modeling work.
+- Diverse diffusion and RL work must stay inside the normal scope. Every scouting run should deliberately inspect diffusion / flow / generative-modeling lanes and reinforcement-learning / control / policy-learning lanes, including non-agent papers.
+- For diffusion-adjacent coverage, include image, video, 3D/4D, text diffusion, diffusion policies, flow matching, rectified flows, stochastic interpolants, consistency models, evaluation, controllability, and representation/mechanism papers.
+- For RL-adjacent coverage, include model-based RL, offline RL, policy optimization, reward modeling, RLHF/RLAIF-style post-training when technically substantive, exploration, credit assignment, sim-to-real, evaluation, and control papers.
+- In a typical digest, aim for at least one strong non-agent candidate from diffusion/generative modeling or RL/control when the day's batch has a credible option. Do not force a weak paper into the top five, but do explicitly look before concluding that agent papers are strongest.
+- Treat generic "agentic" branding as lower priority unless the paper has a transferable mechanism, unusually strong evidence, or a design lesson that beats the best diffusion/RL/generative alternatives found that day.
 - Paper Daily must not become a VLA or robotics digest by default.
 - Treat robotics, embodied manipulation, and VLA/WAM work as one important lane, not the center of gravity.
 - Recommend 5 papers in every daily digest, but keep the tail honest: not every recommended paper needs a full preserved note.
