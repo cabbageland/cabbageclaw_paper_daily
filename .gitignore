@@ -6,5 +6,6 @@ paper_daily_email_preview_internal.eml
 .state/**
 .state/email_send_state.json
 .scout/
+.work/
 __pycache__/
 *.pyc
