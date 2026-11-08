@@ -235,6 +235,8 @@ Use stable filenames and avoid duplication.
 If push is blocked, do not bluff.
 Say what is missing.
 
+Subscriber lists are private local data. Never commit or push `recipients*.csv`, including test lists or renamed copies, to this or the web repository. Keep email previews and send state local too. Stage only intended publication files; never force-add ignored private files. Before each push, check that no real recipient CSV is tracked or staged. Example templates ending in `.csv.example` may remain public only with dummy data.
+
 ### Step 6.5: Only if explicitly requested, write audio for listening rather than reading
 
 As of 2026-08-07, routine Paper Daily publishes do not add listening audio. If Tracy explicitly requests audio for a specific digest, paper note, or related-work document, the script must be treated as a spoken artifact rather than markdown being read aloud.

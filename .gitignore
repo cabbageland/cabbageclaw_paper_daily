@@ -1,5 +1,5 @@
-recipients.csv
-recipients-internal-test.csv
+# Private subscriber lists must never be committed or pushed.
+recipients*.csv
 paper_daily_email_preview.eml
 paper_daily_email_preview_internal.eml
 .state/
