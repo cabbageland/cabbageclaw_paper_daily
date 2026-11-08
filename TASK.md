@@ -237,6 +237,8 @@ Say what is missing.
 
 Subscriber lists are private local data. Never commit or push `recipients*.csv`, including test lists or renamed copies, to this or the web repository. Keep email previews and send state local too. Stage only intended publication files; never force-add ignored private files. Before each push, check that no real recipient CSV is tracked or staged. Example templates ending in `.csv.example` may remain public only with dummy data.
 
+Email all five ranked recommendations, even when only a subset earns detailed notes. Link each preserved reading note where it exists; otherwise link the digest commentary and label that it is not a detailed note. Keep substantive mechanism/why, evidence, caveats, and source links for lighter picks too. After the web publish is live, verify email readiness without sending with `python3 paper_daily_email.py --date YYYY-MM-DD --preview-path /tmp/paper-daily-email-preview.eml`.
+
 ### Step 6.5: Only if explicitly requested, write audio for listening rather than reading
 
 As of 2026-08-07, routine Paper Daily publishes do not add listening audio. If Tracy explicitly requests audio for a specific digest, paper note, or related-work document, the script must be treated as a spoken artifact rather than markdown being read aloud.

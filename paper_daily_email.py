@@ -177,6 +177,7 @@ def parse_digest(path: Path) -> dict:
         "most_relevant": "",
         "ranked_titles": [],
         "ranked_why": {},
+        "ranked_details": {},
         "detail_note_paths": [],
         "digest_path": f"daily_papers/{digest_date}.md",
     }
@@ -203,7 +204,17 @@ def parse_digest(path: Path) -> dict:
         if title_match:
             current_title = strip_markdown_emphasis(title_match.group(1).strip())
             result["ranked_titles"].append(current_title)
+            result["ranked_details"][current_title] = {}
             continue
+        field_match = re.match(
+            r"^(?:-\s*)?(?:\*\*)?(Source|Mechanism|Evidence|Catch|Read scope|Why it matters):(?:\*\*)?\s*(.+)",
+            line.strip(),
+        )
+        if current_title and field_match:
+            field, value = field_match.groups()
+            result["ranked_details"][current_title][field.lower()] = value.strip()
+            if field == "Why it matters":
+                result["ranked_why"][current_title] = strip_markdown_emphasis(value)
         why_match = re.match(r"Why it matters:\s*(.+)", line.strip())
         if current_title and why_match:
             result["ranked_why"][current_title] = strip_markdown_emphasis(why_match.group(1).strip())
@@ -253,29 +264,44 @@ def build_items(digest: dict) -> list[dict]:
     items = []
     for title in digest["ranked_titles"]:
         note_path = note_index.get(title)
-        if not note_path:
-            continue
-        note_title, paper_url, note_overview = read_note_metadata(note_path)
+        details = digest.get("ranked_details", {}).get(title, {})
+        note_title, paper_url, note_overview = (
+            read_note_metadata(note_path) if note_path else (None, None, None)
+        )
         if not paper_url:
-            raise ValueError(f"Missing paper link in note: {note_path}")
-        if not note_overview:
+            source_link = re.search(r"\]\((https?://[^)]+)\)", details.get("source", ""))
+            paper_url = source_link.group(1) if source_link else None
+        if not paper_url:
+            raise ValueError(f"Missing paper link for ranked paper: {title}")
+        if note_path and not note_overview:
             raise ValueError(
                 f"Missing email body source for ranked paper: {note_path} lacks One-paragraph overview"
             )
+        commentary = " ".join(
+            f"{label}: {details[key]}"
+            for key, label in [("evidence", "Evidence"), ("catch", "Caveat"), ("read scope", "Read scope")]
+            if details.get(key)
+        )
+        body = note_overview or commentary
+        why = digest["ranked_why"].get(title) or details.get("mechanism", "")
+        body = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", strip_markdown_emphasis(body))
+        why = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", strip_markdown_emphasis(why))
+        commentary_path = note_path or digest["digest_path"]
         items.append(
             {
                 "title": title,
                 "paper_url": paper_url,
                 "paper_label": note_title or title,
                 "notes_path": note_path,
-                "notes_url": public_app_route(note_path),
-                "source_url": github_source_url(note_path),
-                "body": note_overview,
-                "why": digest["ranked_why"].get(title, ""),
+                "notes_url": public_app_route(commentary_path),
+                "notes_label": "Detailed reading note" if note_path else "Digest commentary (no detailed note)",
+                "source_url": github_source_url(commentary_path),
+                "body": body,
+                "why": why,
             }
         )
     if not items:
-        raise ValueError("No ranked papers with preserved note links were available for email rendering")
+        raise ValueError("No ranked papers were available for email rendering")
     return items
 
 
@@ -283,10 +309,8 @@ def validate_digest_structure(digest: dict, items: list[dict]):
     errors = []
     if len(digest["ranked_titles"]) != 5:
         errors.append(f"Expected exactly 5 ranked papers, found {len(digest['ranked_titles'])}")
-    if len(items) < 3:
-        errors.append(f"Expected at least 3 ranked papers with preserved notes, found {len(items)}")
-    if len(items) > 5:
-        errors.append(f"Expected at most 5 ranked papers in email, found {len(items)}")
+    if len(items) != 5:
+        errors.append(f"Expected all 5 ranked papers in email, found {len(items)}")
     if not digest["theme"]:
         errors.append("Missing theme")
     if not digest["takeaway"]:
@@ -355,7 +379,7 @@ def verify_publish_state_before_send(digest: dict, items: list[dict]):
         with urllib.request.urlopen(f"{CONTENT_JSON_URL}?cb={cb}", timeout=15) as response:
             data = json.loads(response.read().decode("utf-8"))
         markdown = data.get("markdown", {})
-        required_paths = [digest["digest_path"], *[item["notes_path"] for item in items]]
+        required_paths = [digest["digest_path"], *[item["notes_path"] for item in items if item["notes_path"]]]
         missing = [path for path in required_paths if path not in markdown]
         if missing:
             errors.append(f"live content.json missing markdown entries: {missing}")
@@ -466,7 +490,7 @@ def render_plain(digest: dict, items: list[dict]) -> str:
             [
                 item["title"],
                 f"Paper: {item['paper_url']}",
-                f"Notes: {item['notes_url']}",
+                f"Notes: {item['notes_label']} — {item['notes_url']}",
                 item["body"],
                 f"Why it matters: {item['why']}",
                 "",
@@ -500,7 +524,7 @@ def render_html(digest: dict, items: list[dict]) -> str:
                 (
                     "<p><strong>Paper:</strong> "
                     f"<a href=\"{html.escape(item['paper_url'])}\">{html.escape(item['paper_label'])}</a><br>"
-                    f"<strong>Notes:</strong> <a href=\"{html.escape(item['notes_url'])}\">Cabbageland notes</a></p>"
+                    f"<strong>Notes:</strong> <a href=\"{html.escape(item['notes_url'])}\">{html.escape(item['notes_label'])}</a></p>"
                 ),
                 f"<p>{html.escape(item['body'])}</p>",
                 f"<p><strong>Why it matters:</strong> {html.escape(item['why'])}</p>",
