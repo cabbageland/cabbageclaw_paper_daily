@@ -41,6 +41,8 @@ Usually prioritize:
 - compositional generation
 - compositional reasoning
 - embodied intelligence / robotics
+- agentic robotics: closed-loop embodied agents connecting perception, planning, skill use, execution, and feedback
+- agentic real2sim2real: agent-driven real-world reconstruction / system identification, simulation-based learning or planning, and validated transfer back to real robots
 - memory, planning, tool use
 - continual learning
 - uncertainty quantification, calibration, verification, and decision-making under uncertainty
@@ -157,6 +159,7 @@ Default fallback policy:
 
 Batch coverage sanity rules:
 
+- Explicitly scout agentic robotics and agentic real2sim2real as standing interest lanes, including autonomous real-to-sim reconstruction, simulator / task generation, policy improvement, and real-world feedback. These additions do not replace the broader topic coverage or robotics / agent-research balance guardrails above.
 - If an arXiv API date-window query returns zero or suspiciously thin results while recent category pages visibly show a fresh batch, treat the API result as unreliable and inspect the recent category pages directly before declaring that there is no new batch.
 - For every fresh batch scan in `cs.CV`, medical imaging, or adjacent multimodal lanes, run at least one explicit title-level pass for non-robotics terms such as `neuro`, `MRI`, `CT`, `radiology`, `medical`, `clinical`, `pathology`, `healthcare`, `foundation model`, `multimodal`, `JEPA`, or `MoE`.
 - If that pass surfaces a large-scale clinical imaging foundation model or a multimodal neuro paper with real code, weights, or serious cross-cohort evaluation, inspect it before concluding that the best papers that day all came from other lanes.

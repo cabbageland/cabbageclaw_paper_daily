@@ -35,6 +35,8 @@ This repository prioritizes papers around:
 - generative models
 - 3D / 4D generation
 - embodied intelligence
+- agentic robotics: closed-loop perception, planning, skill use, execution, and feedback
+- agentic real2sim2real: agent-driven real-to-sim reconstruction, simulation-based learning / planning, and validated real-world transfer
 - compositional reasoning
 - structured representations
 - continual learning
