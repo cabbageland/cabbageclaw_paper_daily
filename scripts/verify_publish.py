@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import gzip
 import json
 import sys
 import time
@@ -94,8 +95,12 @@ def verify_local_item(item: ExpectedItem, manifest: dict, content: dict) -> tupl
 
 
 def fetch_json(url: str) -> dict:
-    with urllib.request.urlopen(url, timeout=30) as response:
-        return json.loads(response.read())
+    request = urllib.request.Request(url, headers={"Accept-Encoding": "gzip"})
+    with urllib.request.urlopen(request, timeout=60) as response:
+        body = response.read()
+        if response.headers.get("Content-Encoding", "").lower() == "gzip":
+            body = gzip.decompress(body)
+        return json.loads(body)
 
 
 def head_ok(url: str) -> tuple[int, str | None, str | None]:

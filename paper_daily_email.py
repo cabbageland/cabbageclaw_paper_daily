@@ -15,6 +15,8 @@ from email.message import EmailMessage
 from email.utils import getaddresses
 from pathlib import Path
 
+from scripts.verify_publish import fetch_json
+
 ROOT = Path(__file__).resolve().parent
 DIGEST_DIR = ROOT / "daily_papers"
 NOTES_DIR = ROOT / "paper_notes"
@@ -376,8 +378,7 @@ def verify_publish_state_before_send(digest: dict, items: list[dict]):
 
     try:
         cb = int(time.time())
-        with urllib.request.urlopen(f"{CONTENT_JSON_URL}?cb={cb}", timeout=15) as response:
-            data = json.loads(response.read().decode("utf-8"))
+        data = fetch_json(f"{CONTENT_JSON_URL}?cb={cb}")
         markdown = data.get("markdown", {})
         required_paths = [digest["digest_path"], *[item["notes_path"] for item in items if item["notes_path"]]]
         missing = [path for path in required_paths if path not in markdown]
